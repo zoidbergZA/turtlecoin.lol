@@ -3,13 +3,13 @@ equalHeight = function (container) {
 
     var currentTallest = 0,
         currentRowStart = 0,
-        rowDivs = new Array(),
+        rowDivs = [],
         $el,
         topPosition = 0;
     $(container).each(function () {
 
         $el = $(this);
-        $($el).height('auto')
+        $($el).height('auto');
         topPostion = $el.position().top;
 
         if (currentRowStart != topPostion) {
@@ -28,11 +28,12 @@ equalHeight = function (container) {
             rowDivs[currentDiv].height(currentTallest);
         }
     });
-}
+};
 
 /* ---- fix alignment bug with service boxes ---- */
 $(document).ready(function () {
     equalHeight($('#why .why-item .services-box'));
+    initMap();
 });
 
 $(window).resize(function () {
@@ -88,7 +89,7 @@ function submitForm() {
 }
 function formSuccess() {
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message Submitted!");
 }
 function formError() {
     $("#contactForm").removeClass().addClass('shake animated').one(
@@ -98,11 +99,7 @@ function formError() {
         });
 }
 function submitMSG(valid, msg) {
-    if (valid) {
-        var msgClasses = "h4 text-success";
-    } else {
-        var msgClasses = "h4 text-danger";
-    }
+    var msgClasses = valid ?  "h4 text-success" : "h4 text-danger";
     $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 }
 
@@ -193,7 +190,7 @@ function triggerReveals() {
     }).reveal('.rotateTopReveal', {
         origin: 'top',
         rotate: { x: 90 }
-    })
+    });
 
     sr.reveal('.scaleReveal', {
         origin: 'top',

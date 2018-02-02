@@ -21,6 +21,10 @@
 	<!-- Parallax File -->
 	<script type="text/javascript" src="js/parallax.min.js"></script>
 
+  <!-- Mapbox -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+
 	<!-- Royal Preloader -->
 	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
 	<script type="text/javascript">
@@ -84,12 +88,14 @@
 
 	<!-- Begin Jumbotron -->
 	<div class="jumbotron jumbotron-main" id="home">
-		<div id="particles-js"></div><!-- /.particles div -->
+		<div id="map-wrapper">
+      <div id="map" style="position:absolute; top: 0; bottom: 0; width: 100%; height: 100%;"></div>
+    </div>
 		<div class="container center-vertically-holder">
 			<div class="center-vertically">
 				<div id="scaleReveal" class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
 					<object>
-						<embed src="../images/logos/turtle_logo_animate.svg" height="20%" width="20%">
+						<embed src="images/logos/turtle_shield_animate.svg" height="20%" width="20%">
 					</object>
 					<div class="ticker">
 						<h1>TurtleCoin is Fast</h1>
@@ -552,8 +558,8 @@
 
 	<!-- Javascript Files -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/particles.min.js"></script>
-	<script type="text/javascript" src="js/particlesRun.js"></script>
+	<!--script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript" src="js/particlesRun.js"></script-->
 	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
 	<script type="text/javascript" src="js/form-validator.min.js"></script>
 	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
@@ -569,6 +575,7 @@
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
 	<script type="text/javascript" src="js/style-switcher.js"></script><!-- Remove for production -->
+	<script type="text/javascript" src="js/map.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
