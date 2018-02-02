@@ -88,6 +88,6 @@ var initMap = function() {
 			}
 		}, 'waterway-label');	
 
-    map_tour(this);
+    //map_tour(this); disabled for now
   });
 };
