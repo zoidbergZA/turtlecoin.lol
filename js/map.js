@@ -1,3 +1,24 @@
+var tour_locations = [	
+  [-77.036871, 38.907192], //DC
+  [-0.127758, 51.507351], //London
+  [2.352222,48.856614], //Paris
+  [-66.105722, 18.466334], //San Jian
+  [-70.669265,-33.44889], //Santiago
+  [116.407395,39.904211], //Beijing
+];
+
+var map_tour = function(map) {
+  setInterval(function() {
+    var rand_loc  = tour_locations[Math.floor(Math.random()*tour_locations.length)];
+    map.flyTo({
+      center: rand_loc,
+      zoom: 6,
+      speed: 0.4,
+      curve: 1
+    });
+  }, 4000);
+};
+
 var initMap = function() {
   mapboxgl.accessToken = 'pk.eyJ1IjoiZXJlcHRvciIsImEiOiJjamQ1Mmt6MHYwd3c4MnFyenFzYW1nMzdlIn0.KJC451v713zEG-NOODZ35g';
 
@@ -65,6 +86,8 @@ var initMap = function() {
 					]
 				},
 			}
-		}, 'waterway-label');
+		}, 'waterway-label');	
+
+    map_tour(this);
   });
 };
