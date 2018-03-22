@@ -48,7 +48,7 @@
 	<link href="css/colors/green.css" rel="stylesheet">
 
 </head>
-<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70" ng-app="trtlApp" ng-controller="i18nController as i18n">
 	<div id="royal_preloader"></div>
 
 	<!-- Begin Header -->
@@ -72,13 +72,13 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
-							<li><a href="#download" data-id="download" class="scroll-link">Download</a></li>
-							<li><a href="#why" data-id="why" class="scroll-link">Features</a></li>
-							<li><a href="#story" data-id="story" class="scroll-link">The Story</a></li>
-							<li><a href="#specs" data-id="specs" class="scroll-link">Specs</a></li>
-							<li><a href="#roadmap" data-id="roadmap" class="scroll-link">Roadmap</a></li>
-							<li><a href="#contact" data-id="contact" class="scroll-link">Support</a></li>
+							<li><a href="#home" data-id="home" class="scroll-link">{{i18n.strings.navButtonHome || 'Home'}}</a></li>
+							<li><a href="#download" data-id="download" class="scroll-link">{{i18n.strings.navButtonDownload || 'Download'}}</a></li>
+							<li><a href="#why" data-id="why" class="scroll-link">{{i18n.strings.navButtonFeatures || 'Features'}}</a></li>
+							<li><a href="#story" data-id="story" class="scroll-link">{{i18n.strings.navButtonStory || 'The Story'}}</a></li>
+							<li><a href="#specs" data-id="specs" class="scroll-link">{{i18n.strings.navButtonSpecs || 'Specs'}}</a></li>
+							<li><a href="#roadmap" data-id="roadmap" class="scroll-link">{{i18n.strings.navButtonRoadmap || 'Roadmap'}}</a></li>
+							<li><a href="#contact" data-id="contact" class="scroll-link">{{i18n.strings.navButtonSupport || 'Support'}}</a></li>
 
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -544,6 +544,8 @@
 	<!-- Begin Footer -->
 
 	<!-- Javascript Files -->
+    <!-- Dependencies -->
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<!--script type="text/javascript" src="js/particles.min.js"></script>
 	<script type="text/javascript" src="js/particlesRun.js"></script-->
@@ -564,5 +566,9 @@
 	<script type="text/javascript" src="js/style-switcher.js"></script><!-- Remove for production -->
 	<script type="text/javascript" src="js/map.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="app/trtl.i18n.module.js"></script>
+    <script type="text/javascript" src="app/trtl.i18n.controller.js"></script>
+    <script type="text/javascript" src="app/trtl.app.module.js"></script>
+    <script type="text/javascript" src="app/trtl.app.controller.js"></script>
 </body>
 </html>
