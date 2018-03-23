@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 	<!-- Parallax File -->
-	<script type="text/javascript" src="js/parallax.min.js"></script>
+	<script type="text/javascript" src="public/parallax/parallax.min.js"></script>
 
   <!-- Mapbox -->
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
@@ -39,7 +39,7 @@
 	</script>
 
 	<!-- Stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/ionicons.min.css" rel="stylesheet">
 	<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
@@ -101,13 +101,13 @@
 						<embed src="images/logos/turtle_shield_animate.svg" height="20%" width="20%">
 					</object>
 					<div class="ticker">
-						<h1>TurtleCoin is Fast</h1>
-						<h1>TurtleCoin is Easy</h1>
-						<h1>TurtleCoin is Safe</h1>
+						<h1>{{i18n.strings.turtleCoinIsFast || 'TurtleCoin is Fast'}}</h1>
+						<h1>{{i18n.strings.turtleCoinIsEasy || 'TurtleCoin is Easy'}}</h1>
+						<h1>{{i18n.strings.turtleCoinIsSafe || 'TurtleCoin is Safe'}}</h1>
 					</div>
 					<hr>
-					<p>&nbsp;&nbsp;&nbsp;TurtleCoin is a fun, fast, and easy way to send money<br /> to friends and businesses.</p>
-					<a href="#download" data-id="download" class="scroll-link btn btn-default btn-white btn-lg mt15">Download&nbsp;<span class="ion-android-arrow-down"></span></a>
+					<p>&nbsp;&nbsp;&nbsp;{{i18n.strings.turtleDescriptionLineOne || 'TurtleCoin is a fun, fast, and easy way to send money'}}<br />{{i18n.strings.turtleDescriptionLineTwo || ' to friends and businesses.'}}</p>
+					<a href="#download" data-id="download" class="scroll-link btn btn-default btn-white btn-lg mt15">{{i18n.strings.navButtonDownload || 'Download'}}&nbsp;<span class="ion-android-arrow-down"></span></a>
 				</div><!-- /.column -->
 			</div><!-- /.vertical center -->
 		</div><!-- /.container -->
@@ -545,8 +545,8 @@
 
 	<!-- Javascript Files -->
     <!-- Dependencies -->
-    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="public/angular/angular.min.js"></script>
+	<script type="text/javascript" src="public/bootstrap/js/bootstrap.min.js"></script>
 	<!--script type="text/javascript" src="js/particles.min.js"></script>
 	<script type="text/javascript" src="js/particlesRun.js"></script-->
 	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
@@ -566,9 +566,8 @@
 	<script type="text/javascript" src="js/style-switcher.js"></script><!-- Remove for production -->
 	<script type="text/javascript" src="js/map.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="app/trtl.i18n.module.js"></script>
-    <script type="text/javascript" src="app/trtl.i18n.controller.js"></script>
-    <script type="text/javascript" src="app/trtl.app.module.js"></script>
-    <script type="text/javascript" src="app/trtl.app.controller.js"></script>
+    <script type="text/javascript" src="js/trtl.modules.min.js"></script>
+    <script type="text/javascript" src="js/trtl.min.js"></script>
+    <script type="text/javascript" src="js/trtl.i18n.strings.js"></script>
 </body>
 </html>
