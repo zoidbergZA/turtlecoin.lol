@@ -1,15 +1,61 @@
 {
-    "navButtonDownload": "Download###",
-    "navButtonFeatures": "Features###",
-    "navButtonHome": "Home###",
-    "navButtonRoadmap": "Roadmap###",
-    "navButtonSpecs": "Specs###",
-    "navButtonStory": "The Story###",
-    "navButtonSupport": "Support###",
-    "turtleCoinIsFast": "TurtleCoin is Fast###",
-    "turtleCoinIsEasy": "TurtleCoin is Easy###",
-    "turtleCoinIsSafe": "TurtleCoin is Safe###",
+    "navButtonDownload": "Download",
+    "navButtonFeatures": "Features",
+    "navButtonHome": "Home",
+    "navButtonRoadmap": "Roadmap",
+    "navButtonSpecs": "Specs",
+    "navButtonStory": "The Story",
+    "navButtonSupport": "Support",
+    "turtleCoinIsFast": "TurtleCoin is Fast",
+    "turtleCoinIsEasy": "TurtleCoin is Easy",
+    "turtleCoinIsSafe": "TurtleCoin is Safe",
     "turtleDescriptionFullLine": "TurtleCoin is a fun, fast, and easy way to send money to friends and businesses.",
-    "turtleDescriptionLineOne": "TurtleCoin is a fun, fast, and easy way to send money###",
-    "turtleDescriptionLineTwo": " to friends and businesses.###"
+    "turtleDescriptionLineOne": "TurtleCoin is a fun, fast, and easy way to send money",
+    "turtleDescriptionLineTwo": " to friends and businesses.",
+    "buildPlatforms": "We have builds for Windows, Apple, and Ubuntu Linux. ",
+    "selectYourSystem": "Select Your System",
+    "downloadLatest": "Download Latest",
+    "latestPlusGui": "Latest + GUI",
+    "cliDownload": "CLI Download",
+    "guiDownload": "GUI Download",
+    "funTurtleFacts": "Fun Turtle Facts",
+    "newExclamation": "NEW!",
+    "funFacts": [
+        "TurtleCoin has a 30 second block time, which means transactions confirm faster.",
+        "TurtleCoin has a private blockchain, nobody sees your money except you.",
+        "You can restore a deleted TurtleCoin wallet with your view key and spend key."
+    ],
+    "whyTurtleCoin": {
+        "heading": "Why TurtleCoin?",
+        "fastTransactions": {
+            "title": "Fast Transactions",
+            "description": "TurtleCoin is creating blocks every 30 seconds, as opposed to every 10 minutes. Your money travels 20x faster on TurtleCoin than on Bitcoin or BitcoinCash."
+        },
+        "privacy": {
+            "title": "Privacy",
+            "description": "TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public."
+        },
+        "easyToUse": {
+            "title": "Easy To Use",
+            "description": "We support almost every OS, even on mobile you can make a secured paper-wallet for free, and get started with TurtleCoin in under 5 minutes.",
+            "linkSection": "make a secured paper-wallet for free"
+        },
+        "easyToMine": {
+            "title": "Easy To Mine",
+            "description": "TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend XMR-Stak Unified Miner.",
+            "linkSection": "XMR-Stak Unified Miner"
+        },
+        "community": {
+            "title": "Community",
+            "description": "The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our Discord Chat.",
+            "linkSection": "Discord Chat"
+        },
+        "support": {
+            "title": "Support",
+            "description": "We are growing a community of developers and testers in our GitHub meta-forum. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.",
+            "linkSection": "GitHub meta-forum"
+        }
+    },
+    "theFinePrint": "The Fine Print",
+    "projectQuickFacts": "Here are some quick details about the project."
 }

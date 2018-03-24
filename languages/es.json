@@ -1,0 +1,61 @@
+{
+    "navButtonDownload": "Download#ES",
+    "navButtonFeatures": "Features#ES",
+    "navButtonHome": "Home#ES",
+    "navButtonRoadmap": "Roadmap#ES",
+    "navButtonSpecs": "Specs#ES",
+    "navButtonStory": "The Story#ES",
+    "navButtonSupport": "Support#ES",
+    "turtleCoinIsFast": "TurtleCoin is Fast#ES",
+    "turtleCoinIsEasy": "TurtleCoin is Easy#ES",
+    "turtleCoinIsSafe": "TurtleCoin is Safe#ES",
+    "turtleDescriptionFullLine": "TurtleCoin is a fun, fast, and easy way to send money to friends and businesses.",
+    "turtleDescriptionLineOne": "TurtleCoin is a fun, fast, and easy way to send money#ES",
+    "turtleDescriptionLineTwo": " to friends and businesses.#ES",
+    "buildPlatforms": "We have builds for Windows, Apple, and Ubuntu Linux. #ES",
+    "selectYourSystem": "Select Your System#ES",
+    "downloadLatest": "Download Latest#ES",
+    "latestPlusGui": "Latest + GUI#ES",
+    "cliDownload": "CLI Downloaden",
+    "guiDownload": "GUI Downloaden",
+    "funTurtleFacts": "Fun Turtle Facts#ES",
+    "newExclamation": "NEW!#ES",
+    "funFacts": [
+        "TurtleCoin has a 30 second block time, which means transactions confirm faster.#ES",
+        "TurtleCoin has a private blockchain, nobody sees your money except you.#ES",
+        "You can restore a deleted TurtleCoin wallet with your view key and spend key.#ES"
+    ],
+    "whyTurtleCoin": {
+        "heading": "Why TurtleCoin?#ES",
+        "fastTransactions": {
+            "title": "Fast Transactions#ES",
+            "description": "TurtleCoin is creating blocks every 30 seconds, as opposed to every 10 minutes. Your money travels 20x faster on TurtleCoin than on Bitcoin or BitcoinCash.#ES"
+        },
+        "privacy": {
+            "title": "Privacy#ES",
+            "description": "TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public.#ES"
+        },
+        "easyToUse": {
+            "title": "Easy To Use#ES",
+            "description": "We support almost every OS, even on mobile you can make a secured paper-wallet for free, and get started with TurtleCoin in under 5 minutes.#ES",
+            "linkSection": "make a secured paper-wallet for free"
+        },
+        "easyToMine": {
+            "title": "Easy To Mine#ES",
+            "description": "TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend XMR-Stak Unified Miner.#ES",
+            "linkSection": "XMR-Stak Unified Miner"
+        },
+        "community": {
+            "title": "Community#ES",
+            "description": "The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our Discord Chat.#ES",
+            "linkSection": "Discord Chat"
+        },
+        "support": {
+            "title": "Support#ES",
+            "description": "We are growing a community of developers and testers in our GitHub meta-forum. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.#ES",
+            "linkSection": "GitHub meta-forum"
+        }
+    },
+    "theFinePrint": "The Fine Print",
+    "projectQuickFacts": "Here are some quick details about the project."
+}

@@ -5,6 +5,7 @@
     .controller('i18nController', I18nController);
 
     I18nController.$inject = [
+        '$q',
         '$http',
         'i18nStrings'
     ];
@@ -12,9 +13,11 @@
     /**
     * @name i18nController
     * @description Internationalization controller.
+    * @param {Service} $q AngularJS callback wrapper / promise service.
     * @param {Service} $http AngularJS http service.
+    * @param {Constant} i18nStrings Language translations.
     */
-    function I18nController ($http, i18nStrings) {
+    function I18nController ($q, $http, i18nStrings) {
 
         const defaultLocale = 'en';
         const localStorageKey = 'trtl-locale';
@@ -62,14 +65,40 @@
         /**
         * @name loadLanguage
         * @description Loads the language file for the specified locale.
-        * @param {String} locale Locale code: en for english, es for spanish, etc.
+        * @param {String} language Language code: en for english, es for spanish, etc.
+        * @returns {Promise}
         */
-        ctrl.loadLanguage = function (locale) {
+        ctrl.loadLanguage = function (language) {
 
-            if (i18nStrings.languages[locale]) {
+            return $q(function (resolve, reject) {
 
-                ctrl.strings = i18nStrings.languages[locale];
-            }
+                if (i18nStrings.languages[language]) {
+
+                    ctrl.selectedLanguage = language;
+                    ctrl.strings = i18nStrings.languages[language];
+                    return resolve();
+                } else {
+
+                    return reject('404');
+                }
+            });
+        };
+
+        /**
+        * @name languageChanged
+        * @description Called when the user selects a different language.
+        * @param {String} language Language to load.
+        * @returns {Promise}
+        */
+        ctrl.switchLanguage = function (language) {
+
+            return ctrl.loadLanguage(language)
+            .then(function () {
+
+                window.localStorage.setItem(localStorageKey, ctrl.selectedLanguage);
+            }, function (err) {
+
+            });
         };
 
         return ctrl;

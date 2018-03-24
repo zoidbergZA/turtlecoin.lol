@@ -1,0 +1,20 @@
+
+.language-menu {
+    background-color: #00000000;
+    border: 0px;
+}
+.language-item {
+    margin: 2px;
+    text-transform: uppercase;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    width: 40px;
+}
+.nav-dropdown-toggle {
+    margin-left: 4px;
+}
+.language-selected {
+    color: #2ECC71;
+    border-color: #2ECC71;
+}
