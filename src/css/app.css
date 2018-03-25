@@ -14,7 +14,26 @@
 .nav-dropdown-toggle {
     margin-left: 4px;
 }
+.language-select {
+
+    background-color: #2F2F2F;
+    color: #FFF;
+}
+.language-select-wrapper {
+    line-height: 3.3;
+    padding: 14px 10px;
+}
 .language-selected {
     color: #2ECC71;
     border-color: #2ECC71;
+}
+
+@media (max-width:1024px){
+    .language-select-wrapper { padding: 15px 10px; }
+}
+@media (max-width:767px) {
+    .language-select-wrapper {
+        line-height: 1;
+        padding: 15px 10px;
+    }
 }

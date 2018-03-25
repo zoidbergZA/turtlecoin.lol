@@ -86,7 +86,8 @@ describe('i18nController', function() {
                 return $q.resolve();
             });
             ctrl.languages = ['en', 'es', 'de'];
-            ctrl.switchLanguage('en')
+            ctrl.selectedLanguage = 'en';
+            ctrl.switchLanguage()
             .then(function () {
                 expect(ctrl.loadLanguage).toHaveBeenCalledWith('en');
                 done();

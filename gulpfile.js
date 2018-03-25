@@ -38,7 +38,10 @@ gulp.task('i18n', function () {
 // Dependencies
 const libs = [
     {
-        src: ['./node_modules/angular/angular.min.js', './node_modules/angular/angular.min.js.map'],
+        src: [
+            './node_modules/angular/angular.min.js',
+            './node_modules/angular/angular.min.js.map'
+        ],
         dest: dir.dist + '/public/angular'
     },
     {
@@ -101,7 +104,8 @@ gulp.task('combine', function () {
         dir.src + '/app/**/*.js', '!' + dir.src + '/app/**/*.module.js',
         '!' + dir.src + '/app/**/*.test.js',
         '!' + dir.src + '/app/trtl.i18n.strings.js',
-        '!' + dir.src + '/app/**/*.mock.js'
+        '!' + dir.src + '/app/**/*.mock.js',
+        '!' + dir.src + '/app/**/*.default.js'
     ]))
     .pipe(concat('trtl.min.js', {newLine: ';'}))
     .pipe(ngAnnotate())

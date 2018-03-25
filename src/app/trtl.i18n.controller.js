@@ -24,7 +24,8 @@
 
         let ctrl = {
             navButtonHome: 'home',
-            strings: {}
+            strings: {},
+            gmf: '<a ng-href="http://meta.turtlecoin.lol">GitHub meta-forum</a>.'
         };
 
         ctrl.$onInit = function () {
@@ -87,12 +88,11 @@
         /**
         * @name languageChanged
         * @description Called when the user selects a different language.
-        * @param {String} language Language to load.
         * @returns {Promise}
         */
-        ctrl.switchLanguage = function (language) {
+        ctrl.switchLanguage = function () {
 
-            return ctrl.loadLanguage(language)
+            return ctrl.loadLanguage(ctrl.selectedLanguage)
             .then(function () {
 
                 window.localStorage.setItem(localStorageKey, ctrl.selectedLanguage);

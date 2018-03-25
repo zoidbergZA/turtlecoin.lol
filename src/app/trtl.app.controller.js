@@ -2,23 +2,20 @@
     'use strict';
 
     angular.module('trtlApp')
-    .controller('appController', AppController);
+    .controller('trtlController', AppController);
 
-    AppController.$inject = [
-
-    ];
+    AppController.$inject = [];
 
     /**
-    *
+    * @name trtlController
+    * @param {Service} $mdDialog AngularJS Material dialog service.
     */
     function AppController () {
 
-        let ctrl = {
-
-        };
+        let ctrl = {};
 
         ctrl.$onInit = function () {
-            console.log('turtlecoin ready!');
+            
         };
 
         return ctrl;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="trtlApp" ng-controller="trtlController as app">
 <head>
 	<meta charset="utf-8"/>
 	<meta name="author" content="RockSteady" />
@@ -49,7 +49,7 @@
     <link href="css/app.css" rel="stylesheet">
 
 </head>
-<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70" ng-app="trtlApp" ng-controller="i18nController as i18n">
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70" ng-controller="i18nController as i18n">
 	<div id="royal_preloader"></div>
 
 	<!-- Begin Header -->
@@ -81,7 +81,14 @@
 							<li><a href="#roadmap" data-id="roadmap" class="scroll-link">{{i18n.strings.navButtonRoadmap || 'Roadmap'}}</a></li>
 							<li><a href="#contact" data-id="contact" class="scroll-link">{{i18n.strings.navButtonSupport || 'Support'}}</a></li>
                             <!--<li><div class="language-select"><select name="languageSelect" ng-change="i18n.switchLanguage();" ng-model="i18n.selectedLanguage" ng-options="language for language in i18n.languages"></select></div></li>-->
-                            <li>
+                            <li class="scroll-link">
+                                <div class="language-select-wrapper">
+                                    <select class="language-select" ng-model="i18n.selectedLanguage"
+                                        ng-change="i18n.switchLanguage();"
+                                        ng-options="language for language in i18n.languages">
+                                    </select>
+                                </div>
+                                <!--
                                 <a class="nav-item dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span>{{i18n.selectedLanguage}}</span><i class="fas fa-caret-down nav-dropdown-toggle"></i>
                                 </a>
@@ -94,6 +101,7 @@
                                         {{language}}
                                     </button>
                                 </div>
+                                -->
                             </li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
@@ -121,7 +129,7 @@
 						<h1>{{i18n.strings.turtleCoinIsSafe || 'TurtleCoin is Safe'}}</h1>
 					</div>
 					<hr>
-					<p>&nbsp;&nbsp;&nbsp;{{i18n.strings.turtleDescriptionLineOne || 'TurtleCoin is a fun, fast, and easy way to send money'}}<br />{{i18n.strings.turtleDescriptionLineTwo || ' to friends and businesses.'}}</p>
+					<p>&nbsp;&nbsp;&nbsp;{{i18n.strings.turtleDescription[0] || 'TurtleCoin is a fun, fast, and easy way to send money'}}<br />{{i18n.strings.turtleDescription[1] || ' to friends and businesses.'}}</p>
 					<a href="#download" data-id="download" class="scroll-link btn btn-default btn-white btn-lg mt15">{{i18n.strings.navButtonDownload || 'Download'}}&nbsp;<span class="ion-android-arrow-down"></span></a>
 				</div><!-- /.column -->
 			</div><!-- /.vertical center -->
@@ -138,7 +146,8 @@
 				<div class="row">
 
 					<div class="col-md-12">
-						<h3 class="no-margin rightReveal"><strong>{{i18n.strings.buildPlatforms || 'We have builds for Windows, Apple, and Ubuntu Linux. '}}</strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.</h3>
+						<!--<h3 class="no-margin rightReveal"><strong>{{i18n.strings.buildPlatforms || 'We have builds for Windows, Apple, and Ubuntu Linux. '}}</strong><span>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.</span></h3>-->
+                        <h3 class="no-margin rightReveal"><strong>{{i18n.strings.buildPlatforms || 'We have builds for Windows, Apple, and Ubuntu Linux. '}}</strong><span ng-bind-html="i18n.strings.ifYouPreferSourceCode"></span></h3>
 					</div>
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -205,7 +214,7 @@
 								<div><span class="process-icons pe-7s-users"></span></div>
 								<h2 class="mt15 mb20">TurtleCoin Linux</h2>
 								<p class="no-margin">
-									<a href="https://github.com/turtlecoin/turtlecoin/releases/latest">CLI Download</a>
+									<a href="https://github.com/turtlecoin/turtlecoin/releases/latest">{{i18n.strings.cliDownload || 'CLI Download'}}</a>
 								</p>
 							</div>
 						</div><!-- /.animation -->
@@ -292,7 +301,7 @@
 					<div class="services-box rightReveal">
 						<span class="pe-7s-bicycle services-icon"></span>
 						<h3 class="service-name">3. {{i18n.strings.whyTurtleCoin.easyToUse.title || 'Easy To Use'}}</h3>
-						<p class="text-small">We support almost every OS, even on mobile you can <a href="http://turtlecoin.lol/wallet">make a secured paper-wallet for free</a>, and get started with TurtleCoin in under 5 minutes.</p>
+						<p class="text-small" ng-bind-html="i18n.strings.whyTurtleCoin.easyToUse.description"></p>
 
 					</div>
 				</div><!-- /.column -->
@@ -302,7 +311,7 @@
 					<div class="services-box leftReveal">
 						<span class="pe-7s-plugin services-icon"></span>
 						<h3 class="service-name">4. {{i18n.strings.whyTurtleCoin.easyToMine.title || 'Easy To Mine'}}</h3>
-						<p class="text-small">TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.</p>
+						<p class="text-small" ng-bind-html="i18n.strings.whyTurtleCoin.easyToMine.description"></p>
 
 					</div>
 				</div><!-- /.column -->
@@ -313,7 +322,7 @@
 					<div class="services-box bottomReveal">
 						<span class="pe-7s-users services-icon"></span>
 						<h3 class="service-name">5. {{i18n.strings.whyTurtleCoin.community.title || 'Community'}}</h3>
-						<p class="text-small">The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our <a href="http://chat.turtlecoin.lol">Discord Chat</a>.</p>
+						<p class="text-small" ng-bind-html="i18n.strings.whyTurtleCoin.community.description"></p>
 					</div>
 				</div><!-- /.column -->
 
@@ -322,7 +331,7 @@
 					<div class="services-box rightReveal">
 						<span class="pe-7s-headphones services-icon"></span>
 						<h3 class="service-name">6. {{i18n.strings.whyTurtleCoin.support.title || 'Support'}}</h3>
-						<p class="text-small">We are growing a community of developers and testers in our <a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.</p>
+						<p class="text-small" ng-bind-html="i18n.strings.whyTurtleCoin.support.description"></p>
 					</div>
 				</div><!-- /.column -->
 
@@ -336,36 +345,36 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>The Story</h2>
+					<h2>{{i18n.strings.theStory || 'The Story'}}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb15">
 				<div class="col-sm-5 leftReveal">
-					<h5 class="heading-1 mb20">Our Background</h5>
-					<h3 class="mb15 no-margin-top">Most TurtleCoin Contributors have thick, luscious beards. <strong>FACT.</strong></h3>
-					<p class="no-margin text-small"><em>This gives us <strong>+10xp Chin Stroke</strong> abilities, and enhances our patience and diagnostic skills. <i class="far fa-smile"></i></em></p><br>
-					<p>The truth is, most of us are full-time developers on other projects, and this is our way to give back to the community with something fun.</p>
+					<h5 class="heading-1 mb20">{{i18n.strings.ourBackground || 'Our Background'}}</h5>
+					<h3 class="mb15 no-margin-top">{{i18n.strings.lusciousBeards || 'Most TurtleCoin Contributors have thick, luscious beards. '}}<strong>{{i18n.strings.factUpper || 'FACT.'}}</strong></h3>
+					<p class="no-margin text-small"><em><span ng-bind-html="i18n.strings.plusXpChinStroke"></span><i class="far fa-smile"></i></em></p><br>
+					<p>{{i18n.strings.fullTimeDevelopers || 'The truth is, most of us are full-time developers on other projects, and this is our way to give back to the community with something fun.'}}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-7 mt30-xs rightReveal">
 					<h5 class="heading-1 mb20">How we started it</h5>
 
 					<span class="ion-beer logo-about"></span>
-					<p>One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn't be possible to put out a real project now days without a serious team, doing serious marketing, and bringing in serious funding.</p>
-					<p>RockSteady leaned in closely, stroked his beard intently, and had only one response..</p>
-					<p><strong>"Hold my beer."</strong></p>
-					<p>That night, December 9th, 2017, TurtleCoin was born.</p>
+					<p>{{i18n.strings.oneChillyNight || 'One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn\'t be possible to put out a real project now days without a serious team, doing serious marketing, and bringing in serious funding.'}}</p>
+					<p>{{i18n.strings.rockSteadyLeanedIn || 'RockSteady leaned in closely, stroked his beard intently, and had only one response..'}}</p>
+					<p><strong>{{i18n.strings.holdMyBeer || '\"Hold my beer.\"'}}</strong></p>
+					<p>{{i18n.strings.turtleCoinWasBorn || 'That night, December 9th, 2017, TurtleCoin was born.'}}</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb30">
 				<div class="col-sm-9 leftReveal">
-					<h5 class="heading-1 mb20">Why?</h5>
-					<p class="lead no-margin">Too many projects are bringing in <strong>too much funding</strong> despite most having <strong>no damn product</strong>. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
-					<p class="lead no-margin">We have a strong belief in our no-funding strategy; if we make a cool product, <strong>the value will create itself</strong>. If you think we're wrong, we're happy to <a href="http://meta.turtlecoin.lol">talk</a> about it.</p>
+					<h5 class="heading-1 mb20">{{i18n.strings.why || 'Why?'}}</h5>
+					<p class="lead no-margin" ng-bind-html="i18n.strings.tooManyProjects"></p>
+					<p class="lead no-margin" ng-bind-html="i18n.strings.strongBelief"></p>
 				</div><!-- /.column -->
 				<div class="col-sm-3 mt30-xs rightReveal">
-					<h5 class="heading-1 mb20">Quote</h5>
-					<p class="no-margin"><i>A wise rat once said, "A turtle only moves forward by sticking his neck out.."</i></p>
+					<h5 class="heading-1 mb20">{{i18n.strings.quote || 'Quote'}}</h5>
+					<p class="no-margin"><i>{{i18n.strings.aWiseRatOnceSaid || 'A wise rat once said, \"A turtle only moves forward by sticking his neck out..\"'}}</i></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
@@ -380,7 +389,7 @@
 				<div class="section-title col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
 					<h2>{{i18n.strings.theFinePrint || 'The Fine Print'}}</h2>
 					<span class="section-divider mb15"></span>
-					<p class="no-margin">{{i18n.strings.projectQuickFacts || 'Here are some quick details about the project.'}}</p>
+					<p class="no-margin">{{i18n.strings.quickProjectDetails || 'Here are some quick details about the project.'}}</p>
 					<p class="text-small"></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -390,21 +399,21 @@
                         <i class="ion-cube"></i>
                     </div>
                     <h2 class="timer mb5" data-from="1" data-to="29000" data-refresh-interval="20">1</h2><h5>TRTL</h5>
-                    <p class="no-margin">Avg. Block Reward</p>
+                    <p class="no-margin">{{i18n.strings.averageBlockReward || 'Avg. Block Reward'}}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs rightReveal">
 					<div class="circle-hold">
                         <i class="ion-clock"></i>
                     </div>
                     <h2 class="timer mb5" data-from="1" data-to="30" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">1 Block every<br> 30 seconds</p>
+                    <p class="no-margin">{{i18n.strings.oneBlockEvery || '1 Block every'}}<br> 30 {{i18n.strings.seconds || 'seconds'}}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm leftReveal">
 					<div class="circle-hold">
 						<i class="ion-social-github"></i>
 										</div>
 										<h2 class="timer mb5" data-from="1" data-to="16" data-refresh-interval="20">1</h2>
-										<p class="no-margin">Developers <br> <a href="http://chat.turtlecoin.lol">Join Us</a></p>
+										<p class="no-margin">{{i18n.strings.developers || 'Developers'}}<br> <a href="http://chat.turtlecoin.lol">{{i18n.strings.joinUs || 'Join Us'}}</a></p>
 
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm rightReveal">
@@ -412,7 +421,7 @@
 						<i class="ion-happy-outline"></i>
 										</div>
 										<h2 class="timer mb5">0</h2>
-										<p class="no-margin">No Premine <br>No Shenanigans</p>
+										<p class="no-margin">{{i18n.strings.noPremine || 'No Premine'}} <br>{{i18n.strings.noShenanigans || 'No Shenanigans'}}</p>
 
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -426,7 +435,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>Roadmap</h2>
+					<h2>{{i18n.strings.roadmap || 'Roadmap'}}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -439,13 +448,12 @@
 							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-1.png"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">Q4 2017</h5>
+									<h5 class="heading-1 mb15">{{i18n.strings.quarterAbbreviation || 'Q'}}4 2017</h5>
 									<h4 class="subheading">Hello Turtle</h4>
 								</div>
 								<div class="timeline-body">
-									<p>TurtleCoin was born <strong>December 9th, 2017</strong>. </p>
-									<p>
-										In the beginning, we were command line only, compiled only for Linux, and got banned repeatedly from online forums for hosting flash TRTL giveaways.</p>
+									<p ng-bind-html="turtleCoinWasBorn"></p>
+									<p>{{i18n.strings.inTheBeginning || "In the beginning, we were command line only, compiled only for Linux, and got banned repeatedly from online forums for hosting flash TRTL giveaways."}}</p>
 								</div>
 							</div>
 						</li>
@@ -455,18 +463,18 @@
 							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-2.png"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">Q1 2018</h5>
-									<h4 class="subheading">GUI Wallets</h4>
+									<h5 class="heading-1 mb15">{{i18n.strings.quarterAbbreviation || 'Q'}}1 2018</h5>
+									<h4 class="subheading">{{i18n.strings.guiWallets || 'GUI Wallets'}}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>Two graphical wallets enter production testing, one written in Python with Glade from scratch, and the other, written in Xamarin.</p>
+									<p>{{i18n.strings.twoGraphicalWallets || 'Two graphical wallets enter production testing, one written in Python with Glade from scratch, and the other, written in Xamarin.'}}</p>
 									<p>
 
-										<a href="https://github.com/turtlecoin/turtle-wallet"><span class="ion-android-arrow-dropright"></span> Follow Python Wallet</a></p>
+										<a href="https://github.com/turtlecoin/turtle-wallet"><span class="ion-android-arrow-dropright"></span> {{i18n.strings.followPythonWallet || 'Follow Python Wallet'}}</a></p>
 
 									<p>
 
-										<a href="https://github.com/turtlecoin/desktop-xamarin"><span class="ion-android-arrow-dropright"></span> Follow Xamarin Wallet</a></p>
+										<a href="https://github.com/turtlecoin/desktop-xamarin"><span class="ion-android-arrow-dropright"></span> {{i18n.strings.followXamarinWallet || 'Follow Xamarin Wallet'}}</a></p>
 								</div>
 							</div>
 						</li>
@@ -476,10 +484,10 @@
 							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-3.png"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">Q2 2018</h5>
-									<h4 class="subheading">Market Partnerships</h4>
+									<h5 class="heading-1 mb15">{{i18n.strings.quarterAbbreviation || 'Q'}}2 2018</h5>
+									<h4 class="subheading">{{i18n.strings.marketPartnerships || 'Market Partnerships'}}</h4>
 								</div>
-								<div class="timeline-body"> <p>We pledged to have our TurtleCoins being publicly trading by Q2 2018, and we have now delivered on that promise. You can now trade TurtleCoin on 2 exchange markets and 1 OTC private market.</p>
+								<div class="timeline-body"> <p>{{i18n.strings.wePledged || 'We pledged to have our TurtleCoins being publicly trading by Q2 2018, and we have now delivered on that promise. You can now trade TurtleCoin on 2 exchange markets and 1 OTC private market.'}}</p>
 											    <p><a href="https://tradesatoshi.com"><span class="ion-android-arrow-dropright"> TradeSatoshi</a></p>
 											    <p><a href="https://tradeogre.com"><span class="ion-android-arrow-dropright"> TradeOgre</a></p>
 											    <p><a href="https://discordapp.com/invite/NZ7QYJA"><span class="ion-android-arrow-dropright"> OTC Trade</a></p>
@@ -492,11 +500,11 @@
 							<div  class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-4.png"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">Begins development, Q2 2018</h5>
-									<h4 class="subheading">Mobius, Fast Blocks No Sync</h4>
+									<h5 class="heading-1 mb15">{{i18n.strings.beginsDevelopment || 'Begins development'}}, {{i18n.strings.quarterAbbreviation || 'Q'}}2 2018</h5>
+									<h4 class="subheading">{{i18n.strings.mobiusFastBlocks || 'Mobius, Fast Blocks No Sync'}}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>A big headache with proof of work is syncing a huge chain, and fast blocks don't usually help that issue. Our goal is producing faster blocks on a shorter chain. This is perhaps the most aggressive goal, and will require the most help to complete.</p>
+									<p>{{i18n.strings.aBigHeadache || 'A big headache with proof of work is syncing a huge chain, and fast blocks don\'t usually help that issue. Our goal is producing faster blocks on a shorter chain. This is perhaps the most aggressive goal, and will require the most help to complete.'}}</p>
 
 								</div>
 							</div>
@@ -506,11 +514,11 @@
 							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-5.png"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">TBA</h5>
-									<h4 class="subheading">Karai, Simple Smart Contracts</h4>
+									<h5 class="heading-1 mb15">{{i18n.strings.toBeAnnounced || 'TBA'}}</h5>
+									<h4 class="subheading">Karai, {{i18n.strings.simpleSmartContracts || 'Simple Smart Contracts'}}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>Distributed, trustless networks have uses beyond currency. Karai is our goal for enabling distributed applications and networks beyond the main blockchain.</p>
+									<p>{{i18n.strings.distributedTrustlessNetworks || 'Distributed, trustless networks have uses beyond currency. Karai is our goal for enabling distributed applications and networks beyond the main blockchain.'}}</p>
 								</div>
 							</div>
 						</li>
@@ -520,11 +528,11 @@
 							<div  class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-6.png"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">TBA</h5>
+									<h5 class="heading-1 mb15">{{i18n.strings.toBeAnnounced || 'TBA'}}</h5>
 									<h4 class="subheading">TurtlePay Network</h4>
 								</div>
 								<div class="timeline-body">
-									<p>What good is an ATM if it isn't nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.</p>
+									<p>{{i18n.strings.whatGoodIsAnAtm || 'What good is an ATM if it isn\'t nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.'}}</p>
 								</div>
 							</div>
 						</li>
@@ -540,13 +548,13 @@
 		<div class="container">
 			<div class="row mb30">
 				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 section-title text-center">
-					<h2>Still Interested?</h2>
+					<h2>{{i18n.strings.questionStillInterested || 'Still Interested?'}}</h2>
 						<br />
 					<span class="section-divider mb15"></span>
 						<br />
-					<p class="no-margin scaleReveal">We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!</p>
-					<h1><a href="http://chat.turtlecoin.lol">Join us on Discord</a></h1>
-					<h1><a href="http://github.turtlecoin.lol">Join us on GitHub</a></h1>
+					<p class="no-margin scaleReveal">{{i18n.strings.weNeedHelp || 'We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!'}}</p>
+					<h1><a href="http://chat.turtlecoin.lol">{{i18n.strings.joinUsOn || 'Join us on'}} Discord</a></h1>
+					<h1><a href="http://github.turtlecoin.lol">{{i18n.strings.joinUsOn || 'Join us on'}} GitHub</a></h1>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row">

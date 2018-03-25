@@ -2,6 +2,6 @@
     'use strict';
 
     angular.module('trtlApp', [
-        'trtlApp.i18n'
+        'trtlApp.i18n',
     ]);
 })();

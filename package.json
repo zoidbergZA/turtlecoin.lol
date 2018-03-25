@@ -8,10 +8,6 @@
     },
     "dependencies": {
         "angular": "^1.6.9",
-        "angular-animate": "^1.6.9",
-        "angular-aria": "^1.6.9",
-        "angular-material": "^1.1.8",
-        "angular-messages": "^1.6.9",
         "bootstrap": "^3.3.7",
         "bootstrap-validator": "^0.8.1",
         "jquery-parallax.js": "^1.5.0"
