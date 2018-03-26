@@ -24,8 +24,7 @@
 
         let ctrl = {
             navButtonHome: 'home',
-            strings: {},
-            gmf: '<a ng-href="http://meta.turtlecoin.lol">GitHub meta-forum</a>.'
+            strings: {}
         };
 
         ctrl.$onInit = function () {
