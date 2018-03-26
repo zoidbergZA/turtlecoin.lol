@@ -33,3 +33,9 @@ Build
 ```
 gulp build
 ```
+
+## Adding a Language
+* Copy languages/en.json to your-language.json, like es.json, de.json, etc.
+* Translate everything.
+* Run gulp build. If any of your formatting is bad, you'll see an error.  
+* If no errors, your language is now included.  Open www/index.html in a browser, and you should see your language in the languages menu at the top-right of the page for desktop, or at the bottom of the menu for mobile.
