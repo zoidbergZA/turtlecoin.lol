@@ -4,7 +4,7 @@
     "description": "Website for TurtleCoin - http://turtlecoin.lol",
     "main": "index.html",
     "scripts": {
-        "test": "gulp test"
+        "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
     },
     "dependencies": {
         "angular": "^1.6.9",
