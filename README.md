@@ -2,6 +2,8 @@
 
 To submit or propose changes to the main marketing page, submit a pull request to this repository
 
+### Status
+[![Build Status](https://travis-ci.org/jerme404/turtlecoin.lol.svg?branch=master)](https://travis-ci.org/jerme404/turtlecoin.lol)
 
 ## Getting Started
 
