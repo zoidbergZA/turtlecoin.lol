@@ -1,43 +1,14 @@
+---
+title: TurtleCoin | Brand Assets
+description: The TurtleCoin Brand Manual
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<meta name="author" content="RockSteady, ft. Adjoining (?)" />
-	<meta name="description" content="TurtleCoin">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>TurtleCoin</title>
-
-	<!-- Open Graph data -->
-	<meta property="og:site_name" content="TurtleCoin"/>
-	<meta property="og:title" content="TurtleCoin | Brand Assets"/>
-	<meta property="og:description" content="TurtleCoin is a fun, fast, and easy way to send money to friends and businesses."/>
-	<meta property="og:image" content="images/turtlecoin_opengraph_colorbg.jpg"/>
-
-	<!-- Twitter Card -->
-	<meta property="twitter:url" content="https://turtlecoin.lol"/>
-	<meta property="twitter:title" content="TurtleCoin | Brand Assets"/>
-	<meta property="twitter:description" content="TurtleCoin is a fun, fast, and easy way to send money to friends and businesses."/>
-	<meta property="twitter:image" content="images/turtlecoin_opengraph_colorbg.jpg"/>
-
-	<!-- FontAwesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-
-	<!-- jQuery Files -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-	<!-- Parallax File -->
-	<script type="text/javascript" src="js/parallax.min.js"></script>
-
-	<!-- Stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/ionicons.min.css" rel="stylesheet">
-	<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/logoiconfont.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" title="main-css">
-	<link href="css/colors/green.css" rel="stylesheet">
-
+	{% include meta.html %}
+	{% include stylesheets.html %}
+	{% include head_javascripts.html %}
 </head>
 <body id="brand" data-spy="scroll" data-target=".navbar" data-offset="70">
 	<!-- Begin Header -->
@@ -231,15 +202,7 @@
 	<!-- Begin Footer -->
 
 	<!-- Javascript Files -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/particles.min.js"></script>
-	<script type="text/javascript" src="js/particlesRun.js"></script>
-	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-	<script type="text/javascript" src="js/form-validator.min.js"></script>
-	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	{% include body_javascripts.html %}
 </body>
 </html>
 

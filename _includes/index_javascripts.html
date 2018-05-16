@@ -1,0 +1,11 @@
+<script type="text/javascript" src="js/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+  /* ---- Counter (our count) ---- */
+  $('#ourcount').one('inview', function(event, isInView) {
+    if (isInView) {
+      $('.timer').countTo({speed: 3000});
+    }
+  });
+</script>
+<script type="text/javascript" src="js/map.js"></script>
