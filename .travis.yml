@@ -2,8 +2,16 @@ language: ruby
 rvm:
   - 2.4
 cache: bundler
-script: ./scripts/build.sh
+script: "./scripts/build.sh"
 deploy:
-  provider: script
-  script: ./scripts/deploy.sh
+  provider: pages
+  skip_cleanup: true
+  github-token: "$GITHUB_TOKEN"
+  keep-history: true
+  local_dir: _site
   on: master
+  fqdn: gaara-38.shadow-clone-jutsu.com
+  verbose: true
+env:
+  global:
+    secure: yBlyfd4dIGNekXIga57NRDA7QOTIZvGovB3EbDD/2CB0otB4wp5VZu+QLLjGDcovT6fRk6Ncja+9B8bS1Jnv34sdH481Nz/A1i3qzm6nISvnvUnLynBUyqXs9mqo6vffMSQexT9Ub75XxEpZoos4GFFg7cMkz9NTuUcnQr8CKBMlMHV9vftZzvzNvBaqAOLBVHHpM5r6EM76Y57ojMUTR1XJncgQ/6FbSeUxFUJUHIe0w+icIW/KK5oMFuEmo37bDnPwyja6o0j1NEa5Ly5FcQhY7aCPR8PKdJLLXR+I/NuJHEsLkEnNM1fqMbfME2DbQiGuYmtpzQGQOHoASGGOjsEpE+p5GF8jUa4tUD7QXdLwpOsrF/gCQumqXB3/ysWXQLHvmjMrc45zmFJuONqjoYVRZGeU3PfsnBtGADamMyBZYn+3f7jhxHZQMqx1gDm3qfve0vc1b/sVcufSGhOmww4qO2+Kxodw+5H6fnA/BEWSyAkr7MgYYYFqxXbW/7TEMPczXArEB6ubqagkqqw5rEx178dborxa5kfBFMFJVlPXnBaaZt7uA6mWq4DtHXwLFX4dj17DWIH4iILIXOHNbySTQMu3qF7ubm/S9umFYI33M0oL/YsG65aZ1KlZ8InhyrlxyhJXOyTiY7rA8M8XfP3IU3lJRpbTNXZeF8Lb4lg=

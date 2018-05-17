@@ -6,4 +6,5 @@
    - Gemfile.lock
    - scripts
    - README.md
+   - .bundle
    - vendor
