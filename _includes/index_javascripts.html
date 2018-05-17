@@ -1,5 +1,9 @@
-<script type="text/javascript" src="js/jquery.countTo.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+{% javascript_asset_tag index_javascripts %}
+- /js/jquery.countTo.js
+- /js/main.js
+- /js/map.js
+{% endjavascript_asset_tag %}
+
 <script type="text/javascript">
   /* ---- Counter (our count) ---- */
   $('#ourcount').one('inview', function(event, isInView) {
@@ -8,4 +12,3 @@
     }
   });
 </script>
-<script type="text/javascript" src="js/map.js"></script>

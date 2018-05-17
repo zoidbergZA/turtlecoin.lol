@@ -48,6 +48,9 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
+    jekyll_asset_pipeline (0.6.0)
+      jekyll (~> 3.5)
+      liquid (~> 4.0)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -87,6 +90,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll
+  jekyll_asset_pipeline
   tzinfo-data
 
 RUBY VERSION
