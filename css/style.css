@@ -1161,7 +1161,7 @@ ul.social-buttons li a:active {
 }
 
 #our-process .process-box:hover {
-    background-image: url('../images/arrow-bg-hover.png');
+    background-image: url('/images/arrow-bg-hover.png');
 }
 
 #our-process .process-box.no-hover:hover {
