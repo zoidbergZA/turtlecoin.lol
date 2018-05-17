@@ -33,12 +33,9 @@ permalink: /brand/
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
 							<li><a href="#guide" data-id="guide" class=" scroll-link">Guidelines</a></li>
 							<li><a href="#assets" data-id="assets" class=" scroll-link">Assets</a></li>
 							<li><a href="#contact" data-id="contact" class=" scroll-link">Join us</a></li>
-
-
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -150,27 +147,8 @@ permalink: /brand/
 		</div><!-- /.div -->
 		<!-- End Our Process -->
 
-
-	<!-- Begin Contact -->
-	<section id="contact" class="background1 section-padding">
-		<div class="container">
-			<div class="row mb30">
-				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 section-title text-center">
-					<h2>Join us!</h2>
-					<span class="section-divider mb15"></span>
-					<p class="no-margin">We're always open to new ideas and we love<br>people interested in helping the project in any way</p>
-					<h1><a href="http://chat.turtlecoin.lol">Join us on Discord</a></h1>
-					<h1><a href="http://github.turtlecoin.lol">Join us on GitHub</a></h1>
-					<h1><a href="https://github.com/turtlecoin/brand/">Brand Repository</a></h1>
-				</div><!-- /.column -->
-			</div><!-- /.row -->
-		</div><!-- /.container -->
-	</section><!-- /.section -->
-	<!-- End Contact -->
-
-	<!-- Begin Footer -->
+	{% include contact.html %}
 	{% include footer.html %}
-	<!-- Begin Footer -->
 
 	<!-- Javascript Files -->
 	{% include body_javascripts.html %}
