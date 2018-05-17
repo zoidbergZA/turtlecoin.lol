@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.4
+cache: bundler
+script: ./scripts/build.sh
+deploy:
+  provider: script
+  script: ./scripts/deploy.sh
+  on: master
