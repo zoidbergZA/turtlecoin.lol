@@ -51,23 +51,23 @@ permalink: /brand/
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>TurtleCoin Brand Guidelines</h2>
+					<h2>{% t page.title %}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb30">
 				<div class="col-sm-9">
-					<h5 class="heading-1 mb20">Why Guidelines?</h5>
-					<p class="lead no-margin">We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.</p>
+					<h5 class="heading-1 mb20">{% t brand_page.why %}</h5>
+					<p class="lead no-margin">{% t brand_page.why_explanation %}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-3 mt30-xs">
 					<div>
-						<h5 class="heading-1 mb20">Download</h5>
-						<p class="no-margin">TurtleCoin Brand Manual</p><br>
-						<a href="https://github.com/turtlecoin/brand/blob/master/TurtleCoin_Brand_Manual.pdf" class="btn btn-default">Latest Version</a>
+						<h5 class="heading-1 mb20">{% t brand_page.download %}</h5>
+						<p class="no-margin">{% t brand_page.manual %}</p><br>
+						<a href="https://github.com/turtlecoin/brand/blob/master/TurtleCoin_Brand_Manual.pdf" class="btn btn-default">{% t brand_page.latest_version %}</a>
 					</div>
 					<div class="mt10">
-						<a href="https://github.com/turtlecoin/brand/" class="btn btn-default">Contribute to the brand on GitHub</a>
+						<a href="https://github.com/turtlecoin/brand/" class="btn btn-default">{% t brand_page.contribute_on_github %}</a>
 					</div>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -81,7 +81,7 @@ permalink: /brand/
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h4 class="no-margin">Download assets</h4>
+						<h4 class="no-margin">{% t brand_page.download_assets %}</h4>
 					</div>
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -152,8 +152,8 @@ permalink: /brand/
 		</div><!-- /.div -->
 		<!-- End Our Process -->
 
-	{% include contact.html %}
-	{% include footer.html %}
+	{% include contact.html background="background1" %}
+	{% include footer.html background="background2" %}
 
 	<!-- Javascript Files -->
 	{% include body_javascripts.html %}
