@@ -29,6 +29,14 @@ index_page:
     description: TurtleCoin is a fun way to send money privately to friends or businesses. TurtleCoin is a community-developed, open source cryptocurrency that is easy to mine, and has a graphical wallet.
     title: TurtleCoin.lol - TurtleCoin Fun, Fast, and Easy CryptoCurrency.
 
+  # banner section
+  banner_is_fast: TurtleCoin is Fast
+  banner_is_easy: TurtleCoin is Easy
+  banner_is_safe: TurtleCoin is Safe
+  banner_one_liner: TurtleCoin is a fun, fast, and easy way to send money <br/> to friends and businesses.
+  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
+
+
 # http://turtlecoin.lol/brand/
 brand_page:
   meta:

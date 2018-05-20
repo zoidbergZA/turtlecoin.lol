@@ -29,6 +29,14 @@ index_page:
     description: TurtleCoin ist eine witzige Möglichkeit, Geld an Freunde und Firmen zu schicken. TurtleCoin ist eine von der Community entwickelte, quelloffene Kryptowährung, welche leicht zu minen ist und mit verschiedenen Wallets benutzt werden kann.
     title: TurtleCoin.lol - TurtleCoin spaßige, schnelle, und einfache Kryptowährung.
 
+  # banner section
+  banner_is_fast: TurtleCoin ist Schnell
+  banner_is_easy: TurtleCoin ist Einfach
+  banner_is_safe: TurtleCoin ist Sicher
+  banner_one_liner: TurtleCoin ist eine witzige, schnelle und einfache Möglichkeit, Geld an <br /> Freunde und Firmen zu schicken.
+  banner_builds: <strong>Wir haben Anwendungen für Windows, Apple, und Ubuntu Linux. </strong>Wenn Du den <strong>Quellcode</strong> bevorzugst, kannst Du diesen <a href="https://github.com/turtlecoin/turtlecoin/">hier</a> finden, und Du solltest uns <a href="http://chat.turtlecoin.lol">here</a> kontaktieren, denn wir suchen genau nach Personen wie Dir!
+
+
 # http://turtlecoin.lol/brand/
 brand_page:
   meta:
