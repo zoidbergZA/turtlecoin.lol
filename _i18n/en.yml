@@ -1,0 +1,32 @@
+# Common
+contact:
+  discord: Join us on Discord
+  github: Join us on GitHub
+  interested: Still Interested?
+  need_help: We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!
+  thank_you: Thank You!
+
+navbar:
+  download: Download
+  features: Features
+  home: Home
+  roadmap: Roadmap
+  specs: Specs
+  story: The Story
+  support: Support
+  toggle_navigation: Toggle Navigation
+
+
+# Pages
+
+# http://turtlecoin.lol/
+index_page:
+  meta:
+    description: TurtleCoin is a fun way to send money privately to friends or businesses. TurtleCoin is a community-developed, open source cryptocurrency that is easy to mine, and has a graphical wallet.
+    title: TurtleCoin.lol - TurtleCoin Fun, Fast, and Easy CryptoCurrency.
+
+# http://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: TurtleCoin Brand Manual
+    title: TurtleCoin Brand Guidelines

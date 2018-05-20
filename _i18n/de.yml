@@ -1,0 +1,32 @@
+# Common
+navbar:
+  download: Herunterladen
+  features: Funktionen
+  home: Start
+  roadmap: Ausblick
+  specs: Technische Daten
+  story: Die Geschichte
+  support: Hilfe
+  toggle_navigation: Navigation umschalten
+
+contact:
+  discord: Trete unserem Discord-Chat bei!
+  github: Komm zu unserer GitHub-Seite!
+  interested: Du bist interessiert?
+  need_help: Wir brauchen Deine Hilfe! Trete unserer Community bei! Was auch immer Deine Fähigkeiten sind, oder was auch immer Du an Ideen hast, wir freuen uns auf Dich!
+  thank_you: Vielen Dank!
+
+
+# Pages
+
+# http://turtlecoin.lol/
+index_page:
+  meta:
+    description: TurtleCoin ist eine witzige Möglichkeit, Geld an Freunde und Firmen zu schicken. TurtleCoin ist eine von der Community entwickelte, quelloffene Kryptowährung, welche leicht zu minen ist und mit verschiedenen Wallets benutzt werden kann.
+    title: TurtleCoin.lol - TurtleCoin spaßige, schnelle, und einfache Kryptowährung.
+
+# http://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: TurtleCoin - Anleitung zu Marketingmaterialien
+    title: TurtleCoin Marketingrichtlinien

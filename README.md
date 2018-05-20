@@ -12,3 +12,8 @@ To submit or propose changes to [turtlecoin.lol](https://turtlecoin.lol), submit
 * The old footer which exists on the brand page has been made global. 
 * HTML validation and dead linking checking is done in tests.
 * Travis auto deploys site to `gh-pages` (can be done manually via `deploy.sh` too).
+
+
+## Before merge
+
+* Enable the real `peers.geojson`

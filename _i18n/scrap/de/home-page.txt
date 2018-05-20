@@ -1,0 +1,98 @@
+Page: https://turtlecoin.lol/
+
+# Section - banner
+
+1. TurtleCoin ist Schnell
+2. TurtleCoin ist Einfach
+3. TurtleCoin ist Sicher
+4. TurtleCoin ist eine witzige, schnelle und einfache Möglichkeit, Geld an Freunde und Firmen zu schicken.
+5. Herunterladen
+6. <strong>Wir haben Anwendungen für Windows, Apple, und Ubuntu Linux. </strong>Wenn Du den <strong>Quellcode</strong> bevorzugst, kannst Du diesen <a href="https://github.com/turtlecoin/turtlecoin/">hier</a> finden, und Du solltest uns <a href="http://chat.turtlecoin.lol">here</a> kontaktieren, denn wir suchen genau nach Personen wie Dir!
+
+
+# Section - Download TurtlCoin
+
+1. Wähle dein Betriebssystem
+2. Neuste Version herunterladen
+3. Grafische Oberfläche
+4. Kommandozeilenanwendung
+
+
+# Section - Fun facts
+
+1. Interessante Fakten über unsere Schildkröten:
+2. TurtleCoin hat eine 30 Sekunden lange Blockzeit. Dies bedeutet eine besonders schnelle Bestätigung Deiner Transaktionen.
+3. TurtleCoin benutzt eine private Blockchain. Dadurch sieht niemand außer Dir Dein Geld.
+4. Du kannst eine gelöschte TurtleCoin Wallet mit deinen sogenannten View und Spend Keys oder einer Wörterreihe wiederherstellen.
+
+
+# Section - Why TurtleCoin?
+
+1. Warum TurtleCoin?
+2. Schnelle Transaktionen
+3. TurtleCoin erstellt Blöcke alle 30 Sekunden - im Gegensatz zu beispielsweise 10 Minuten beim Bitcoin. Dein Geld ist also 20-mal schneller unterwegs.
+4. Privatsphäre
+5. TurtleCoin benutzt dieselben Privatsphärefunktionen wie Monero und Aeon. Jede Transaktion ist verschleiert solange sie nicht gewollt veröffentlicht wird.
+6. Einfache Benutzung
+7. Wir unterstützen nahezu jedes Betriebssystem, selbst mobil kannst Du kostenfrei eine <a href="http://turtlecoin.lol/wallet">sichere Papierwallet</a> erstellen, und mit TurtleCoin blitzschnell loslegen.
+8. Einfach zu minen
+9. TurtleCoin kommt mit einem eigenen einfachen CPU-Solo-Miner, doch du kannst auch jede andere (Cryptonight-Lite Variante 1) Mining-Software verwenden, falls du GPU- und Pool-Mining bevorzugst. Wir empfehlen den <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
+10. Community
+11. Die TurtleCoin Community ist allen Nutzern und Entwicklern gegenüber besonders offen. Du wirst für keine Fehler angeschrien und wir hören gerne deiner Kritik zu. Bitte trete unserem <a href="http://chat.turtlecoin.lol">Discord-Chat</a> bei.
+12. Unterstützung
+13. Unsere wachsende Gemeinschaft von Entwicklern und Testern findet sich in <a href="http://meta.turtlecoin.lol">unserem GitHub Meta-Forum</a> zusammen. Du kannst helfen, indem du die Software testest und uns Bugs mitteilst, or uns bloß am Rande Mut machst.
+
+
+# Section - The story
+
+1. Die Geschichte
+2. Unser Hintergrund
+3. Die meisten TurtleCoin Entwickler haben lange, volle Bärte. <strong>FAKT.</strong></h3>
+4. <em>Dies verleiht uns <strong>+10xp Kinnkraul</strong> Fähigkeiten, und unterstützt somit unsere Geduld bei der Fehlersuche. <i class="far fa-smile"></i></em>
+5. Die Wahrheit ist, dass fast alle von uns Vollzeit-Entwickler bei anderen Projekten sind und TurtleCoin unsere Art darstellt, der Community mit viel Spaß etwas zurückzugeben.
+6. Wie alles begann
+7. In einer gemütlichen Dezembernacht hatten RockSteady und Bebop ein Bierchen zu viel, während sie über die Verrücktheit um fadenscheinige ICOs ohne echtes Produkt diskutierten. Bebop mutmaßte, dass es heutzutage kaum noch möglich sei, ein echtes Projekt ohne ernsthaftes Team, Marketing und Finanzierung auf die Beine zu stellen.
+8. RockSteady lehnte sich hervor, strich gewissenhaft durch seinen Bart und hatte nur eine Antwort...
+9. <strong>"Halte mein Bier."</strong>
+10. In dieser Nacht des 9. Dezember 2017, wurde TurtleCoin geboren.
+12. Warum?
+13. Zu viele Projekte erzielen <strong>starke Finanzierungen</strong>, obwohl sie <strong>kein verdammtes Produkt</strong> haben. Wir dachten, "Warum nicht auch mal andersherum? Mit einem spaßigen Projekt anfangen, es so simpel und verfügbar wie möglich machen und den Rest einfach von selbst geschehen lassen.
+14. Wir glauben fest an unsere finanzierungsfreie Strategie; wenn wir ein cooles Produkt erschaffen, <strong>wird der Wert ganz von selbst entstehen</strong>. Du glaubst wir liegen falsch? Dann lass uns gerne darüber <a href="http://meta.turtlecoin.lol">reden</a>.
+15. Eine weise Ratte sagte einst, "Eine Schildkröte bewegt sich nur, indem sie ihren Kopf herausstreckt..."
+
+
+# Section - The fine print
+
+1. Die technischen Details
+2. Hier sind einige nähere Informationen über das Projekt.
+3. Durchschnittliche Block-Belohnung
+4. 1 Block alle<br> 30 Sekunden
+5. Entwickler <br> <a href="http://chat.turtlecoin.lol">tretet uns bei!</a>
+6. Tretet uns bei!
+7. Kein Vorab-Mine <br>Keine Schummelei
+
+
+# Section  - Roadmap
+
+1. Hallo erste Schildkröte
+2. TurtleCoin wurde geboren am <strong>9. Dezember 2017</strong>.
+3. Zu Beginn waren wir nur für die Linux-Kommandozeile verfügbar, und wurde aus Foren aufgrund kostenfreier TRTL Ausgaben gebannt.
+4. Grafische Wallets
+5. Die TurtleCoin Gemeinschaft arbeitet hart daran, das Benutzererlebnis der grafischen Wallets und der Kommandozeilenanwendung zu optimieren. Vom ersten Tag an, sind wir engagiert die Nutzung von TurtleCoin möglichst einfach zu gestalten - und das beginnt mit mindestens einer großartigen grafischen Benutzeroberfläche. Wähle aus einer dieser GUI-Wallets aus:
+6. Marktpartnerschaften
+7. Wir sagten den Handel mit TRTL bis Q2 2018 zu und haben dieses Ziel mit verschiedenen verfügbaren Tauschbörsen erreicht.
+8. Entwicklung hat begonnen, Q2 2018
+9. Möbius, Schnelle Blöcke ohne Synchronisierung
+10. Ein großes Problem mit sogenannten Proof-of-Work Blockchains ist die Entstehung einer sehr langen Blockkette, besonders bei kurzen Blockzeiten. Unser Ziel ist es, schnelle Blöcke und eine kurze Kette koexistieren zu lassen. Dies ist vermutlich das aggressivste Ziel, welches viel Hilfe benötigen wird.
+11. TBA (Ankündigung ausstehend)
+12. Karai, einfache smarte Verträge
+13. Verteilte, vertrauensfreie Netzwerke werden nicht nur für Währungen genutzt. Karai ist unser Ziel, verteilte Anwendungen abseits der Hauptblockkette zu ermöglichen.
+14. TurtlePay Netzwerk
+15. Was ist ein Geldautomat, wenn er nicht da ist? Tippen, um zu bezahlen ist gestern - tippen und verdienen ist morgen. Dein nächster Krypto-Geldautomat ist in deiner Hosentasche.
+
+
+# Section - Still Interested
+
+1. Wir brauchen Deine Hilfe! Trete unserer Community bei! Was auch immer Deine Fähigkeiten sind, oder was auch immer Du an Ideen hast, wir freuen uns auf Dich!
+2. Trete unserem Discord-Chat bei!
+3. Komm zu unserer GitHub-Seite!
