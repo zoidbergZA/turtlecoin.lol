@@ -1,0 +1,51 @@
+# Common
+contact:
+  discord: Join us on Discord
+  github: Join us on GitHub
+  interested: Still Interested?
+  need_help: We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!
+  thank_you: Thank You!
+
+navbar:
+  download: Download
+  features: Features
+  home: Home
+  roadmap: Roadmap
+  specs: Specs
+  story: The Story
+  support: Support
+  toggle_navigation: Toggle Navigation
+
+languages:
+  de: DE
+  en: EN
+
+
+# Pages
+
+# http://turtlecoin.lol/
+index_page:
+  meta:
+    description: TurtleCoin is a fun way to send money privately to friends or businesses. TurtleCoin is a community-developed, open source cryptocurrency that is easy to mine, and has a graphical wallet.
+    title: TurtleCoin.lol - TurtleCoin Fun, Fast, and Easy CryptoCurrency.
+
+  # banner section
+  banner_is_fast: TurtleCoin is Fast
+  banner_is_easy: TurtleCoin is Easy
+  banner_is_safe: TurtleCoin is Safe
+  banner_one_liner: TurtleCoin is a fun, fast, and easy way to send money <br/> to friends and businesses.
+  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
+
+
+# http://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: TurtleCoin Brand Manual
+    title: TurtleCoin | Brand Guidelines
+  why: Why Guidelines?
+  why_explanation: We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.
+  download: Download
+  manual: TurtleCoin Brand Manual
+  latest_version: Latest Version
+  download_assets: Download assets
+  contribute_on_github: Contribute on GitHub

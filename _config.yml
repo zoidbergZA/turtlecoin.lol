@@ -1,10 +1,16 @@
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
- exclude:
-   - Gemfile
-   - Gemfile.lock
-   - scripts
-   - README.md
-   - .bundle
-   - vendor
+baseurl: ""
+
+# Do not copy these files to the build folder
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - scripts
+ - README.md
+ - .bundle
+ - vendor
+
+gems:
+ - jekyll-multiple-languages-plugin
+
+languages: ["en", "de"]
+exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts"]

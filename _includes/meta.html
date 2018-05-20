@@ -1,19 +1,41 @@
 <meta charset="utf-8"/>
 <meta name="author" content="RockSteady" />
-<meta name="description" content="{{ page.description }}">
+<meta name="description" content="{% t page.description %}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="keywords" content="TurtleCoin, CryptoCurrency, Cryptonote, Cryptonight, Cryptonight-lite, Coin, Crypto, RockSteady, Bebop">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{{ page.title }}</title>
+<title>{% t page.title %}</title>
+
+<!-- Favicons -->
+<link rel="icon" sizes="192x192" href="/images/favicons/favicon-192.png"/>
+<link rel="icon" sizes="152x152" href="/images/favicons/favicon-152.png"/>
+<link rel="apple-touch-icon" href="/images/favicons/favicon-152.png"/>
+<link rel="shortcut icon" sizes="64x64" href="/images/favicons/favicon.ico" type="image/x-icon"/>
 
 <!-- Open Graph data -->
 <meta property="og:site_name" content="TurtleCoin"/>
-<meta property="og:title" content="{{ page.title }}"/>
-<meta property="og:description" content="{{ page.description }}"/>
+<meta property="og:title" content="{% t page.title %}"/>
+<meta property="og:description" content="{% t page.description %}"/>
 <meta property="og:image" content="/images/turtlecoin_opengraph_colorbg.jpg"/>
 
 <!-- Twitter Card -->
 <meta property="twitter:url" content="https://turtlecoin.lol"/>
-<meta property="twitter:title" content="{{ page.title }}"/>
-<meta property="twitter:description" content="{{ page.description }}"/>
+<meta property="twitter:title" content="{% t page.title %}"/>
+<meta property="twitter:description" content="{% t page.description %}"/>
 <meta property="twitter:image" content="/images/turtlecoin_opengraph_colorbg.jpg"/>
+
+{% if site.default_lang == site.lang %}
+  <link rel="canonical" href="{{ site.baseurl_root }}{{ page.url }}" />
+{% else %}
+  <link rel="canonical" href="{{ site.baseurl_root }}/{{ site.lang }}{{ page.url }}" />
+{% endif %}
+
+{% for lang in site.languages %}
+  {% unless site.lang == lang %}
+    {% if site.default_lang == lang %}
+      <link rel="alternate" href="{{ site.baseurl_root }}{{ page.url }}" hreflang="{{ lang }}" />
+    {% else %}
+      <link rel="alternate" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" hreflang="{{ lang }}" />
+    {% endif %}
+  {% endunless %}
+{% endfor %}

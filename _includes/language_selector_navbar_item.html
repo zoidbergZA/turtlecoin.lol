@@ -1,0 +1,18 @@
+<li class="dropdown language-selector-navbar-item">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" hreflang="{{ lang }}">
+    {% t languages.{{ site.lang }} %}<span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    {% for lang in site.languages %}
+      {% unless site.lang == lang %}
+        <li>
+          {% if site.default_lang == lang %}
+            <a href="{{ site.baseurl_root }}{{ page.url }}" hreflang="{{ lang }}">{% t languages.{{ lang }} %}</a>
+          {% else %}
+          <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" hreflang="{{ lang }}">{% t languages.{{ lang }} %}</a>
+          {% endif %}
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</li>
