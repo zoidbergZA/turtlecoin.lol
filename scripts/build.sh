@@ -5,6 +5,6 @@ echo "Build starting"
 
 rm -rf ./_site
 bundle exec jekyll build
-bundle exec htmlproofer ./_site
+bundle exec rake tests
 
 echo "Build complete"

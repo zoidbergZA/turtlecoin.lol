@@ -5,6 +5,7 @@ exclude:
  - Gemfile
  - Gemfile.lock
  - scripts
+ - Rakefile
  - README.md
  - .bundle
  - vendor

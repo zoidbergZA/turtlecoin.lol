@@ -2,6 +2,8 @@ ruby ">= 2.3.1"
 
 source "https://rubygems.org"
 
+gem "rake"
+
 gem "jekyll"
 gem "jekyll_asset_pipeline"
 gem "jekyll-multiple-languages-plugin"
@@ -14,3 +16,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Tests
 gem "html-proofer"
+gem "retries"
