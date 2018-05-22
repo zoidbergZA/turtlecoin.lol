@@ -11,7 +11,7 @@ cd ./_site
 git init
 git add .
 git commit -m "Generated site for SHA $current_sha"
-git push --force --quiet $remote_repo master:$remote_branch > /dev/null 2>&1
+git push --force $remote_repo master:$remote_branch
 rm -rf .git
 cd ../
 
