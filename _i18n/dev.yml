@@ -1,0 +1,51 @@
+# Common
+contact:
+  discord: contact.discord
+  github: contact.github
+  interested: contact.interested
+  need_help: contact.need_help
+  thank_you: contact.thank_you
+
+navbar:
+  download: navbar.download
+  features: navbar.features
+  home: navbar.home
+  roadmap: navbar.roadmap
+  specs: navbar.specs
+  story: navbar.story
+  support: navbar.support
+  toggle_navigation: navbar.toggle_navigation
+
+languages:
+  dev: DEV
+  en: EN
+
+
+# Pages
+
+# http://turtlecoin.lol/
+index_page:
+  meta:
+    description: index_page.meta.description
+    title: index_page.meta.title
+
+  # banner section
+  banner_is_fast: index_page.banner_is_fast
+  banner_is_easy: index_page.banner_is_easy
+  banner_is_safe: index_page.banner_is_safe
+  banner_one_liner: index_page.banner_one_liner
+  banner_builds: index_page.banner_builds
+
+
+# http://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: brand_page.meta.description
+    title: brand_page.meta.title
+  why: brand_page.why
+  why_explanation: brand_page.why_explanation
+  download: brand_page.why_explanation.download
+  manual: brand_page.why_explanation.
+  latest_version: brand_page.latest_version
+  download_assets: brand_page.download_assets
+  contribute_on_github: brand_page.contribute_on_github
