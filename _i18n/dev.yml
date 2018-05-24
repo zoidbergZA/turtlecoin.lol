@@ -34,7 +34,35 @@ index_page:
   banner_is_easy: index_page.banner_is_easy
   banner_is_safe: index_page.banner_is_safe
   banner_one_liner: index_page.banner_one_liner
-  banner_builds: index_page.banner_builds
+  banner_builds: <strong>index_page.banner_builds</strong>
+  banner_download: banner_download
+
+  # download section
+  download_select_system: index_page.download_select_system
+  download_latest: index_page.download_latest
+  download_gui: index_page.download_gui
+  download_cli: index_page.download_cli
+
+  # fun facts section
+  fun_facts_title: fun_facts_title
+  fun_facts_1: fun_facts_1
+  fun_facts_2: fun_facts_2
+  fun_facts_3: fun_facts_3
+
+  # why section
+  why_title: why_title
+  why_1_title: why_1_title
+  why_1: why_1
+  why_2_title: why_2_title
+  why_2: why_2
+  why_3_title: why_3_title
+  why_3: why_3
+  why_4_title: why_4_title
+  why_4: why_4
+  why_5_title: why_5_title
+  why_5: why_5
+  why_6_title: why_6_title
+  why_6: why_6
 
 
 # http://turtlecoin.lol/brand/

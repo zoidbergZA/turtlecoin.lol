@@ -35,6 +35,34 @@ index_page:
   banner_is_safe: TurtleCoin is Safe
   banner_one_liner: TurtleCoin is a fun, fast, and easy way to send money <br/> to friends and businesses.
   banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
+  banner_download: Download
+
+  # download section
+  download_select_system: Select Your System
+  download_latest: Download Latest
+  download_gui: Download GUI
+  download_cli: Download CLI
+
+  # fun facts section
+  fun_facts_title: Fun Turtle Facts
+  fun_facts_1: TurtleCoin has a 30 second block time, which means transactions confirm faster.
+  fun_facts_2: TurtleCoin has a private blockchain, nobody sees your money except you.
+  fun_facts_3: You can restore a deleted TurtleCoin wallet with your view key and spend key.
+
+  # why section
+  why_title: Why TurtleCoin?
+  why_1_title: Fast Transactions
+  why_1: TurtleCoin is creating blocks every 30 seconds, as opposed to every 10 minutes. Your money travels 20x faster on TurtleCoin than on Bitcoin or BitcoinCash.
+  why_2_title: Privacy
+  why_2: TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public.
+  why_3_title: Easy To Use
+  why_3: We support almost every OS, even on mobile you can <a href="http://turtlecoin.lol/wallet">make a secured paper-wallet for free</a>, and get started with TurtleCoin in under 5 minutes.
+  why_4_title: Easy To Mine
+  why_4: TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
+  why_5_title: Community
+  why_5: The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our <a href="http://chat.turtlecoin.lol">Discord Chat</a>.
+  why_6_title: Support
+  why_6: We are growing a community of developers and testers in our <a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.
 
 
 # http://turtlecoin.lol/brand/
