@@ -1957,6 +1957,10 @@ footer hr {
     min-width: auto;
 }
 
+.language-selector-navbar-item .caret {
+    margin-left: 5px;
+}
+
 @media (min-width: 768px) {
     .language-selector-navbar-item .dropdown-menu {
         text-align: right;
