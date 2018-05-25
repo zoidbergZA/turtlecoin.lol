@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ar-x/turtlecoin.lol.svg?branch=master)](https://travis-ci.org/ar-x/turtlecoin.lol)
+[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.lol.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin.lol)
 
 # turtlecoin.lol
 
