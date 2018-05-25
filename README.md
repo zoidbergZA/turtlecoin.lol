@@ -21,7 +21,12 @@ This project uses [Jekyll](https://jekyllrb.com) to generate a static website.
 
 ## Deployment
 
-Commits to `master` auto deploy via Travis CI to GitHub pages. This can also be done by running `./scripts/deploy.sh` 
+Commits to `master` auto deploy via Travis CI to GitHub pages.
+
+### Deploying manually
+
+* `./scripts/build.sh`
+* `./scripts/deploy.sh` 
 
 
 ## Localization
