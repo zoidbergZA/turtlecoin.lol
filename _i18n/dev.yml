@@ -1,0 +1,116 @@
+# Common
+contact:
+  interested: contact.interested
+  need_help: contact.need_help
+  discord: contact.discord
+  github: contact.github
+  thank_you: contact.thank_you
+
+navbar:
+  home: navbar.home
+  download: navbar.download
+  features: navbar.features
+  story: navbar.story
+  specs: navbar.specs
+  roadmap: navbar.roadmap
+  support: navbar.support
+  toggle_navigation: navbar.toggle_navigation
+
+
+# Pages
+
+# http://turtlecoin.lol/
+index_page:
+  meta:
+    description: index_page.meta.description
+    title: index_page.meta.title
+
+  # banner section
+  banner_is_fast: index_page.banner_is_fast
+  banner_is_easy: index_page.banner_is_easy
+  banner_is_safe: index_page.banner_is_safe
+  banner_one_liner: index_page.banner_one_liner
+  banner_download: banner_download
+  banner_builds: <strong>index_page.banner_builds</strong>
+
+  # download section
+  download_select_system: index_page.download_select_system
+  download_latest: index_page.download_latest
+  download_gui: index_page.download_gui
+  download_cli: index_page.download_cli
+
+  # fun facts section
+  fun_facts_title: fun_facts_title
+  fun_facts_1: fun_facts_1
+  fun_facts_2: fun_facts_2
+  fun_facts_3: fun_facts_3
+
+  # why section
+  why_title: why_title
+  why_1_title: why_1_title
+  why_1: why_1
+  why_2_title: why_2_title
+  why_2: why_2
+  why_3_title: why_3_title
+  why_3: why_3
+  why_4_title: why_4_title
+  why_4: why_4
+  why_5_title: why_5_title
+  why_5: why_5
+  why_6_title: why_6_title
+  why_6: why_6
+
+  # the story section
+  story_title: story_title
+  story_1: story_1
+  story_2: story_2
+  story_3: story_3
+  story_4: story_4
+  story_5: story_5
+  story_6: story_6
+  story_7: story_7
+  story_8: story_8
+  story_9: story_9
+  story_10: story_10
+  story_11: story_11
+  story_12: story_12
+  story_13: story_13
+
+  # fine print section
+  fine_print_title: fine_print_title
+  fine_print_1: fine_print_1
+  fine_print_2: fine_print_2
+  fine_print_3: fine_print_3
+  fine_print_4: fine_print_4
+  fine_print_5: fine_print_5
+
+  # roadmap section
+  roadmap_title: roadmap_title
+  roadmap_1: roadmap_1
+  roadmap_2: roadmap_2
+  roadmap_3: roadmap_3
+  roadmap_4: roadmap_4
+  roadmap_5: roadmap_5
+  roadmap_6: roadmap_6
+  roadmap_7: roadmap_7
+  roadmap_8: roadmap_8
+  roadmap_9: roadmap_9
+  roadmap_10: roadmap_10
+  roadmap_11: roadmap_11
+  roadmap_12: roadmap_12
+  roadmap_13: roadmap_13
+  roadmap_14: roadmap_14
+  roadmap_15: roadmap_15
+
+# http://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: brand_page.meta.description
+    title: brand_page.meta.title
+  why: brand_page.why
+  why_explanation: brand_page.why_explanation
+  download: brand_page.why_explanation.download
+  manual: brand_page.why_explanation.
+  latest_version: brand_page.latest_version
+  download_assets: brand_page.download_assets
+  contribute_on_github: brand_page.contribute_on_github

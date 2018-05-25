@@ -33,7 +33,10 @@ equalHeight = function (container) {
 /* ---- fix alignment bug with service boxes ---- */
 $(document).ready(function () {
     equalHeight($('#why .why-item .services-box'));
-    initMap();
+
+    if ($('body').data('page') === 'index') {
+      initMap();
+    }
 });
 
 $(window).resize(function () {
@@ -162,11 +165,15 @@ if (typeof sr == 'undefined') {
         delay: 50
     });
 }
-Royal_Preloader.config({
+
+if (typeof Royal_Preloader !== 'undefined') {
+  Royal_Preloader.config({
     onComplete: function () {
-        triggerReveals();
+      triggerReveals();
     }
-});
+  });
+}
+
 function triggerReveals() {
     sr.reveal('.bottomReveal', {
         origin: 'bottom'

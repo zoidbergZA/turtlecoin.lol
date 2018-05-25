@@ -1,0 +1,13 @@
+{% javascript_asset_tag index_javascripts %}
+- /js/jquery.countTo.js
+- /js/map.js
+{% endjavascript_asset_tag %}
+
+<script type="text/javascript">
+  /* ---- Counter (our count) ---- */
+  $('#ourcount').one('inview', function(event, isInView) {
+    if (isInView) {
+      $('.timer').countTo({speed: 3000});
+    }
+  });
+</script>

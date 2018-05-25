@@ -1,45 +1,17 @@
+---
+title: brand_page.meta.title
+description: brand_page.meta.description
+permalink: /brand/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<meta name="author" content="RockSteady, ft. Adjoining (?)" />
-	<meta name="description" content="TurtleCoin">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>TurtleCoin</title>
-
-	<!-- Open Graph data -->
-	<meta property="og:site_name" content="TurtleCoin"/>
-	<meta property="og:title" content="TurtleCoin | Brand Assets"/>
-	<meta property="og:description" content="TurtleCoin is a fun, fast, and easy way to send money to friends and businesses."/>
-	<meta property="og:image" content="images/turtlecoin_opengraph_colorbg.jpg"/>
-
-	<!-- Twitter Card -->
-	<meta property="twitter:url" content="https://turtlecoin.lol"/>
-	<meta property="twitter:title" content="TurtleCoin | Brand Assets"/>
-	<meta property="twitter:description" content="TurtleCoin is a fun, fast, and easy way to send money to friends and businesses."/>
-	<meta property="twitter:image" content="images/turtlecoin_opengraph_colorbg.jpg"/>
-
-	<!-- FontAwesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-
-	<!-- jQuery Files -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-	<!-- Parallax File -->
-	<script type="text/javascript" src="js/parallax.min.js"></script>
-
-	<!-- Stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/ionicons.min.css" rel="stylesheet">
-	<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/logoiconfont.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" title="main-css">
-	<link href="css/colors/green.css" rel="stylesheet">
-
+	{% include meta.html %}
+	{% include stylesheets.html %}
+	{% include head_javascripts.html %}
 </head>
-<body id="brand" data-spy="scroll" data-target=".navbar" data-offset="70">
+<body id="brand" data-spy="scroll" data-target=".navbar" data-offset="70" data-page="brand">
 	<!-- Begin Header -->
 	<header>
 		<!-- Begin Navigation -->
@@ -54,19 +26,18 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand scroll-link" href="https://turtlecoin.lol" data-id="home">
-						<h2><sup><strong>&nbsp;BACK TO MAIN</strong></sup></h2>	</a>
+						<a class="navbar-brand" href="/">
+							<h2><sup><strong>&nbsp;BACK TO MAIN</strong></sup></h2>
+						</a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
+						<ul class="nav navbar-nav navbar-right navbar-main">
 							<li><a href="#guide" data-id="guide" class=" scroll-link">Guidelines</a></li>
 							<li><a href="#assets" data-id="assets" class=" scroll-link">Assets</a></li>
 							<li><a href="#contact" data-id="contact" class=" scroll-link">Join us</a></li>
-
-
+							<li>{% include language_selector_navbar_item.html %}</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
@@ -76,41 +47,31 @@
 	</header>
 	<!-- End Header -->
 
-	<!-- Begin Jumbotron -->
-	<div class="jumbotron jumbotron-main" id="home">
-		<div id="particles-js"></div><!-- /.particles div -->
-		<div class="container center-vertically-holder">
-			<div class="center-vertically">
-				<div id="scaleReveal" class="col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2 text-center">
-					<img src="images/logos/turtle_shield_animate.svg" width="25%" height="auto">
-					<h1>TURTLECOIN BRAND</h1>
-				</div><!-- /.column -->
-			</div><!-- /.vertical center -->
-		</div><!-- /.container -->
-	</div>
-	<!-- End Jumbotron -->
-
 	<!-- Begin About -->
 	<section id="guide" class="background1 section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>TurtleCoin Brand Guidelines</h2>
+					<h2>{% t page.title %}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb30">
-				<div class="col-sm-9 leftReveal">
-					<h5 class="heading-1 mb20">Why Guidelines?</h5>
-					<p class="lead no-margin">We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.</p>
+				<div class="col-sm-9">
+					<h5 class="heading-1 mb20">{% t brand_page.why %}</h5>
+					<p class="lead no-margin">{% t brand_page.why_explanation %}</p>
 				</div><!-- /.column -->
-				<div class="col-sm-3 mt30-xs rightReveal">
-					<h5 class="heading-1 mb20">Download</h5>
-					<p class="no-margin">TurtleCoin Brand Manual</p><br>
-					<button type="button" href="https://github.com/turtlecoin/brand/blob/master/TurtleCoin_Brand_Manual.pdf" name="button" class="btn btn-default">Latest version</button>
+				<div class="col-sm-3 mt30-xs">
+					<div>
+						<h5 class="heading-1 mb20">{% t brand_page.download %}</h5>
+						<p class="no-margin">{% t brand_page.manual %}</p><br>
+						<a href="https://github.com/turtlecoin/brand/blob/master/TurtleCoin_Brand_Manual.pdf" class="btn btn-default">{% t brand_page.latest_version %}</a>
+					</div>
+					<div class="mt10">
+						<a href="https://github.com/turtlecoin/brand/" class="btn btn-default">{% t brand_page.contribute_on_github %}</a>
+					</div>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
-
 		</div><!-- /.container -->
 	</section><!-- /.section -->
 	<!-- End About -->
@@ -121,7 +82,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h4 class="no-margin">Download assets</h4>
+						<h4 class="no-margin">{% t brand_page.download_assets %}</h4>
 					</div>
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -133,56 +94,56 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-4 col-md-4 col-lg-4 process-box text-center pt50 pb50">
-						<div class="leftReveal">
+						<div>
 							<div class="process-intro">
 								<h3 class="process-number">Wordmark</h3>
-								<div><img src="images/logos/turtlecoin_stacked_white@2x.png" alt="TurtleCoin Logo" width="40%"></div>
+								<div><img src="/images/logos/turtlecoin_stacked_white@2x.png" alt="TurtleCoin Logo" width="40%"></div>
 							</div>
 							<div class="process-content">
 								<div>
-									<img src="images/logos/turtlecoin_wordmark_white@2x.png" alt="TurtleCoin Logo" width="75%">
+									<img src="/images/logos/turtlecoin_wordmark_white@2x.png" alt="TurtleCoin Logo" width="75%">
 								</div>
 								<h4 class="mt15 mb20">Standard Wordmark Pack</h4>
 								<p class="no-margin">
-									<button type="button" href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_wordmark_web.zip" name="button" class="btn btn-default">Web</button>
+									<a href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_wordmark_web.zip" class="btn btn-default">Web</a>
 								</p>
 								<h4 class="mt15 mb20">Vertical Stacked Pack</h4>
 								<p class="no-margin">
-									<button type="button" href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_stacked_web.zip" name="button" class="btn btn-default">Web</button>
+									<a href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_stacked_web.zip" class="btn btn-default">Web</a>
 								</p>
 							</div>
 						</div><!-- /.animation -->
 					</div><!-- /.column -->
 					<div class="col-sm-4 col-md-4 col-lg-4 process-box text-center pt50 pb50">
-						<div class="bottomReveal">
+						<div>
 							<div class="process-intro">
 								<h3 class="process-number">Symbol</h3>
-								<div><img src="images/logos/turtlecoin_symbol_white@2x.png" alt="TurtleCoin Symbol" width="35%"></div>
+								<div><img src="/images/logos/turtlecoin_symbol_white@2x.png" alt="TurtleCoin Symbol" width="35%"></div>
 							</div>
 							<div class="process-content">
 								<div>
-									<img src="images/logos/turtlecoin_symbol_white@2x.png" alt="TurtleCoin Symbol" width="35%">
+									<img src="/images/logos/turtlecoin_symbol_white@2x.png" alt="TurtleCoin Symbol" width="35%">
 								</div>
 								<h4 class="mt15 mb20">Symbol Pack</h4>
 								<p class="no-margin">
-									<button type="button" href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_symbol_web.zip" name="button" class="btn btn-default">Web</button>
+									<a href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_symbol_web.zip" class="btn btn-default">Web</a>
 								</p>
 							</div>
 						</div><!-- /.animation -->
 					</div><!-- /.column -->
 					<div class="col-sm-4 col-md-4 col-lg-4 process-box text-center pt50 pb50 no-border-right">
-						<div class="rightReveal">
+						<div>
 							<div class="process-intro">
 								<h3 class="process-number">Icon</h3>
-								<div><img src="images/logos/turtlecoin_icon_white@2x.png" alt="TurtleCoin Icon" width="auto" height="auto" style="padding: 1.5em 3em; width:13.1em"></div>
+								<div><img src="/images/logos/turtlecoin_icon_white@2x.png" alt="TurtleCoin Icon" width="auto" height="auto" style="padding: 1.5em 3em; width:13.1em"></div>
 							</div>
 							<div class="process-content">
 								<div>
-									<img src="images/logos/turtlecoin_icon_white@2x.png" alt="TurtleCoin icon" width="auto" height="auto" style="padding: 1.5em 3em; width:13.1em">
+									<img src="/images/logos/turtlecoin_icon_white@2x.png" alt="TurtleCoin icon" width="auto" height="auto" style="padding: 1.5em 3em; width:13.1em">
 								</div>
 								<h4 class="mt15 mb20">Icon Pack</h4>
 								<p class="no-margin">
-									<button type="button" href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_icon_web.zip" name="button" class="btn btn-default">Web</button>
+									<a href="https://github.com/turtlecoin/brand/raw/master/logo/web/turtlecoin_icon_web.zip" class="btn btn-default">Web</a>
 								</p>
 							</div>
 						</div><!-- /.animation -->
@@ -192,54 +153,11 @@
 		</div><!-- /.div -->
 		<!-- End Our Process -->
 
-
-	<!-- Begin Contact -->
-	<section id="contact" class="background1 section-padding">
-		<div class="container">
-			<div class="row mb30">
-				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 section-title text-center">
-					<h2>Join us!</h2>
-					<span class="section-divider mb15"></span>
-					<p class="no-margin scaleReveal">We're always open to new ideas and we love<br>people interested in helping the project in any way</p>
-					<h1><a href="http://chat.turtlecoin.lol">Join us on Discord</a></h1>
-					<h1><a href="http://github.turtlecoin.lol">Join us on GitHub</a></h1>
-					<h1><a href="https://github.com/turtlecoin/brand/">Brand Repository</a></h1>
-				</div><!-- /.column -->
-			</div><!-- /.row -->
-		</div><!-- /.container -->
-	</section><!-- /.section -->
-	<!-- End Contact -->
-
-	<!-- Begin Footer -->
-	<footer class="footer-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2 text-center">
-					<h2 class="theme-title">Thank You!</h2>
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-8 col-sm-offset-2 text-small text-center">
-					<hr>
-					<button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">Up</button>
-					<p class="no-margin">&copy; The TurtleCoin Project</p>
-				</div><!-- /.column -->
-			</div><!-- /.row -->
-		</div><!-- /.container -->
-	</footer><!-- /.footer -->
-	<!-- Begin Footer -->
+	{% include contact.html background="background1" %}
+	{% include footer.html background="background2" %}
 
 	<!-- Javascript Files -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/particles.min.js"></script>
-	<script type="text/javascript" src="js/particlesRun.js"></script>
-	<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-	<script type="text/javascript" src="js/form-validator.min.js"></script>
-	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	{% include body_javascripts.html %}
 </body>
 </html>
 

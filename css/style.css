@@ -38,8 +38,6 @@ Author:Denis Samardjiev
     =Media Queries
 */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:700,400,300,100|Montserrat:400,700);
-
 /* =Common Styles
 -------------------------------------------------------------- */
 body {
@@ -991,9 +989,14 @@ ul.social-buttons li a:active {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #333;
+    max-height: initial;
 }
 
 .navbar-nav { -webkit-backface-visibility: hidden; }
+
+.navbar-main .dropdown-menu > li > a {
+    line-height: 2em;
+}
 
 /* =Jumbotron Main
 -------------------------------------------------------------- */
@@ -1161,7 +1164,7 @@ ul.social-buttons li a:active {
 }
 
 #our-process .process-box:hover {
-    background-image: url('../images/arrow-bg-hover.png');
+    background-image: url('/images/arrow-bg-hover.png');
 }
 
 #our-process .process-box.no-hover:hover {
@@ -1949,6 +1952,23 @@ footer hr {
 #scaleReveal{
     width: 100%;
     margin-left: 0;
+}
+
+/* =Language selector
+-------------------------------------------------------------- */
+
+.language-selector-navbar-item .dropdown-menu {
+    min-width: auto;
+}
+
+.language-selector-navbar-item .caret {
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .language-selector-navbar-item .dropdown-menu {
+        text-align: right;
+    }
 }
 
 /* =Media Queries

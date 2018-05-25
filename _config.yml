@@ -1,0 +1,35 @@
+baseurl: ""
+
+# Do not copy these files to the build folder
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - scripts
+ - Rakefile
+ - README.md
+ - .bundle
+ - vendor
+
+gems:
+ - jekyll-multiple-languages-plugin
+
+
+# Localization config
+languages: ["en", "fr", "it"]
+#languages: ["en", "fr", "it", "dev"] # enable during development to see text keys at /dev/
+
+language_names:
+  en:
+    short: en
+    full: English
+  fr:
+    short: fr
+    full: Français
+  it:
+    short: it
+    full: Italiano
+  dev:
+    short: dev
+    full: Development
+
+exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts"]
