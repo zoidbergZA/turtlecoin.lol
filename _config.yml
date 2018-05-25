@@ -13,7 +13,17 @@ exclude:
 gems:
  - jekyll-multiple-languages-plugin
 
+
+# Localization config
 languages: ["en"]
 languages: ["en", "dev"] # enable during development
+
+language_names:
+  en:
+    short: en
+    full: English
+  dev:
+    short: dev
+    full: Development
 
 exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts"]

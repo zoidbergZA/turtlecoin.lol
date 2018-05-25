@@ -16,10 +16,6 @@ navbar:
   support: navbar.support
   toggle_navigation: navbar.toggle_navigation
 
-languages:
-  dev: DEV
-  en: EN
-
 
 # Pages
 
