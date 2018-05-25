@@ -64,6 +64,47 @@ index_page:
   why_6_title: why_6_title
   why_6: why_6
 
+  # the story section
+  story_title: story_title
+  story_1: story_1
+  story_2: story_2
+  story_3: story_3
+  story_4: story_4
+  story_5: story_5
+  story_6: story_6
+  story_7: story_7
+  story_8: story_8
+  story_9: story_9
+  story_10: story_10
+  story_11: story_11
+  story_12: story_12
+  story_13: story_13
+
+  # fine print section
+  fine_print_title: fine_print_title
+  fine_print_1: fine_print_1
+  fine_print_2: fine_print_2
+  fine_print_3: fine_print_3
+  fine_print_4: fine_print_4
+  fine_print_5: fine_print_5
+
+  # roadmap section
+  roadmap_title: roadmap_title
+  roadmap_1: roadmap_1
+  roadmap_2: roadmap_2
+  roadmap_3: roadmap_3
+  roadmap_4: roadmap_4
+  roadmap_5: roadmap_5
+  roadmap_6: roadmap_6
+  roadmap_7: roadmap_7
+  roadmap_8: roadmap_8
+  roadmap_9: roadmap_9
+  roadmap_10: roadmap_10
+  roadmap_11: roadmap_11
+  roadmap_12: roadmap_12
+  roadmap_13: roadmap_13
+  roadmap_14: roadmap_14
+  roadmap_15: roadmap_15
 
 # http://turtlecoin.lol/brand/
 brand_page:

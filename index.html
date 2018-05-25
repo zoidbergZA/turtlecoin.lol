@@ -305,36 +305,36 @@ description: index_page.meta.description
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>The Story</h2>
+					<h2>{% t index_page.story_title %}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb15">
 				<div class="col-sm-5 leftReveal">
-					<h5 class="heading-1 mb20">Our Background</h5>
-					<h3 class="mb15 no-margin-top">Most TurtleCoin Contributors have thick, luscious beards. <strong>FACT.</strong></h3>
-					<p class="no-margin text-small"><em>This gives us <strong>+10xp Chin Stroke</strong> abilities, and enhances our patience and diagnostic skills. <i class="far fa-smile"></i></em></p><br>
-					<p>The truth is, most of us are full-time developers on other projects, and this is our way to give back to the community with something fun.</p>
+					<h5 class="heading-1 mb20">{% t index_page.story_1 %}</h5>
+					<h3 class="mb15 no-margin-top">{% t index_page.story_2 %}</h3>
+					<p class="no-margin text-small">{% t index_page.story_3 %}</p><br>
+					<p>{% t index_page.story_4 %}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-7 mt30-xs rightReveal">
-					<h5 class="heading-1 mb20">How we started it</h5>
+					<h5 class="heading-1 mb20">{% t index_page.story_5 %}</h5>
 
 					<span class="ion-beer logo-about"></span>
-					<p>One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn't be possible to put out a real project now days without a serious team, doing serious marketing, and bringing in serious funding.</p>
-					<p>RockSteady leaned in closely, stroked his beard intently, and had only one response..</p>
-					<p><strong>"Hold my beer."</strong></p>
-					<p>That night, December 9th, 2017, TurtleCoin was born.</p>
+					<p>{% t index_page.story_6 %}</p>
+					<p>{% t index_page.story_7 %}</p>
+					<p>{% t index_page.story_8 %}</p>
+					<p>{% t index_page.story_9 %}</p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 			<div class="row mb30">
 				<div class="col-sm-9 leftReveal">
-					<h5 class="heading-1 mb20">Why?</h5>
-					<p class="lead no-margin">Too many projects are bringing in <strong>too much funding</strong> despite most having <strong>no damn product</strong>. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
-					<p class="lead no-margin">We have a strong belief in our no-funding strategy; if we make a cool product, <strong>the value will create itself</strong>. If you think we're wrong, we're happy to <a href="http://meta.turtlecoin.lol">talk</a> about it.</p>
+					<h5 class="heading-1 mb20">{% t index_page.story_10 %}</h5>
+					<p class="lead no-margin">{% t index_page.story_11 %}</p>
+					<p class="lead no-margin">{% t index_page.story_12 %}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-3 mt30-xs rightReveal">
 					<h5 class="heading-1 mb20">Quote</h5>
-					<p class="no-margin"><i>A wise rat once said, "A turtle only moves forward by sticking his neck out.."</i></p>
+					<p class="no-margin"><i>{% t index_page.story_13 %}</i></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
 
@@ -347,9 +347,9 @@ description: index_page.meta.description
 		<div class="container" id="specs">
 			<div class="row mb30">
 				<div class="section-title col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
-					<h2>The Fine Print</h2>
+					<h2>{% t index_page.fine_print_title %}</h2>
 					<span class="section-divider mb15"></span>
-					<p class="no-margin">Here are some quick details about the project.</p>
+					<p class="no-margin">{% t index_page.fine_print_1 %}</p>
 					<p class="text-small"></p>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -359,21 +359,21 @@ description: index_page.meta.description
                         <i class="ion-cube"></i>
                     </div>
                     <h2 class="timer mb5" data-from="1" data-to="29000" data-refresh-interval="20">1</h2><h5>TRTL</h5>
-                    <p class="no-margin">Avg. Block Reward</p>
+                    <p class="no-margin">{% t index_page.fine_print_2 %}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs rightReveal">
 					<div class="circle-hold">
                         <i class="ion-clock"></i>
                     </div>
                     <h2 class="timer mb5" data-from="1" data-to="30" data-refresh-interval="20">1</h2>
-                    <p class="no-margin">1 Block every<br> 30 seconds</p>
+                    <p class="no-margin">{% t index_page.fine_print_3 %}</p>
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm leftReveal">
 					<div class="circle-hold">
 						<i class="ion-social-github"></i>
 										</div>
 										<h2 class="timer mb5" data-from="1" data-to="27" data-refresh-interval="20">1</h2>
-										<p class="no-margin">Developers <br> <a href="http://chat.turtlecoin.lol">Join Us</a></p>
+										<p class="no-margin">{% t index_page.fine_print_4 %}</p>
 
 				</div><!-- /.column -->
 				<div class="col-sm-6 col-md-3 item mt30-xs mt30-sm rightReveal">
@@ -381,7 +381,7 @@ description: index_page.meta.description
 						<i class="ion-happy-outline"></i>
 										</div>
 										<h2 class="timer mb5">0</h2>
-										<p class="no-margin">No Premine <br>No Shenanigans</p>
+										<p class="no-margin">{% t index_page.fine_print_5 %}</p>
 
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -395,7 +395,7 @@ description: index_page.meta.description
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 section-title text-center">
-					<h2>Roadmap</h2>
+					<h2>{% t index_page.roadmap_title %}</h2>
 					<span class="section-divider"></span>
 				</div><!-- /.column -->
 			</div><!-- /.row -->
@@ -409,12 +409,11 @@ description: index_page.meta.description
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
 									<h5 class="heading-1 mb15">Q4 2017</h5>
-									<h4 class="subheading">Hello Turtle</h4>
+									<h4 class="subheading">{% t index_page.roadmap_1 %}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>TurtleCoin was born <strong>December 9th, 2017</strong>. </p>
-									<p>
-										In the beginning, we were command line only, compiled only for Linux, and got banned repeatedly from online forums for hosting flash TRTL giveaways.</p>
+									<p>{% t index_page.roadmap_2 %}</p>
+									<p>{% t index_page.roadmap_3 %}</p>
 								</div>
 							</div>
 						</li>
@@ -425,10 +424,10 @@ description: index_page.meta.description
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
 									<h5 class="heading-1 mb15">Q1 2018</h5>
-									<h4 class="subheading">GUI Wallets</h4>
+									<h4 class="subheading">{% t index_page.roadmap_4 %}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>TurtleCoin Community has been hard at work to bring us a diverse graphical experience, as well as refreshing the command line wallet also. From day one, we've been committed to making TurtleCoin easier, and that starts with a good GUI. Take your pick of one of the following wallets:</p>
+									<p>{% t index_page.roadmap_5 %}</p>
 									<p>
 										<a href="https://github.com/turtlecoin/turtle-wallet-go"><span class="ion-android-arrow-dropright"></span>Golang GUI [Win/Mac/Lin]</a></p>
 									<p>
@@ -450,9 +449,9 @@ description: index_page.meta.description
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
 									<h5 class="heading-1 mb15">Q2 2018</h5>
-									<h4 class="subheading">Market Partnerships</h4>
+									<h4 class="subheading">{% t index_page.roadmap_6 %}</h4>
 								</div>
-								<div class="timeline-body"> <p>We pledged to have our TurtleCoins being publicly trading by Q2 2018, and we have accomplished that goal in several markets.</p>
+								<div class="timeline-body"> <p>{% t index_page.roadmap_7 %}</p>
 					
 								</div>
 							</div>
@@ -463,12 +462,11 @@ description: index_page.meta.description
 							<div  class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="/images/timeline-4.png"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">Development Started, Q2 2018</h5>
-									<h4 class="subheading">Mobius, Fast Blocks No Sync</h4>
+									<h5 class="heading-1 mb15">{% t index_page.roadmap_8 %}</h5>
+									<h4 class="subheading">{% t index_page.roadmap_9 %}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>A big headache with proof of work is syncing a huge chain, and fast blocks don't usually help that issue. Our goal is producing faster blocks on a shorter chain. This is perhaps the most aggressive goal, and will require the most help to complete.</p>
-
+									<p>{% t index_page.roadmap_10 %}</p>
 								</div>
 							</div>
 						</li>
@@ -477,11 +475,11 @@ description: index_page.meta.description
 							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="/images/timeline-5.png"></div>
 							<div class="timeline-panel leftReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">TBA</h5>
-									<h4 class="subheading">Karai, Simple Smart Contracts</h4>
+									<h5 class="heading-1 mb15">{% t index_page.roadmap_11 %}</h5>
+									<h4 class="subheading">{% t index_page.roadmap_12 %}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>Distributed, trustless networks have uses beyond currency. Karai is our goal for enabling distributed applications and networks beyond the main blockchain.</p>
+									<p>{% t index_page.roadmap_13 %}</p>
 								</div>
 							</div>
 						</li>
@@ -491,11 +489,11 @@ description: index_page.meta.description
 							<div  class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="/images/timeline-6.png"></div>
 							<div class="timeline-panel rightReveal">
 								<div class="timeline-heading">
-									<h5 class="heading-1 mb15">TBA</h5>
-									<h4 class="subheading">TurtlePay Network</h4>
+									<h5 class="heading-1 mb15">{% t index_page.roadmap_11 %}</h5>
+									<h4 class="subheading">{% t index_page.roadmap_14 %}</h4>
 								</div>
 								<div class="timeline-body">
-									<p>What good is an ATM if it isn't nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.</p>
+									<p>{% t index_page.roadmap_15 %}</p>
 								</div>
 							</div>
 						</li>
