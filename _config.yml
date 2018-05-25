@@ -15,13 +15,19 @@ gems:
 
 
 # Localization config
-languages: ["en"]
-languages: ["en", "dev"] # enable during development
+languages: ["en", "fr", "it"]
+#languages: ["en", "fr", "it", "dev"] # enable during development to see text keys at /dev/
 
 language_names:
   en:
     short: en
     full: English
+  fr:
+    short: fr
+    full: Français
+  it:
+    short: it
+    full: Italiano
   dev:
     short: dev
     full: Development

@@ -994,6 +994,10 @@ ul.social-buttons li a:active {
 
 .navbar-nav { -webkit-backface-visibility: hidden; }
 
+.navbar-main .dropdown-menu > li > a {
+    line-height: 2em;
+}
+
 /* =Jumbotron Main
 -------------------------------------------------------------- */
 .jumbotron.jumbotron-main {

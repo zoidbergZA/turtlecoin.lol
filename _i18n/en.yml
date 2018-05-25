@@ -1,18 +1,18 @@
 # Common
 contact:
-  discord: Join us on Discord
-  github: Join us on GitHub
   interested: Still Interested?
   need_help: We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!
+  discord: Join us on Discord
+  github: Join us on GitHub
   thank_you: Thank You!
 
 navbar:
+  home: Home
   download: Download
   features: Features
-  home: Home
-  roadmap: Roadmap
-  specs: Specs
   story: The Story
+  specs: Specs
+  roadmap: Roadmap
   support: Support
   toggle_navigation: Toggle Navigation
 
@@ -30,8 +30,8 @@ index_page:
   banner_is_easy: TurtleCoin is Easy
   banner_is_safe: TurtleCoin is Safe
   banner_one_liner: TurtleCoin is a fun, fast, and easy way to send money <br/> to friends and businesses.
-  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
   banner_download: Download
+  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
 
   # download section
   download_select_system: Select Your System

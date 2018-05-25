@@ -1,18 +1,18 @@
 # Common
 contact:
-  discord: contact.discord
-  github: contact.github
   interested: contact.interested
   need_help: contact.need_help
+  discord: contact.discord
+  github: contact.github
   thank_you: contact.thank_you
 
 navbar:
+  home: navbar.home
   download: navbar.download
   features: navbar.features
-  home: navbar.home
-  roadmap: navbar.roadmap
-  specs: navbar.specs
   story: navbar.story
+  specs: navbar.specs
+  roadmap: navbar.roadmap
   support: navbar.support
   toggle_navigation: navbar.toggle_navigation
 
@@ -30,8 +30,8 @@ index_page:
   banner_is_easy: index_page.banner_is_easy
   banner_is_safe: index_page.banner_is_safe
   banner_one_liner: index_page.banner_one_liner
-  banner_builds: <strong>index_page.banner_builds</strong>
   banner_download: banner_download
+  banner_builds: <strong>index_page.banner_builds</strong>
 
   # download section
   download_select_system: index_page.download_select_system
