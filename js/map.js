@@ -34,8 +34,7 @@ var initMap = function() {
   map.on('load', function() {
 		map.addSource('peers', {
 			type: 'geojson',
-			data: 'https://gist.githubusercontent.com/ar-x/7b99404701da70e9a3d49566f478a0d1/raw/44962428fad58bfed41d77716b739281bb8085de/peers.geojson'
-			// data: 'https://s3.amazonaws.com/trtlpeers/peers.geojson' // temp. disable to get past CORS
+			data: 'https://s3.amazonaws.com/trtlpeers/peers.geojson'
 		});
 
 		map.addLayer({
