@@ -3036,7 +3036,7 @@ footer hr {
 }
 
 @media (min-width: 768px) {
-    .language-selector-navbar-item .dropdown-menu {
+    .dropdown-menu {
         text-align: right;
     }
 }
