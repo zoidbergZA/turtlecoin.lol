@@ -1,3 +1,4 @@
 [submodule "paper-turtle"]
 	path = paper-turtle
 	url = https://github.com/turtlecoin/paper-turtle.git
+  ignore = dirty
