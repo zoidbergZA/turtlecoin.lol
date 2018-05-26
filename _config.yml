@@ -32,4 +32,4 @@ language_names:
     short: dev
     full: Development
 
-exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts"]
+exclude_from_localizations: ["assets", "js", "images", "css", "fonts", "scripts", "paper-turtle"]
