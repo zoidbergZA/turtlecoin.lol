@@ -9,6 +9,6 @@ git submodule update --recursive --remote --merge
 cp -r paper-turtle _site
 mv _site/paper-turtle _site/wallet
 
-bundle exec rake tests
+#bundle exec rake tests
 
 echo "Build complete"
