@@ -12,6 +12,10 @@ deploy:
   on: master
   fqdn: turtlecoin.lol
   verbose: true
+
+before_install:
+  - git submodule update --recursive --remote --merge
+
 env:
   global:
   - secure: bTdOWoBMp9fX9Mm9KseOjAqwLxW/z1sa7XhtRyz46JX46eLGrEUG11I1Yo4eCzqNsgajch6/mMtN+QaTmakWhB27/kwDBaBZaZRS+PeSSjAAH0GIMsT5iWqd5/iFu1+o53XOwObWg2J1vznQXJMjgDHIZsSZgT5DkKL95OwS+LpSq538pc7n7jxFCc1cSPgGYvuKNY5YHdYsvoY1siLHuKljDBqHQVMzVf2S5uwGKC0V0mFy91mBdm9hgVkGq63g2U89Er/i7WdRS3lEeoTMXetDtztg//5LFIB1VdaDuNhXu5bKxHU5dxQ6oCaLq6LInB8pWDtHdOYwKYyKnSW8/4uryCpVUZujfrvNpqMKDeZG+99po8NxfxFfhERjo2WuNLm9AKsAw4QxtqPMY+MOqG9YKXg7EGNbWEVfMvacHDhBV+79XGaYRSipkcYlz2Kp7vHx0sN4rRYAwtVvC5Q5amQXNAzy3AhG62j3i5FSwplg9SWGe/cepkIiapc6LUd/1gF44lea/G+Bh75RzUULKVc0umaN/nIexmSWTiMy+TXW21Jp3ohL4HE7qx8akt88W+3XqE7OrXIbxnB8Jia3i0W5KVYOWnQHyAGfkMkrrC1s/JYLtKZyA/AQ3K5lcoLPlkXA2LRLL6gRNRFDA3/M6P7Q9eGEv2OJ0NdvqdS1UPE=
