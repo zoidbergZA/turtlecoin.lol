@@ -2957,6 +2957,10 @@ span.portfolio-hover a {
     height: 400px;
 }
 
+.caret-right-edge {
+    margin-left: 5px;
+}
+
 /* =Footer
 -------------------------------------------------------------- */
 .theme-title {
@@ -3029,10 +3033,6 @@ footer hr {
 
 .language-selector-navbar-item .dropdown-menu {
     min-width: auto;
-}
-
-.language-selector-navbar-item .caret {
-    margin-left: 5px;
 }
 
 @media (min-width: 768px) {
