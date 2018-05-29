@@ -122,3 +122,9 @@ brand_page:
   latest_version: Latest Version
   download_assets: Download assets
   contribute_on_github: Contribute on GitHub
+
+brand_page_navbar:
+  guidelines: Guidelines
+  assets: Assets
+  join: Join Us
+  back: Back to Main
