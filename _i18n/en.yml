@@ -5,6 +5,7 @@ contact:
   discord: Join us on Discord
   github: Join us on GitHub
   thank_you: Thank You!
+  scroll_up: Up
 
 navbar:
   home: Home
@@ -15,6 +16,11 @@ navbar:
   roadmap: Roadmap
   support: Support
   toggle_navigation: Toggle Navigation
+  resources: Resources
+  resources_wiki: TurtleCoin Wiki
+  resources_blog: Developer Blog
+  resources_dev_resources: Developer Resources
+  resources_brand: Brand Guidelines
 
 
 # Pages
@@ -75,6 +81,7 @@ index_page:
   story_11: Too many projects are bringing in <strong>too much funding</strong> despite most having <strong>no damn product</strong>. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own.
   story_12: We have a strong belief in our no-funding strategy; if we make a cool product, <strong>the value will create itself</strong>. If you think we're wrong, we're happy to <a href="http://meta.turtlecoin.lol">talk</a> about it.
   story_13: A wise rat once said, "A turtle only moves forward by sticking his neck out.."
+  story_14: Quote
 
   # fine print section
   fine_print_title: The Fine Print

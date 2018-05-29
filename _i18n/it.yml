@@ -5,6 +5,7 @@ contact:
   discord: Unisciti a noi su Discord
   github: Unisciti a noi su GitHub
   thank_you: Grazie!
+  scroll_up: Torna su
 
 navbar:
   home: Home
@@ -15,6 +16,11 @@ navbar:
   roadmap: Roadmap
   support: Supporto
   toggle_navigation: Toggle navigation
+  resources: Risorse
+  resources_wiki: Wiki TurtleCoin
+  resources_blog: Blog Sviluppatori
+  resources_dev_resources: Risorse Sviluppatori
+  resources_brand: Linee guida del Brand
 
 
 # Pages
@@ -75,6 +81,7 @@ index_page:
   story_11: Troppi progetti stanno accumulando <strong>troppi fondi</strong> nonostante la maggior parte non abbia <strong>un cavolo di prodotto</strong>. Abbiamo pensato "perchè non fare il contrario? Iniziare con un progetto divertente, renderlo il più semplice ed accessibile possibile e lasciarlo crescere per conto suo."
   story_12: Abbiamo molta fiducia nella nostra strategia senza-fondi; se creiamo un buon prodotto, <strong>il valore crescerà da solo</strong>. Se pensi che l'idea sia sbagliata, saremo felici di <a href="http://meta.turtlecoin.lol">parlarne</a>.
   story_13: Un saggio una volta disse, "Una tartaruga va avanti solo quando tira fuori il collo.."
+  story_14: Citazione
 
   # fine print section
   fine_print_title: Fine Print

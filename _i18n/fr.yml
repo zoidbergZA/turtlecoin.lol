@@ -5,6 +5,7 @@ contact:
   discord: Rejoignez-nous sur Discord
   github: Rejoignez-nous sur GitHub
   thank_you: Merci !
+  scroll_up: Retour en haut
 
 navbar:
   home: Accueil
@@ -15,6 +16,11 @@ navbar:
   roadmap: Roadmap
   support: Support
   toggle_navigation: Bouton de navigation
+  resources: Ressources
+  resources_wiki: Wiki TurtleCoin
+  resources_blog: Blog Développeur
+  resources_dev_resources: Ressources pour Développeurs
+  resources_brand: Lignes Directrices
 
 
 # Pages
@@ -75,6 +81,7 @@ index_page:
   story_11: Trop de projets embarquent un <strong>budget trop conséquent</strong> en dépit du fait qu'il n'ont <strong>même pas de foutu produit</strong>. Nous nous sommes dit "pourquoi ne pas faire l'inverse ? Faire un projet amusant, le rendre aussi simple et accessible que possible, et le laisser grandir par lui-même."
   story_12: Nous croyons beaucoup en cette stratégie sans budget; si nous pouvons faire un produit cool, <strong>sa valeur va se créer d'elle-même</strong>. Si vous pensez que nous nous trompons, nous serions ravi d'en <a href="http://meta.turtlecoin.lol">discuter</a>.
   story_13: Un rat sage a dit une fois "La tortue ne peut avancer qu'on exposant sa tête..."
+  story_14: Proverbe
 
   # fine print section
   fine_print_title: Les Petits Caractères
