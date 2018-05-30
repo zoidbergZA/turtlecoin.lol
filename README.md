@@ -41,5 +41,6 @@ All translations live in the `_i18n` folder.
 
 ### Contributors
 
-* Français: [@DaliaAsTrue](https://github.com/DaliaAsTrue), [@romromna](https://github.com/romromna), [@SaintePelle](https://github.com/SaintePelle)
+* Afrikaans: [@jacojvv](https://github.com/jacojvv), [@Reinsie44](https://github.com/Reinsie44)
+* Français: [@DaliaAsTrue](https://github.com/DaliaAsTrue), [@romromna](https://github.com/romromna), [@SaintePelle](https://github.com/SaintePelle), [@andrelegault](https://github.com/andrelegault)
 * Italiano: [@andreafno](https://github.com/andreafno), [@4k4](https://github.com/4k4)
