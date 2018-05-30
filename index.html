@@ -51,13 +51,13 @@ description: index_page.meta.description
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right navbar-main">
-							<li><a href="#home" data-id="home" class="scroll-link">{% t navbar.home %}</a></li>
-							<li><a href="#download" data-id="download" class="scroll-link">{% t navbar.download %}</a></li>
-							<li><a href="#why" data-id="why" class="scroll-link">{% t navbar.features %}</a></li>
-							<li><a href="#story" data-id="story" class="scroll-link">{% t navbar.story %}</a></li>
-							<li><a href="#specs" data-id="specs" class="scroll-link">{% t navbar.specs %}</a></li>
-							<li><a href="#roadmap" data-id="roadmap" class="scroll-link">{% t navbar.roadmap %}</a></li>
-							<li><a href="#contact" data-id="contact" class="scroll-link">{% t navbar.support %}</a></li>
+							<li><a href="#home" data-id="home" class="scroll-link" title="{% t navbar.home %}">{% t navbar.home %}</a></li>
+							<li><a href="#download" data-id="download" class="scroll-link" title="{% t navbar.download %}">{% t navbar.download %}</a></li>
+							<li><a href="#why" data-id="why" class="scroll-link" title="{% t navbar.features %}">{% t navbar.features %}</a></li>
+							<li><a href="#story" data-id="story" class="scroll-link" title="{% t navbar.story %}">{% t navbar.story %}</a></li>
+							<li><a href="#specs" data-id="specs" class="scroll-link" title="{% t navbar.specs %}">{% t navbar.specs %}</a></li>
+							<li><a href="#roadmap" data-id="roadmap" class="scroll-link" title="{% t navbar.roadmap %}">{% t navbar.roadmap %}</a></li>
+							<li><a href="#contact" data-id="contact" class="scroll-link" title="{% t navbar.support %}">{% t navbar.support %}</a></li>
 							<li>{% include resources_navbar_item.html %}</li>
 							<li>{% include language_selector_navbar_item.html %}</li>
 						</ul>
@@ -203,21 +203,20 @@ description: index_page.meta.description
 							<div class="carousel-inner">
 								<div class="active item" style="height=150px;">
 									<blockquote>
-										{% t index_page.fun_facts_1 %}
+										<p>{% t index_page.fun_facts_1 %}</p>
 									</blockquote>
 								</div>
 								<div class="item" style="height=150px;">
 									<blockquote>
-										{% t index_page.fun_facts_2 %}
+										<p>{% t index_page.fun_facts_2 %}</p>
 									</blockquote>
 								</div>
 								<div class="item" style="height=150px;">
 									<blockquote>
-										{% t index_page.fun_facts_3 %}
+										<p>{% t index_page.fun_facts_3 %}</p>
 									</blockquote>
 								</div>
 							</div>
-
 						</div><!-- /.carousel -->
 					</div><!-- /.column -->
 				</div><!-- /.row -->
@@ -429,21 +428,36 @@ description: index_page.meta.description
 								</div>
 								<div class="timeline-body">
 									<p>{% t index_page.roadmap_5 %}</p>
-									<p>
-										<a href="https://github.com/turtlecoin/turtle-wallet-go"><span class="ion-android-arrow-dropright"></span>Golang GUI [Win/Mac/Lin]</a></p>
-									<p>
-										<a href="https://github.com/turtlecoin/turtle-wallet-winforms"><span class="ion-android-arrow-dropright"></span>Winforms GUI [Win/Mac/Lin]</a></p>
-									<p>
-										<a href="https://github.com/turtlecoin/turtle-wallet-python"><span class="ion-android-arrow-dropright"></span>Python GUI [Win/Mac/Lin]</a></p>
-									<p>
-										<a href="https://github.com/turtlecoin/turtle-wallet-electron"><span class="ion-android-arrow-dropright"></span>Electron GUI [Win/Mac/Lin]</a></p>
-									<p>
-										<a href="https://github.com/turtlecoin/turtle-wallet-csharp"><span class="ion-android-arrow-dropright"></span>C# GUI [Windows]</a></p>
-							
+									<ul class="list-unstyled list-highlighted mt10">
+										<li>
+											<a href="https://github.com/turtlecoin/turtle-wallet-go">
+												Golang GUI [Win/Mac/Lin]
+											</a>
+										</li>
+										<li>
+											<a href="https://github.com/turtlecoin/turtle-wallet-winforms">
+												Winforms GUI [Win/Mac/Lin]
+											</a>
+										</li>
+										<li>
+											<a href="https://github.com/turtlecoin/turtle-wallet-python">
+												Python GUI [Win/Mac/Lin]
+											</a>
+										</li>
+										<li>
+											<a href="https://github.com/turtlecoin/turtle-wallet-electron">
+												Electron GUI [Win/Mac/Lin]
+											</a>
+										</li>
+										<li>
+											<a href="https://github.com/turtlecoin/turtle-wallet-csharp">
+												C# GUI [Windows]
+											</a>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</li>
-
 						<!-- Item 3 -->
 						<li>
 							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="/images/timeline-3.png"></div>
@@ -453,7 +467,7 @@ description: index_page.meta.description
 									<h4 class="subheading">{% t index_page.roadmap_6 %}</h4>
 								</div>
 								<div class="timeline-body"> <p>{% t index_page.roadmap_7 %}</p>
-					
+
 								</div>
 							</div>
 						</li>
