@@ -5,7 +5,7 @@ contact:
   discord: Sluit by ons aan op Discord
   github: Sluit by ons aan op GitHub
   thank_you: Dankie!
-  scroll_up: Up
+  scroll_up: Op
 
 
 navbar:
@@ -17,11 +17,11 @@ navbar:
   roadmap: Roetekaart
   support: Ondersteuning
   toggle_navigation: Skakel navigasie
-  resources: Resources
+  resources: Hulpbronne
   resources_wiki: TurtleCoin Wiki
-  resources_blog: Developer Blog
-  resources_dev_resources: Developer Resources
-  resources_brand: Brand Guidelines
+  resources_blog: Ontwikkelaar Blog
+  resources_dev_resources: Ontwikkelaarhulpbronne
+  resources_brand: Handelsriglyne
 
 
 # Pages
@@ -82,7 +82,7 @@ index_page:
   story_11: Te veel projekte bring <strong> te veel befondsing in </strong> ten spyte van die meeste <strong> geen produk het nie </strong>. Ons het uitgepluis, "hoekom doen nie die hele ding in omgekeerde nie? Begin met 'n prettige projek, maak dit so eenvoudig en toeganklik as moontlik, en laat dit self groei.
   story_12: Ons het 'n sterk oortuiging in ons nie-befondsingsstrategie; as ons 'n "koel" produk maak, sal <strong> die waarde homself skep </strong>. As jy dink ons ??is verkeerd, is ons gelukkig om te <a href="http://meta.turtlecoin.lol"> praat </a> daaroor.
   story_13: "'n Wyse rot het eenkeer gesê: 'n Skilpad beweeg net vorentoe deur sy nek uit te steek. '"
-  story_14: Quote
+  story_14: Aanhaal
 
   # fine print section
   fine_print_title: Die fynskrif
@@ -125,7 +125,7 @@ brand_page:
   contribute_on_github: Dra by tot GitHub
 
 brand_page_navbar:
-  guidelines: Guidelines
-  assets: Assets
-  join: Join Us
-  back: Back to Main
+  guidelines: Riglyne
+  assets: Bates
+  join: Sluit by ons aan
+  back: Terug na Hoof
