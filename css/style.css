@@ -2052,3 +2052,9 @@ footer hr {
 @media (max-width:640px){
     .jumbotron p br { display:none; }
 }
+
+ul.list-highlighted li::before {
+     margin-right: 5px;
+     content: "•";
+     color: #2ecc71;
+}

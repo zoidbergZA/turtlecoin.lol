@@ -3123,6 +3123,12 @@ footer hr {
     .jumbotron p br { display:none; }
 }
 
+ul.list-highlighted li::before {
+     margin-right: 5px;
+     content: "•";
+     color: #2ecc71;
+}
+
 /* =Common Styles
 -------------------------------------------------------------- */
 a {
