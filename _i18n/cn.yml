@@ -25,7 +25,7 @@ navbar:
 
 # Pages
 
-# http://turtlecoin.lol/
+# https://turtlecoin.lol/
 index_page:
   meta:
     description: 烏龜幣是一個有趣且保障隱私的加密貨幣，適合用來犒賞你的朋友或用作商業支付。烏龜幣的開發由社群主導，是一個開源的加密貨幣。烏龜幣的開採相當容易，且目前已有圖形介面的錢包。
@@ -58,7 +58,7 @@ index_page:
   why_2_title: 保障隱私
   why_2: 烏龜幣與門羅幣以及永世幣同樣具有保障隱私的特性，除非您決定公開交易，不然每一個轉帳交易都是隱蔽的。
   why_3_title: 容易使用
-  why_3: 我們支持幾乎每一個作業系統，即便在行動裝置上，您也可以免費 <a href="http://turtlecoin.lol/wallet">產生 一個安全的紙錢包</a>，從建立錢包到開始使用只需不到5分鐘。
+  why_3: 我們支持幾乎每一個作業系統，即便在行動裝置上，您也可以免費 <a href="https://turtlecoin.lol/wallet">產生 一個安全的紙錢包</a>，從建立錢包到開始使用只需不到5分鐘。
   why_4_title: 容易開採
   why_4: 烏龜幣本身自帶 CPU 挖礦程式，但您也可以使用任何您熟悉的門羅幣挖礦程式或使用 GPU 在礦池挖礦。我們推薦使用 <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
   why_5_title: 龐大的社群
@@ -110,7 +110,7 @@ index_page:
   roadmap_15: 如果能隨時隨地使用提款機該有多好? Tap-and-pay 已是過去式; Tap-and-earn 才是未來。你可以隨身攜帶你的加密貨幣提款機。
 
 
-# http://turtlecoin.lol/brand/
+# https://turtlecoin.lol/brand/
 brand_page:
   meta:
     description: 烏龜幣品牌手冊
