@@ -14,12 +14,13 @@
 <meta property="og:image" content="/images/turtlecoin_opengraph_colorbg.jpg"/>
 
 <!-- Twitter Card -->
-<meta property="twitter:url" content="{{ site.url }}"/>
-<meta property="twitter:title" content="{% t page.title %}"/>
-<meta property="twitter:description" content="{% t page.description %}"/>
-<meta property="twitter:image" content="/images/turtlecoin_opengraph_colorbg.jpg"/>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@_turtlecoin" />
+<meta name="twitter:title" content="{% t page.title %}"/>
+<meta name="twitter:description" content="{% t page.description %}" />
+<meta name="twitter:image" content="{{ site.url }}/images/twitter-summary-card.jpg" />
 
-<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 
 {% for lang in site.languages %}
   {% if site.default_lang == lang %}
