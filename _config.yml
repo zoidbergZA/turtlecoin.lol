@@ -16,16 +16,16 @@ gems:
 
 
 # Localization config
-languages: ["en", "af", "fr", "it", "cn"]
+languages: ["en", "af", "fr", "it", "zh-tw"]
 #languages: ["en", "af", "fr", "it", "dev"] # enable during development to see text keys at /dev/
 
 language_names:
   af:
     short: af
     full: Afrikaans
-  cn:
-    short: cn
-    full: Chinese
+  zh-tw:
+    short: zh-tw
+    full: Mandarin Chinese
   en:
     short: en
     full: English
