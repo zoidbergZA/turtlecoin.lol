@@ -22,7 +22,7 @@
 {% if site.default_lang == site.lang %}
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}" />
 {% else %}
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl_root }}/{{ site.lang }}{{ page.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl_root }}{{ site.lang }}{{ page.url }}" />
 {% endif %}
 
 {% for lang in site.languages %}
@@ -30,6 +30,6 @@
     <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}" hreflang="{{lang}}">
     <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}{{ page.url }}" hreflang="x-default">
   {% else %}
-    <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" hreflang="{{lang}}">
+    <link rel="alternate" href="{{ site.url }}{{ site.baseurl_root }}{{ lang }}{{ page.url }}" hreflang="{{lang}}">
   {% endif %}
 {% endfor %}
