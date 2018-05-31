@@ -16,7 +16,7 @@ gems:
 
 
 # Localization config
-languages: ["en", "af", "fr", "it", "zh-tw"]
+languages: ["en", "af", "fr", "it", "zh"]
 #languages: ["en", "af", "fr", "it", "dev"] # enable during development to see text keys at /dev/
 
 language_names:
