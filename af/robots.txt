@@ -1,1 +1,2 @@
-Sitemap: https://turtlecoin.lol/sitemap.xml
+User-agent: *
+Disallow:
