@@ -23,8 +23,8 @@ language_names:
   af:
     short: af
     full: Afrikaans
-  zh-tw:
-    short: zh-tw
+  zh:
+    short: zh
     full: Mandarin Chinese
   en:
     short: en
