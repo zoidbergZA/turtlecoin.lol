@@ -25,7 +25,7 @@ navbar:
 
 # Pages
 
-# http://turtlecoin.lol/
+# https://turtlecoin.lol/
 index_page:
   meta:
     description: TurtleCoin is a fun way to send money privately to friends or businesses. TurtleCoin is a community-developed, open source cryptocurrency that is easy to mine, and has a graphical wallet.
@@ -58,7 +58,7 @@ index_page:
   why_2_title: Privacy
   why_2: TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public.
   why_3_title: Easy To Use
-  why_3: We support almost every OS, even on mobile you can <a href="http://turtlecoin.lol/wallet">make a secured paper-wallet for free</a>, and get started with TurtleCoin in under 5 minutes.
+  why_3: We support almost every OS, even on mobile you can <a href="https://turtlecoin.lol/wallet">make a secured paper-wallet for free</a>, and get started with TurtleCoin in under 5 minutes.
   why_4_title: Easy To Mine
   why_4: TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
   why_5_title: Community
@@ -110,7 +110,7 @@ index_page:
   roadmap_15: What good is an ATM if it isn't nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.
 
 
-# http://turtlecoin.lol/brand/
+# https://turtlecoin.lol/brand/
 brand_page:
   meta:
     description: TurtleCoin Brand Manual

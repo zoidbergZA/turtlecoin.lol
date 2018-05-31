@@ -25,7 +25,7 @@ navbar:
 
 # Pages
 
-# http://turtlecoin.lol/
+# https://turtlecoin.lol/
 index_page:
   meta:
     description: Le TurtleCoin est un moyen amusant d'envoyer de l'argent en privé à vos amis ou pour le travail. Le TurtleCoin, développé par sa communauté, est une crypto-monnaie open source facile à miner, et possède un portefeuille graphique.
@@ -58,7 +58,7 @@ index_page:
   why_2_title: Visibilité
   why_2: TurtleCoin a les mêmes protection des données privées que Monero et Aeon. Toutes les transactions sont privées sauf si vous choisissez de les rendre publiques.
   why_3_title: Facile d'emploi
-  why_3: Nous supportons tous les systèmes d'exploitations, même <a href="http://turtlecoin.lol/wallet">sur mobile vous pouvez créer un portefeuille sécurisé gratuitement</a> et commencer à utiliser TurtleCoin en moins de 5 minutes.
+  why_3: Nous supportons tous les systèmes d'exploitations, même <a href="https://turtlecoin.lol/wallet">sur mobile vous pouvez créer un portefeuille sécurisé gratuitement</a> et commencer à utiliser TurtleCoin en moins de 5 minutes.
   why_4_title: Facile à Miner
   why_4: TurtleCoin utilise son propre mineur sur CPU basique, mais vous pouvez aussi utiliser n'importe quel programme de minage de Monero auquel vous êtes habitués si vous préférez miner sur le GPU ou les mining pools. Nous recommendons <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner </a>.
   why_5_title: Communauté
@@ -110,7 +110,7 @@ index_page:
   roadmap_15: Qu'est ce qui est bien avec un point de retrait s'il n'est pas à proximité ? Touchez-et-payez, c'est du passé ; Touchez-et-gagnez, c'est l'avenir. Votre point de retrait se trouve dans votre poche.
 
 
-# http://turtlecoin.lol/brand/
+# https://turtlecoin.lol/brand/
 brand_page:
   meta:
     description: Manuel de la marque TurtleCoin
