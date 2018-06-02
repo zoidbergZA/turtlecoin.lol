@@ -1994,7 +1994,7 @@ footer hr {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a { color:#fff; }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover { color:rgba(255, 255, 255, 0.60); }
 	.section-title h2 { font-size:34px; }
-	.navbar-nav { margin:12px -15px; }
+	.navbar-nav { margin:12px -15px; padding-bottom: 30px; }
 	#pricing .plan.featured { -webkit-transform:scale(1.03); -ms-transform:scale(1.03); transform:scale(1.03); }
 	.btn-category { margin-bottom:5px; }
     .pricing-clients { width:90px; }
