@@ -132,6 +132,7 @@ button:hover,
 .ticker h1 {
     margin: 0px;
     height: 70px;
+    line-height: 70px;
     -webkit-transition: margin-top 0.5s ease-in-out;
     -moz-transition: margin-top 0.5s ease-in-out;
     -o-transition: margin-top 0.5s ease-in-out;
@@ -1993,7 +1994,7 @@ footer hr {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a { color:#fff; }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover { color:rgba(255, 255, 255, 0.60); }
 	.section-title h2 { font-size:34px; }
-	.navbar-nav { margin:12px -15px; }
+	.navbar-nav { margin:12px -15px; padding-bottom: 30px; }
 	#pricing .plan.featured { -webkit-transform:scale(1.03); -ms-transform:scale(1.03); transform:scale(1.03); }
 	.btn-category { margin-bottom:5px; }
     .pricing-clients { width:90px; }
@@ -2001,7 +2002,7 @@ footer hr {
     .modal-header .close { margin-right:-62px; }
     .breadcrumb-holder { padding:12px 0 12px 0; }
     .ticker { height:40px; }
-    .ticker h1 { height:40px; }
+    .ticker h1 { height:40px; line-height: 40px; font-size: 33px; }
     .big-logo { font-size:50px; }
     .jumbotron.jumbotron-register { height:initial; }
     .jumbotron.jumbotron-register h1 { font-size:40px; }
