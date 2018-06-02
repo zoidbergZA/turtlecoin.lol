@@ -35,9 +35,18 @@ All translations live in the `_i18n` folder.
 
 ### Adding a new language
 
+* Create a fork of this repository.
 * Create a copy of `_i18n/en.yml` and name the file after the locale.
 * Replace the English text with the translated version.
 * Add the language details to the _Localization config_ in `_config.yml`.
+* Submit a pull request. Find someone in the community to review and approve it.
+
+### Suggesting changes
+
+* Create a fork of this repository.
+* Find the right language in `_i18n`.
+* Make your change. Submit a pull request.
+* Ping the contributors of your language from below for a review.
 
 ### Contributors
 
