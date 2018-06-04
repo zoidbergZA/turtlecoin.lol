@@ -39,7 +39,7 @@ All translations live in the `_i18n` folder.
 * Create a copy of `_i18n/en.yml` and name the file after the locale.
 * Replace the English text with the translated version.
 * Add the language details to the _Localization config_ in `_config.yml`.
-* Submit a pull request. Find someone in the community familar with that language to review it.
+* Submit a pull request. Find someone in the community familiar with that language to review it.
 
 ### Suggesting changes
 
