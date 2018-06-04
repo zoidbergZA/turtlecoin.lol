@@ -1,4 +1,4 @@
-# Common
+﻿# Common
 contact:
   interested: Заинтересовался?
   need_help: Нам нужна помощь! Нам нужна помощь! Нет, серьезно! Какими бы навыками ты не обладал, каких бы идей у тебя не было, мы готовы услышать о них!
@@ -40,7 +40,7 @@ index_page:
   banner_is_safe: TurtleCoin безопасный
   banner_one_liner: TurtleCoin - это интересный способ отправить деньги инкогнито  <br/> своим друзьям или коллегам.
   banner_download: Скачать
-  banner_builds: <strong>У нас есть приложения для Windows, MacOS, и Linux. </strong>Если вы предпочитате собирать из <strong>исходников</strong> сами, вы можете найти их здесь <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, также вы можете связаться с нами здесь <a href="http://chat.turtlecoin.lol">here</a> потому что мы ищешь соратников.
+  banner_builds: <strong>У нас есть приложения для Windows, MacOS, и Linux. </strong>Если вы предпочитаете собирать из <strong>исходников</strong> сами, вы можете найти их здесь <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, также вы можете связаться с нами здесь <a href="http://chat.turtlecoin.lol">here</a> потому что мы ищешь соратников.
 
   # download section
   download_select_system: Выберите вашу ОС
@@ -65,7 +65,7 @@ index_page:
   why_4_title: Легко майнить
   why_4: TurtleCoin поставляется с собственным майнером на процессоре, но вы можете использовать любой майнер для Monero, к которому вы привыкли, с любым пулом. Мы рекомендуем <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
   why_5_title: Сообщество
-  why_5: Сообщество TurtleCoin приветствует всех пользователей и разработчиков. Мы впадем в бешенство когда что-то пойдет не так, и мы будем рады вашей критике. Пожалуйства, присоединяйтесь к нашему <a href="http://chat.turtlecoin.lol">Discord чату</a>.
+  why_5: Сообщество TurtleCoin приветствует всех пользователей и разработчиков. Мы впадем в бешенство когда что-то пойдет не так, и мы будем рады вашей критике. Пожалуйста, присоединяйтесь к нашему <a href="http://chat.turtlecoin.lol">Discord чату</a>.
   # You won't get shouted at when things break, and we welcome critiques of our work. Не совсем понял как перевести это. Пытался нагуглить выражение, получается что-то типа синонима злиться или сердиться
   why_6_title: Поддержка
   why_6: Наше сообщество разработчиков и тестеров живет на <a href="http://meta.turtlecoin.lol">GitHub форуме</a>. Чтобы помочь нам, вы можете тестировать софт и отправлять отчеты об ошибках, или даже просто подбадривать нас.
@@ -74,7 +74,7 @@ index_page:
   story_title: История
   story_1: Наш опыт
   story_2: Большинство разработчиков TurtleCoin имеют толстые бородки. <strong>Это факт)</strong></h3>
-  story_3: <em>Это дает нам<strong>+10 к поглаживаю подрородка</strong>, и улучшает наши навыки терпения и поиска ошибок. <i class="far fa-smile"></i></em>
+  story_3: <em>Это дает нам<strong>+10 к поглаживанию подрородка</strong>, и улучшает наши навыки терпения и поиска ошибок. <i class="far fa-smile"></i></em>
   story_4: По правде говоря, большинство из нас - разработчики на полную ставку в других проектах, и это наш способ дать обществу что-то забавное и интересное.
   story_5: Как мы это начали
   story_6: One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn't be possible to put out a real project nowadays without a serious team, doing serious marketing, and bringing in serious funding.
