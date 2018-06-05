@@ -1,4 +1,4 @@
-﻿# Common
+# Common
 contact:
   interested: Заинтересовался?
   need_help: Нам нужна помощь! Нам нужна помощь! Нет, серьезно! Какими бы навыками ты не обладал, каких бы идей у тебя не было, мы готовы услышать о них!
@@ -73,62 +73,64 @@ index_page:
   # the story section
   story_title: История
   story_1: Наш опыт
-  story_2: Большинство разработчиков TurtleCoin имеют толстые бородки. <strong>Это факт)</strong></h3>
+  story_2: Большинство разработчиков TurtleCoin имеют толстые бородки. <strong>Это факт</strong></h3>
   story_3: <em>Это дает нам<strong>+10 к поглаживанию подрородка</strong>, и улучшает наши навыки терпения и поиска ошибок. <i class="far fa-smile"></i></em>
   story_4: По правде говоря, большинство из нас - разработчики на полную ставку в других проектах, и это наш способ дать обществу что-то забавное и интересное.
   story_5: Как мы это начали
-  story_6: One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn't be possible to put out a real project nowadays without a serious team, doing serious marketing, and bringing in serious funding.
-  story_7: RockSteady leaned in closely, stroked his beard intently, and had only one response..
-  story_8: <strong>"Hold my beer."</strong>
-  story_9: That night, December 9th, 2017, TurtleCoin was born.
-  story_10: Why?
-  story_11: Too many projects are bringing in <strong>too much funding</strong> despite most having <strong>no damn product</strong>. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
-  story_12: We have a strong belief in our no-funding strategy; if we make a cool product, <strong>the value will create itself</strong>. If you think we're wrong, we're happy to <a href="http://meta.turtlecoin.lol">talk</a> about it.
-  story_13: A wise rat once said, "A turtle only moves forward by sticking his neck out.."
-  story_14: Quote
+  story_6: Одной холодной декабрьской ночью RockSteady и Bebop слишком много выпили, пока обсуждали ситуацию вокруг фейковых ICO, не имеющих конечного продукта. Bebop высказал догадку, что сейчас невозможно запустить стоящий проект без серьезной команды, маркетинга и инвестиций со стороны.
+  story_7: RockSteady наклонился, сосредоточенно погладил свою бородку, он мог ответить только...
+  story_8: <strong>"Держи мой пивас."</strong>
+  story_9: Так, той ночью, 9 декабря 2017 года TurtleCoin появился на свет.
+  story_10: Почему?
+  story_11: Слишком много проектов получают <strong>большие инвестиции</strong>, <strong>не имея готового продукта</strong>. Мы подумали: "Почему бы не сделать всё наоборот? Начать с забавного проекта, сделать его простым и доступным для масс насколько возможно, и пусть он будет расти сам по себе."
+  story_12: Мы твердо уверены в нашей стратегии финансирования; если мы сделаем классный продукт, <strong>он сам набьет себе цену</strong>. Если вы думаете, что мы ошибаемся, то мы будем рады <a href="http://meta.turtlecoin.lol">обсудить</a> это.
+  story_13: Однажды мудрая крыса сказала: "Черепаха движется вперед только, вытянув шею..."
+  story_14: Цитата
+  # "A turtle only moves forward by sticking his neck out.." я понял как чтобы идти вперед нужно рисковать, но риск должен быть оправданным
 
   # fine print section
-  fine_print_title: The Fine Print
-  fine_print_1: Here are some quick details about the project.
-  fine_print_2: Avg. Block Reward
-  fine_print_3: 1 Block every<br> 30 seconds
-  fine_print_4: Developers <br> <a href="http://chat.turtlecoin.lol">Join Us</a>
-  fine_print_5: No Premine <br>No Shenanigans
+  fine_print_title: Мелким шрифтом
+  fine_print_1: Несколько маленьких деталей о нашем проекте.
+  fine_print_2: Средняя награда за блок
+  fine_print_3: 1 блок каждые<br> 30 секунд
+  fine_print_4: Разработчики, <br> <a href="http://chat.turtlecoin.lol">Присоединяйтесь</a>
+  fine_print_5: Без премайнинга <br>Без обмана и махинаций
 
   # roadmap section
   roadmap_title: Roadmap
-  roadmap_1: Hello Turtle
-  roadmap_2: TurtleCoin was born <strong>December 9th, 2017</strong>.
-  roadmap_3: In the beginning, we were command line only, compiled only for Linux, and got banned repeatedly from online forums for hosting flash TRTL giveaways.
-  roadmap_4: GUI Wallets
-  roadmap_5: "TurtleCoin Community has been hard at work to bring us a diverse graphical experience, as well as refreshing the command line wallet also. From day one, we've been committed to making TurtleCoin easier, and that starts with a good GUI. Take your pick of one of the following wallets:"
-  roadmap_6: Market Partnerships
-  roadmap_7: We pledged to have our TurtleCoins being publicly trading by Q2 2018, and we have accomplished that goal in several markets.
-  roadmap_8: Development Started, Q2 2018
-  roadmap_9: Mobius, Fast Blocks No Sync
-  roadmap_10: A big headache with proof of work is syncing a huge chain, and fast blocks don't usually help that issue. Our goal is producing faster blocks on a shorter chain. This is perhaps the most aggressive goal, and will require the most help to complete.
+  roadmap_1: Здравствуй Черепаха
+  roadmap_2: TurtleCoin родился <strong>9 декабря 2017 года</strong>.
+  roadmap_3: В начале мы имели только командную строку, скомпилированную только для Linux, и неоднократные баны на различных форумах за раздачи черепах(TRTL).
+  roadmap_4: Кошельки с графическим интерфейсом
+  roadmap_5: "TurtleCoin Сообщество усердно работает над тем, чтобы принести нам разнообразный опыт в графике, также обновляя кошелек для командной строки. С первого дня мы решили сделать TurtleCoin проще, и это начинается с хорошего графического интерфейса. Выберите один из следующих кошельков:"
+  roadmap_6: Партнеры
+  roadmap_7: Мы обещали, что TurtleCoin'ы будут публично торговаться ко II кварталу 2018 года, и мы добились этой цели на некоторых площадках.
+  roadmap_8: Начало разработки, II квартал 2018
+  roadmap_9: Mobius, Быстрые Блоки Без Синхронизации
+  roadmap_10: Большая проблема с proof of work это синхронизация огромной цепочки, и быстрые блоки обычно не решают эту проблему. Поэтому наша цель - это нахождения быстрых блоков на короткой цепочке. Это, пожалуй, самая агрессивная цель и для ее достижения нам нужна помощь.
   roadmap_11: TBA
-  roadmap_12: Karai, Simple Smart Contracts
-  roadmap_13: Distributed, trustless networks have uses beyond currency. Karai is our goal for enabling distributed applications and networks beyond the main blockchain.
-  roadmap_14: TurtlePay Network
-  roadmap_15: What good is an ATM if it isn't nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.
+  roadmap_12: Karai, Простые Смарт-контракты
+  roadmap_13: Распределённая сеть может быть использована не только в криптовалюте. Karai - это наша цель для создания приложений и сетей за пределами основного блокчейна.
+  roadmap_14: TurtlePay Сеть
+  roadmap_15: Что хорошего в банкомате, если его нет рядом? Нажал и оплатил это вчерашний день; Нажал и заработал - это будущее. Ближайший криптомат уже у тебя в кармане.
 
 
 # https://turtlecoin.lol/brand/
 brand_page:
   meta:
-    description: TurtleCoin Brand Manual
-    title: TurtleCoin | Brand Guidelines
-  why: Why Guidelines?
-  why_explanation: We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.
-  download: Download
-  manual: TurtleCoin Brand Manual
-  latest_version: Latest Version
-  download_assets: Download assets
+    description: Руководство пользователя TurtleCoin
+    title: TurtleCoin | Руководство
+  why: Почему инструкции?
+  why_explanation: Мы твердо убеждены, что каждый должен иметь возможность создавать прекрасные вещи как в самой TurtleCoin так и с ней. Для этих целей мы составили несколько руководящих принципов чтобы поддерживать сплоченный и прочный, но в то же время <strong>дружелюбный и простой</strong> подход для желающих выразить свои идеи, связанные с брендом TurtleCoin.
+  download: Скачать
+  manual: Руководство пользователя TurtleCoin
+  latest_version: Последняя версия
+  download_assets: Скачать шаблоны
+  # Не могу придумать чего-то подходящего для слова Asset
   contribute_on_github: Contribute on GitHub
 
 brand_page_navbar:
-  guidelines: Guidelines
-  assets: Assets
-  join: Join Us
-  back: Back to Main
+  guidelines: Инструкции
+  assets: Шаблоны
+  join: Присоединяйся
+  back: Вернуться на главную
