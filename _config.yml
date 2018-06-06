@@ -41,6 +41,9 @@ language_names:
   it:
     short: it
     full: Italiano
+  tr:
+    short: tr
+    full: Turkish
   dev:
     short: dev
     full: Development
