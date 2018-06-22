@@ -2,8 +2,8 @@
 contact:
   interested: Заинтересовались?
   need_help: Нам нужна помощь! Нам нужна помощь! Нет, серьезно! Какими бы навыками ты не обладал, каких бы идей у тебя не было, мы готовы услышать о них!
-  discord: Присоединяйся к нам в Discord
-  github: Присоединяйся к нам на GitHub
+  discord: Присоединяйтесь к нам в Discord
+  github: Присоединяйтесь к нам на GitHub
   thank_you: Спасибо!
   scroll_up: Вверх
 
@@ -125,12 +125,12 @@ brand_page:
   download: Скачать
   manual: Руководство пользователя TurtleCoin
   latest_version: Последняя версия
-  download_assets: Скачать шаблоны
+  download_assets: Скачать ресурсы
   # Не могу придумать чего-то подходящего для слова Asset
   contribute_on_github: Contribute on GitHub
 
 brand_page_navbar:
   guidelines: Инструкции
-  assets: Шаблоны
+  assets: Ресурсы
   join: Присоединяйся
   back: Вернуться на главную
