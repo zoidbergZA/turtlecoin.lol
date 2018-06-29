@@ -1,0 +1,130 @@
+# Common
+contact:
+  interested: Ainda interessado?
+  need_help: Nós precisamos de ajuda! Junte-se a nós! Não, sério! Seja qual for sua habilidade, ou quais idéias você tem, estamos prontos para ouvir sobre isso!
+  discord: Junte-se a nós no Discord
+  github: Junte-se a nós no GitHub
+  thank_you: Obrigado!
+  scroll_up: Subir
+
+navbar:
+  home: Início
+  download: Baixar
+  features: Características
+  story: A história
+  specs: Detalhes
+  roadmap: Roadmap
+  support: Suporte
+  toggle_navigation: Alternar navegação
+  resources: Recursos
+  resources_wiki: Wiki TurtleCoin
+  resources_blog: Blog Do Desenvolvedor
+  resources_dev_resources: Recursos Para Desenvolvedores
+  resources_brand: Diretrizes Da Marca
+
+
+# Pages
+
+# https://turtlecoin.lol/
+index_page:
+  meta:
+    description: TurtleCoin é um forma divertida de mandar dinheiro anonimamente para os amigos e negócios. TurtleCoin é desenvolvida pela comunidade, criptomoeda de código aberto fácil de minerar, e possui uma carteira gráfica.
+    title: TurtleCoin.lol - TurtleCoin Divertida, Rápida, e Fácil Criptomoeda.
+
+  # banner section
+  banner_is_fast: TurtleCoin é Rápida
+  banner_is_easy: TurtleCoin é Fácil
+  banner_is_safe: TurtleCoin é Segura
+  banner_one_liner: TurtleCoin é uma divertida, rápida, e forma fácil de mandar dinheiro <br/> para amigos e negócios.
+  banner_download: Download
+  banner_builds: <strong>Nós temos builds para Windows, Apple, e Ubuntu Linux. </strong>Se você preferir o <strong>código fonte</strong>, você pode achar isso <a href="https://github.com/turtlecoin/turtlecoin/">aqui</a>, mas você pode também nos contatar <a href="http://chat.turtlecoin.lol">aqui</a> porque estamos procurando pessoas como você para juntar-se a nós.
+
+  # download section
+  download_select_system: Selecione Seu Sistema
+  download_latest: Baixar a mais recente
+  download_gui: Baixar GUI
+  download_cli: Baixar CLI
+
+  # fun facts section
+  fun_facts_title: Fatos Divertidos Sobre A Turtle
+  fun_facts_1: A TurtleCoin tem um tempo de bloco de 30 segundos, o que significa que as transações são confirmadas mais rapidamente
+  fun_facts_2: TurtleCoin possui uma blockchain privada, ninguém vê seu dinheiro exceto você.
+  fun_facts_3: Você pode resgatar uma carteira TurtleCoin deletada com sua view key e spend key.
+
+  # why section
+  why_title: Por Que TurtleCoin?
+  why_1_title: Transações Rápidas
+  why_1: TurtleCoin está criando blocos a cada 30 segundos, ao invés de 10 minutos. Seu dinheiro viaja 20x mais rápido na TurtleCoin que no Bitcoin ou BitcoinCash.
+  why_2_title: Privacidade
+  why_2: TurtleCoin possui as mesmas funções de privacidade que você irá encontrar no Monero e Aeon. Cada transação é privada a menos que você resolva torná-la pública.
+  why_3_title: Fácil De Usar
+  why_3: Nós suportamos quase todos os sitemas operacionais, mesmo no celular você pode <a href="https://turtlecoin.lol/wallet">fazer uma paper-wallet de graça</a>, e começar com a TurtleCoin em menos de 5 minutos.
+  why_4_title: Fácil De Minerar
+  why_4: A TurtleCoin vem com seu próprio minerador de CPU básico, mas você também pode usar qualquer software de mineração da Monero a que esteja acostumado se preferir usar GPUs ou piscinas de mineração. Nós recomendamos <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
+  why_5_title: Comunidade
+  why_5: A comunidade TurtleCoin é muito acolhedora com todos os usuários e desenvolvedores. Você não vai ser gritado quando as coisas quebrarem, e congratulamo-nos com críticas do nosso trabalho. Por favor, junte-se a nós em nosso <a href="http://chat.turtlecoin.lol">Chat No Discord</a>.
+  why_6_title: Suporte
+  why_6: Estamos crescendo uma comunidade de desenvolvedores e testadores em nosso <a href="http://meta.turtlecoin.lol">Meta-fórum GitHub</a>. Você pode ajudar testando software e enviando relatórios de bugs, ou até mesmo nos incentivando do lado de fora.
+
+  # the story section
+  story_title: A História
+  story_1: Nosso Background
+  story_2: A maioria dos colaboradores da TurtleCoin possuem barbas grossas e deliciosas. <strong>FATO.</strong></h3>
+  story_3: <em>Isso nos dá <strong>+10xp de traço do queixo</strong> habilidades, melhora nossa paciência e habilidades diagnósticas. <i class="far fa-smile"></i></em>
+  story_4: A verdade é, a maioria de nós somos desenvolvedores em tempo integral em outros projetos, e essa é a nossa maneira de retribuir à comunidade com algo divertido.
+  story_5: Como Isso Começou
+  story_6: Uma noite fria de dezembro, RockSteady e Bebop estavam tomando várias cervejas enquanto discutiam a loucura em torno de ICOs falsos e frágeis sem produto. Bebop supôs que não seria possível lançar um projeto real hoje em dia sem uma equipe séria, fazendo marketing sério e trazendo fundos sérios.
+  story_7: RockSteady se inclinou para perto, acariciou sua barba com atenção e só teve uma resposta.
+  story_8: <strong>"Segure a minha cerveja."</strong>
+  story_9: Nesta noite, 9 de Dezembro de 2017, a TurtleCoin nasceu.
+  story_10: Por que?
+  story_11: Muitos projetos estão trazendo <strong>muito financiamento</strong> a pesar da maioria ter <strong>nenhum maldito produto</strong>. Nós pensamos, "por que não fazer a coisa toda ao contrário? Comece com um projeto divertido, torne-o o mais simples e acessível possível e deixe-o crescer sozinho".
+  story_12: Temos uma forte crença em nossa estratégia de não-financiamento; se fizermos um produto legal, <strong>o valor vai se criar</strong>. Se você acha que estamos errados, ficamos felizes em saber <a href="http://meta.turtlecoin.lol">fale</a> sobre isso.
+  story_13: Um rato sábio disse uma vez, "Uma tartaruga só se move para a frente, enfiando o pescoço para fora ..."
+  story_14: Citação
+
+  # fine print section
+  fine_print_title: A Boa Impressão
+  fine_print_1: Aqui vai alguns rápidos detalhes sobre o projeto.
+  fine_print_2: Média De Recompensa Do Bloco
+  fine_print_3: 1 Bloco a cada<br> 30 segundos
+  fine_print_4: Desenvolvedores <br> <a href="http://chat.turtlecoin.lol">Junte-se a nós</a>
+  fine_print_5: Sem Premine <br>Sem Travessuras
+
+  # roadmap section
+  roadmap_title: Roteiro
+  roadmap_1: Olá Turtle
+  roadmap_2: TurtleCoin nasceu <strong>9 de Dezembro de 2017</strong>.
+  roadmap_3: No começo, éramos apenas linha de comando, compilados apenas para Linux e banidos repetidamente de fóruns on-line para hospedagem de brindes instantâneos de TRTL.
+  roadmap_4: Carteiras em GUI
+  roadmap_5: "A Comunidade TurtleCoin tem trabalhado duro para nos trazer uma experiência gráfica diversificada, bem como atualizar a carteira de linha de comando também. Desde o primeiro dia, estamos empenhados em tornar a TurtleCoin mais fácil, e isso começa com uma boa interface gráfica. Leve a sua escolha uma das seguintes carteiras:"
+  roadmap_6: Parcerias De Mercado
+  roadmap_7: Nós nos comprometemos a ter nossas TurtleCoins sendo negociadas publicamente até Q2 2018, e atingimos esse objetivo em vários mercados.
+  roadmap_8: Desenvolvimento Iniciado, Q2 2018
+  roadmap_9: Mobius, Blocos Rápidos Sem Sincronização
+  roadmap_10: Uma grande dor de cabeça com prova de trabalho é a sincronização de uma enorme cadeia, e os blocos rápidos geralmente não ajudam nessa questão. Nosso objetivo é produzir blocos mais rápidos em uma cadeia mais curta. Esse talvez seja o objetivo mais agressivo e exigirá mais ajuda para ser concluído.
+  roadmap_11: TBA
+  roadmap_12: Karai, Contratos Inteligentes Simples
+  roadmap_13: Redes distribuídas e sem confiança têm usos além da moeda. Karai é nosso objetivo para permitir aplicações e redes distribuídas além da blockchain principal.
+  roadmap_14: Rede TurtlePay
+  roadmap_15: De que adianta um bom ATM se não estiver por perto? Toque-e-pague é ontem; Toque-e-ganhe é amanhã. Seu Crypto ATM mais próximo está no seu bolso.
+
+
+# https://turtlecoin.lol/brand/
+brand_page:
+  meta:
+    description: TurtleCoin Brand Manual
+    title: TurtleCoin | Brand Guidelines
+  why: Why Guidelines?
+  why_explanation: We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.
+  download: Download
+  manual: TurtleCoin Brand Manual
+  latest_version: Latest Version
+  download_assets: Download assets
+  contribute_on_github: Contribute on GitHub
+
+brand_page_navbar:
+  guidelines: Guidelines
+  assets: Assets
+  join: Join Us
+  back: Back to Main
