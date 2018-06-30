@@ -14,7 +14,7 @@ deploy:
   verbose: true
 
 before_install:
-  - git submodule update --recursive --remote --merge
+  - git submodule update --remote --merge
 
 env:
   global:
