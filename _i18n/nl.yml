@@ -1,26 +1,26 @@
 # Common
 contact:
-  interested: Still Interested?
-  need_help: We need help! Join Us! No, seriously! Whatever your skill is, or what ideas you have, we are ready to hear about it!
-  discord: Join us on Discord
-  github: Join us on GitHub
-  thank_you: Thank You!
-  scroll_up: Up
+  interested: Nog steeds geïnteresseerd?
+  need_help: We hebben hulp nodig! Help ons! Nee, ECHT! Welke vaardigheden je ook hebt, of wat voor ideeën, we willen ze graag horen! 
+  discord: Help ons op Discord
+  github: Help ons op GitHub
+  thank_you: Bedankt!
+  scroll_up: Omhoog
 
 navbar:
   home: Home
   download: Download
-  features: Features
-  story: The Story
-  specs: Specs
+  features: Functionaliteiten
+  story: Het Verhaal
+  specs: Specificaties
   roadmap: Roadmap
-  support: Support
-  toggle_navigation: Toggle Navigation
-  resources: Resources
+  support: Hulp
+  toggle_navigation: Schakel Navigatie
+  resources: Bronnen
   resources_wiki: TurtleCoin Wiki
-  resources_blog: Developer Blog
-  resources_dev_resources: Developer Resources
-  resources_brand: Brand Guidelines
+  resources_blog: Ontwikkelaars Blog
+  resources_dev_resources: Ontwikkelaars Bronnen
+  resources_brand: Huisstijl Richtlijnen
 
 
 # Pages
@@ -28,103 +28,101 @@ navbar:
 # https://turtlecoin.lol/
 index_page:
   meta:
-    description: TurtleCoin is a fun way to send money privately to friends or businesses. TurtleCoin is a community-developed, open source cryptocurrency that is easy to mine, and has a graphical wallet.
-    title: TurtleCoin.lol - TurtleCoin Fun, Fast, and Easy CryptoCurrency.
+    description: TurtleCoin is een leuke manier om geld afgeschermd naar vrienden en bedrijven te sturen. TurtleCoin is een door de community ontwikkelde, open-source cryptocurrency, welke gemakkelijk te minen is en grafische wallet heeft.
+    title: TurtleCoin.lol - TurtleCoin Leuke, Snelle en Eenvoudige CryptoCurrency.
 
   # banner section
-  banner_is_fast: TurtleCoin is Fast
-  banner_is_easy: TurtleCoin is Easy
-  banner_is_safe: TurtleCoin is Safe
-  banner_one_liner: TurtleCoin is a fun, fast, and easy way to send money <br/> to friends and businesses.
+  banner_is_fast: TurtleCoin is Snel
+  banner_is_easy: TurtleCoin is Gemakkelijk
+  banner_is_safe: TurtleCoin is Veilig
+  banner_one_liner: TurtleCoin is een leuke, snelle en makkelijke manier om geld te versturen naar vrienden en bedrijven.
   banner_download: Download
-  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
-
+  banner_builds: <strong>We hebben software voor Windows, Apple en Ubuntu Linux.</strong> Als je liever de <strong>source code</strong> wil, vind je die <a href="https://github.com/turtlecoin/turtlecoin/">hier</a>, maar zoek vooral ook <a href="http://chat.turtlecoin.lol">hier</a> contact met ons, omdat we altijd op zoek zijn naar mensen als jij om ons team te versterken.
   # download section
-  download_select_system: Select Your System
-  download_latest: Download Latest
+  download_select_system: Selecteer je OS
+  download_latest: Download Nieuwste
   download_gui: Download GUI
   download_cli: Download CLI
 
   # fun facts section
-  fun_facts_title: Fun Turtle Facts
-  fun_facts_1: TurtleCoin has a 30 second block time, which means transactions confirm faster.
-  fun_facts_2: TurtleCoin has a private blockchain, nobody sees your money except you.
-  fun_facts_3: You can restore a deleted TurtleCoin wallet with your view key and spend key.
+  fun_facts_title: Leuke Turtle Feiten
+  fun_facts_1: TurtleCoin heeft een 30 seconden block time, wat betekent dat transacties sneller gecontroleerd worden.
+  fun_facts_2: TurtleCoin heeft een privé blockchain, niemand ziet jouw geld, behalve jij.
+  fun_facts_3: Je kunt een verwijderde TurtleCoin wallet terughalen met je “view key” en je “spend key”.
 
   # why section
-  why_title: Why TurtleCoin?
-  why_1_title: Fast Transactions
-  why_1: TurtleCoin is creating blocks every 30 seconds, as opposed to every 10 minutes. Your money travels 20x faster on TurtleCoin than on Bitcoin or BitcoinCash.
-  why_2_title: Privacy
-  why_2: TurtleCoin has the same privacy features you'll find in Monero and Aeon. Every transaction is private unless you choose to make it public.
-  why_3_title: Easy To Use
-  why_3: We support almost every OS, even on mobile you can <a href="https://turtlecoin.lol/wallet">make a secured paper-wallet for free</a>, and get started with TurtleCoin in under 5 minutes.
-  why_4_title: Easy To Mine
-  why_4: TurtleCoin comes with its own basic CPU miner, but you can also use any Monero mining software you're used to if you'd rather use GPU's or mining pools. We recommend <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
+  why_title: Waarom TurtleCoin?
+  why_1_title: Snelle Transacties
+  why_1: TurtleCoin maakt niet elke 10 minuten, maar elke 30 seconden blocks aan. Je geld gaat dus 20x zo snel met TurtleCoin dan met Bitcoin of BitcoinCash.
+  why_2_title: Anonimiteit
+  why_2: TurtleCoin heeft dezelfde privacy eigenschappen die je terugziet bij Monero en Aeon. Iedere transactie is anoniem, behalve wanneer je er zelf voor kiest om deze bekend te maken.
+  why_3_title: Makkelijk In Gebruik
+  why_3: We ondersteunen nagenoeg elk OS, zelfs op je mobiele telefoon kun je <a href="https://turtlecoin.lol/wallet">gratis een beveiligde paper-wallet aanmaken</a>, en binnen 5 minuten aan de slag gaan met TurtleCoin.
+  why_4_title: Makkelijk Te Minen
+  why_4: TurtleCoin heeft zijn eigen eenvoudige CPU miner, maar je kunt ook elke andere Monero mining software gebruiken als je liever met GPU’s of een mining pool werkt. Wij adviseren <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner</a>.
   why_5_title: Community
-  why_5: The TurtleCoin community is very welcoming to all users and developers. You won't get shouted at when things break, and we welcome critiques of our work. Please join us in our <a href="http://chat.turtlecoin.lol">Discord Chat</a>.
-  why_6_title: Support
-  why_6: We are growing a community of developers and testers in our <a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>. You can help by testing software and submitting bug reports, or even just cheering us on from the sidelines.
-
+  why_5: De TurtleCoin community heet alle gebruikers en ontwikkelaars van harte welkom. Er zal niet op je gescholden worden als er dingen kapot gaan en we staan open voor een kritieke noot op ons werk. Draag bij in onze <a href="http://chat.turtlecoin.lol">Discord Chat</a>.
+  why_6_title: Ondersteuning
+  why_6: We zijn een groeiende community van ontwikkelaars en testers in ons <a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>. Jij kunt ons helpen met het testen van software en het doorgeven van bugs, maar ons vanaf de zijlijn toejuichen mag natuurlijk ook. 
   # the story section
-  story_title: The Story
-  story_1: Our Background
-  story_2: Most TurtleCoin Contributors have thick, luscious beards. <strong>FACT.</strong></h3>
-  story_3: <em>This gives us <strong>+10xp Chin Stroke</strong> abilities, and enhances our patience and diagnostic skills. <i class="far fa-smile"></i></em>
-  story_4: The truth is, most of us are full-time developers on other projects, and this is our way to give back to the community with something fun.
-  story_5: How we started it
-  story_6: One chilly December night, RockSteady and Bebop were having a beer too many while discussing the madness around fake, flimsy ICOs with no product. Bebop surmised that it just wouldn't be possible to put out a real project nowadays without a serious team, doing serious marketing, and bringing in serious funding.
-  story_7: RockSteady leaned in closely, stroked his beard intently, and had only one response..
-  story_8: <strong>"Hold my beer."</strong>
-  story_9: That night, December 9th, 2017, TurtleCoin was born.
-  story_10: Why?
-  story_11: Too many projects are bringing in <strong>too much funding</strong> despite most having <strong>no damn product</strong>. We figured, "why not do the whole thing in reverse? Start with a fun project, make it as simple and accessible as possible, and let it grow on its own."
-  story_12: We have a strong belief in our no-funding strategy; if we make a cool product, <strong>the value will create itself</strong>. If you think we're wrong, we're happy to <a href="http://meta.turtlecoin.lol">talk</a> about it.
-  story_13: A wise rat once said, "A turtle only moves forward by sticking his neck out.."
+  story_title: Het Verhaal
+  story_1: Onze Achtergrond
+  story_2: De meeste mensen die een bijdrage leveren aan TurtleCoin, hebben heerlijke dikke baarden.<h3><strong>FEIT.</strong></h3>
+  story_3: <em>Dit geeft ons <strong>+10xp “Chin Stroke”</strong> vermogen, en verhoogt ons geduld en verbetert onze diagnose vaardigheden.<i class="far fa-smile"></i></em>
+  story_4: In werkelijkheid zijn de meeste van ons full-time ontwikkelaars op andere projecten en is dit onze manier om op een leuke manier iets terug te geven aan de community.
+  story_5: Hoe is het allemaal begonnen?
+  story_6: Op een koude decembernacht hebben RockSteady en Bebop net iets te veel biertjes gedronken en zijn met elkaar in gesprek over de waanzin rondom neppe, flinterdunne ICO’s zonder een echt product. Bebop verondersteld dat het vandaag de dag simpelweg niet mogelijk is om een echt product op de markt te brengen zonder een serieus team, met serieuze marketing, en het binnenhalen van serieuze financiering.
+  story_7: RockSteady leunde een beetje naar voren, wrijft aandachtig door zijn baard en reageerde met de simpele, maar duidelijke woorden…
+  story_8: <strong>"Houd mijn bier vast."</strong>
+  story_9: Die nacht, op 9 december 2017, was TurtleCoin geboren.
+  story_10: Waarom?
+  story_11: Teveel projecten halen <strong>te veel financiering</strong> binnen, ondanks dat ze simpelweg <strong>geen fatsoenlijk product</strong> hebben. Wij dachten, “Waarom zouden we dat niet helemaal andersom doen? We starten met een leuk project, maken het zo eenvoudig en toegankelijk mogelijk en laten het van daaruit op zichzelf groeien.”
+  story_12: Wij geloven sterk in onze geen-financiering strategie; als we een cool product maken, <strong>komt de waarde vanzelf</strong>. Als je vindt dat we ernaast zitten, zijn we meer dan genegen hier met je over te <a href="http://meta.turtlecoin.lol">kletsen.</a>
+  story_13: Een wijze rat zei ooit, “Een schildpad komt alleen vooruit, door zijn nek uit te steken…”
   story_14: Quote
 
   # fine print section
-  fine_print_title: The Fine Print
-  fine_print_1: Here are some quick details about the project.
-  fine_print_2: Avg. Block Reward
-  fine_print_3: 1 Block every<br> 30 seconds
-  fine_print_4: Developers <br> <a href="http://chat.turtlecoin.lol">Join Us</a>
-  fine_print_5: No Premine <br>No Shenanigans
+  fine_print_title: De Kleine Lettertjes
+  fine_print_1: Hier zijn wat details over het project.
+  fine_print_2: Gem. Block Reward
+  fine_print_3: 1 Block elke <br>30 seconden
+  fine_print_4: Ontwikkelaars <br><a href="http://chat.turtlecoin.lol">Kom Erbij</a>
+  fine_print_5: Geen Premine <br>Geen Capriolen
 
   # roadmap section
   roadmap_title: Roadmap
   roadmap_1: Hello Turtle
-  roadmap_2: TurtleCoin was born <strong>December 9th, 2017</strong>.
-  roadmap_3: In the beginning, we were command line only, compiled only for Linux, and got banned repeatedly from online forums for hosting flash TRTL giveaways.
+  roadmap_2: TurtleCoin is geboren op <strong>9 december 2017</strong>.
+  roadmap_3: In het begin werkten we alleen op de command line en hadden we alleen een Linux versie gecompileerd. We werden meermaals van diverse online fora gebanned omdat we TRTL weggeef-acties op poten hadden gezet.
   roadmap_4: GUI Wallets
-  roadmap_5: "TurtleCoin Community has been hard at work to bring us a diverse graphical experience, as well as refreshing the command line wallet also. From day one, we've been committed to making TurtleCoin easier, and that starts with a good GUI. Take your pick of one of the following wallets:"
-  roadmap_6: Market Partnerships
-  roadmap_7: We pledged to have our TurtleCoins being publicly trading by Q2 2018, and we have accomplished that goal in several markets.
-  roadmap_8: Development Started, Q2 2018
-  roadmap_9: Mobius, Fast Blocks No Sync
-  roadmap_10: A big headache with proof of work is syncing a huge chain, and fast blocks don't usually help that issue. Our goal is producing faster blocks on a shorter chain. This is perhaps the most aggressive goal, and will require the most help to complete.
-  roadmap_11: TBA
-  roadmap_12: Karai, Simple Smart Contracts
-  roadmap_13: Distributed, trustless networks have uses beyond currency. Karai is our goal for enabling distributed applications and networks beyond the main blockchain.
-  roadmap_14: TurtlePay Network
-  roadmap_15: What good is an ATM if it isn't nearby? Tap-and-pay is yesterday; Tap-and-earn is tomorrow. Your nearest Crypto ATM is in your pocket.
+  roadmap_5: "De TurtleCoin Community is hard aan het werk geweest om diverse grafische interfaces te bouwen, en ook de command line wallet te verbeteren. Vanaf dag één hebben we ons toegewijd aan het makkelijker maken van TurtleCoin, en dat begint met een goede GUI. Je kunt kiezen uit de volgende wallets: "
+  roadmap_6: Samenwerking Met De Markten
+  roadmap_7: We hebben toegezegd dat we in Q2 2018 onze TurtleCoins publiek handelbaar willen hebben. We hebben dat doel op meerdere markten voltooid.
+  roadmap_8: Ontwikkeling Gestart, Q2 2018
+  roadmap_9: Mobius, Snelle Blocks Zonder Sync
+  roadmap_10:  Een groot nadeel met “proof of work” is het moeten syncen van een enorme chain, en snelle blocks zijn hier meestal geen oplossing voor. Ons doel is om sneller blocks te produceren op een kortere chain. Dit is wellicht een van de meest heftige doelen, waarbij we de meeste hulp gaan nodig hebben om het voor elkaar te krijgen.
+  roadmap_11: NNB
+  roadmap_12: Karai, “Simple Smart Contracts”
+  roadmap_13: Gedistribueerde, “trustless” netwerken hebben toepassingsmogelijkheden die verder gaan dan valuta. Karai is ons doel voor het mogelijk maken van gedistribueerde applicaties en netwerken die verder gaan dan de hoofd-blockchain.
+  roadmap_14: TurtlePay Netwerk
+  roadmap_15: Wat heb je aan een geldautomaat als hij niet dichtbij is? Contactloos betalen is van gisteren, contactloos verdienen is van morgen! Jouw dichtstbijzijnde Crypto geldautomaat zit in je broekzak.
 
 
 # https://turtlecoin.lol/brand/
 brand_page:
   meta:
-    description: TurtleCoin Brand Manual
-    title: TurtleCoin | Brand Guidelines
-  why: Why Guidelines?
-  why_explanation: We firmly believe that anyone should have access to create wonderful things in and with TurtleCoin. For that purpose, a set of guidelines has been created to keep a cohesive and strong, yet <strong>friendly and easy to approach</strong> way for people to express their ideas with the TurtleCoin brand.
+    description: TurtleCoin Huisstijl Richtlijnen
+    title: TurtleCoin | Huisstijl Richtlijnen
+  why: Waarom Richtlijnen?
+  why_explanation: We geloven er sterk in dat het voor iedereen mogelijk zou moeten zijn om mooie dingen met en in TurtleCoin te doen. Om die reden zijn er een aantal richtlijnen opgesteld om een samenhangende, sterke, maar ook <strong>vriendelijke en toegankelijke</strong> manier te hebben, hoe mensen hun ideeën met en over het merk TurtleCoin kunnen uiten. 
   download: Download
-  manual: TurtleCoin Brand Manual
-  latest_version: Latest Version
-  download_assets: Download assets
-  contribute_on_github: Contribute on GitHub
+  manual: TurtleCoin Huisstijl Handleiding
+  latest_version: Laatste Versie
+  download_assets: Download Elementen
+  contribute_on_github: Draag bij op GitHub
 
 brand_page_navbar:
-  guidelines: Guidelines
-  assets: Assets
-  join: Join Us
-back: Back to Main
+  guidelines: Richtlijnen
+  assets: Elementen
+  join: Help Ons
+back: Terug Naar De Hoofdpagina
