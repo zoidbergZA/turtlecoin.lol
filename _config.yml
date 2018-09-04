@@ -44,6 +44,9 @@ language_names:
   hu:
     short: hu
     full: Magyar
+  nl:
+    short: nl
+    full: Nederlands
   ru:
     short: рус
     full: Русский
