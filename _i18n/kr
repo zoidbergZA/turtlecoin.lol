@@ -1,26 +1,26 @@
 # Common
 contact:
-  interested: 아직도 관심 있으신가요?
-  need_help: 여러분의 도움이 필요합니다! 저희와 함께 해주세요! 정말입니다! 능력자분들의 많은 참여를 기다리고 있습니다!
+  interested: 여전히 관심이 있으신가요?
+  need_help: 당신의 능력 그리고 당신의 생각 저희에게 꼭 필요합니다.
   discord: Discord에 참여해주세요
   github: GitHub에 참여해주세요
-  thank_you: 감사합니다!
+  thank_you: 감사합니다.
   scroll_up: Up
 
 navbar:
   home: Home
   download: 다운로드
   features: 기능
-  story: 이야기
+  story: 스토리
   specs: 성능
   roadmap: 로드맵
-  support: 지원
+  support: 참여
   toggle_navigation: Toggle Navigation
-  resources: Resources
-  resources_wiki: TurtleCoin Wiki
-  resources_blog: Developer Blog
-  resources_dev_resources: Developer Resources
-  resources_brand: Brand Guidelines
+  resources: 지원
+  resources_wiki: TurtleCoin 위키
+  resources_blog: 개발자 블로그
+  resources_dev_resources: 개발자 소스
+  resources_brand: 브랜드 가이드라인
 
 
 # Pages
@@ -37,10 +37,10 @@ index_page:
   banner_is_safe: TurtleCoin 은 안전합니다.
   banner_one_liner: TurtleCoin 으로 재밌고, 빠르고, 간편하게 <br/> 송금하세요.
   banner_download: 다운로드
-  banner_builds: <strong>We have builds for Windows, Apple, and Ubuntu Linux. </strong>If you prefer <strong>source code</strong>, you can find that <a href="https://github.com/turtlecoin/turtlecoin/">here</a>, but you should also contact us <a href="http://chat.turtlecoin.lol">here</a> because we're looking for people like you to join us.
+  banner_builds: <strong> Windows, OSX 와 Linux 모두를 지원합니다. </strong> <strong>소스코드</strong>를 찾으신다면 <a href="https://github.com/turtlecoin/turtlecoin/">이곳</a>에서 찾을 수 있습니다.  <a href="http://chat.turtlecoin.lol">이곳</a>을 눌러 저희와 함께해주세요.
 
   # download section
-  download_select_system: 당신의 시스템을 선택하세요.
+  download_select_system: 시스템을 선택하세요.
   download_latest: 최신 다운로드
   download_gui: GUI 다운로드
   download_cli: CLI 다운로드
@@ -54,17 +54,17 @@ index_page:
   # why section
   why_title: 왜 TurtleCoin 일까요?
   why_1_title: 빠른 거래
-  why_1: TurtleCoin 은 30초 마다 새로운 블록을 생산합니다. 여러분의 터틀코인이 비트코인이나 비트코인 캐쉬보다 대략 20배 가량 빠른 속도로 전송 된다는것입니다.
+  why_1: TurtleCoin 은 30초 마다 새로운 블록을 생산합니다. 비트코인이나 비트코인 캐쉬보다 대략 20배 가량 빠른 속도로 전송이 가능합니다.
   why_2_title: 프라이버시
-  why_2: TurtleCoin 은 Monero와 Aeon에서 사용되는 동일한 프라이버시 기능을 사용합니다. 모든 거래는 비공개로 유지됩니다 물론 여러분이 공개하기 전까진요.
+  why_2: TurtleCoin 은 Monero와 Aeon에서 사용되는 동일한 프라이버시 기능을 사용합니다. 모든 거래는 비공개로 유지됩니다 물론 여러분이 공개하기 전까지는요.
   why_3_title: 간편한 사용
-  why_3: 저희는 사실상 모든 OS를 지원합니다, 심지어 여러분의 스마트폰에서 조차도 <a href="https://turtlecoin.lol/wallet"> 무료로 안전한 페이퍼 월렛을 만들수 있으며</a>, 5분안에 터틀코인을 사용할수 있게하죠.
+  why_3: 저희는 모든 OS를 지원합니다, 심지어 여러분의 스마트폰에서도 <a href="https://turtlecoin.lol/wallet"> 무료로 안전한 페이퍼 월렛을 만들수 있으며</a>, 단 5분안에 터틀코인을 사용할수있습니다.
   why_4_title: 간편한 채굴
-  why_4: TurtleCoin은 자체적인 CPU 마이너를 탑재합니다. 하지만 기존에 사용하던 모네로 마이닝 소프트웨어를 이용한 GPU 채굴과 마이닝풀도 그대로 사용이 가능합니다. 저희는 개인적으로 <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner를 추천합니다</a>.
+  why_4: TurtleCoin은 자체적인 CPU miner를 탑재합니다. 하지만 기존에 사용하던 모네로 마이닝 소프트웨어를 이용한 GPU 채굴과 마이닝풀도 그대로 사용이 가능합니다. 저희는 <a href="https://github.com/fireice-uk/xmr-stak/releases/latest">XMR-Stak Unified Miner를 추천합니다</a>.
   why_5_title: 커뮤니티
-  why_5: TurtleCoin 커뮤니티는 모든 유저와 개발자를 환영합니다. 그 어떠한 일이 있더라도 존중받을수 있고 저희 프로젝트의 비난또한 달게 받겠습니다. 저희와 함께 해주세요<a href="http://chat.turtlecoin.lol">Discord Chat</a>.
+  why_5: TurtleCoin 커뮤니티는 모든 유저와 개발자를 환영합니다. 어떠한 일이 있더라도 존중받을수 있고 저희 프로젝트의 비난 또한 달게 받겠습니다. 저희와 함께 해주세요<a href="http://chat.turtlecoin.lol">Discord Chat</a>.
   why_6_title: 지원
-  why_6: 저희는 개발진과 테스터들을 위한 커뮤니티를 양성중입니다 <a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>. 여러분이 저희의 소프트웨어를 테스트하고 버그를 신고해 주신다면 정말 큰 도움이 될것입니다. 그저 옆에서 응원 해주는 것만으로도 큰 도움이 될것 같네요.
+  why_6: 저희는 개발진과 테스터들을 위한 커뮤니티를 양성중입니다. (<a href="http://meta.turtlecoin.lol">GitHub meta-forum</a>) 여러분이 소프트웨어를 테스트하고 버그를 신고해 주시면 감사하겠지만 그저 옆에서 응원 해주는 것만으로도 큰 도움이 될것 같네요.
 
   # the story section
   story_title: 이야기
@@ -73,42 +73,42 @@ index_page:
   story_3: <em> 그덕에 우리는 <strong>+10xp 수염 쓰다듬기</strong>를 시전할수 있고, 패시브로 인내심과 문제해결 능력이 향상되었죠. <i class="far fa-smile"></i></em>
   story_4: 대부분의 터틀코인 개발자들은 다른 프로젝트에서 열심히 활동 중인 사람들로 이루어져 있습니다. 이 프로젝트는 우리가 가진 능력으로 사회에 보답할수 있는 재밌는 방법을 찾아보다 고안하게 되었습니다.
   story_5: 시작
-  story_6: 어느 한 추웠던 12월 밤, 
-  RockSteady와 Bebop은 맥주를 마시며 최근에 넘쳐나는 엉터리 스캠 코인들을 까고 있었습니다. Bebop은 왜 암호화폐 프로젝트는 하나같이 돈을 쏟아 붓고 빵빵한 개발진과 화려한 마케팅이 동반되어야만 하는지에 대한 고민에 빠져있었습니다.
+  story_6: 어느 한 추웠던 12월 밤. RockSteady와 Bebop은 맥주를 마시며 최근에 넘쳐나는 엉터리 스캠 코인들을 까고 있었습니다. Bebop은 왜 암호화폐 프로젝트는 하나같이 돈을 쏟아 붓고 빵빵한 개발진과 화려한 마케팅이 동반되어야만 하는지에 대한 고민에 빠져있었습니다.
   story_7: RockSteady가 갑자기 정색을 하고 수염을 만지작 거리더니 넌지시 말했죠..
   story_8: <strong>"잠깐, 내 맥주좀 들고있어봐"</strong>
   story_9: 2017년 12월 9일 바로 그날 밤 TurtleCoin이 탄생하게 됩니다.
-  story_10: Why?
-  story_11: 수많은 프로젝트들이 대책없이 <strong>투자만 왕창 끌어들이지만</strong> 결국엔 <strong>아무런 결과물도</strong>만들어내지 못했죠. 그래서 저희는 이 모든것을 반대로 해보기로 했습니다. 재밌는 프로젝트를 시작하고, 누구나 쉽게 사용 할수 있게 만들며, 그 프로젝트가 스스로 성장할수 있도록 말이죠.
-  story_12: 저희는 이러한 무자본 전략에 대한 확신이 있습니다. 저희가 멋진 제품을 만든다면<strong>그 가치는 스스로 탄생하겠죠</strong>. 저희가 틀렸다고 생각하신다면 언제라도 여러분의<a href="http://meta.turtlecoin.lol">의견</a>을 나눠주세요.
-  story_13: 어느한 똑똑한 쥐가 말했습니다, "거북이는 오로지 목을 내놓고서야 앞으로 나아가..(여기서 목을 내놓다는 영어로 리스크를 감수하고 대담하게 행동한다 라는 뜻입니다)"
-  story_14: 이야기 인용
+  story_10: 왜?
+  story_11: 수많은 프로젝트들이 대책없이 <strong>투자만 왕창 끌어들이지만</strong> 결국엔 <strong>아무런 결과물도</strong>만들어내지 못했죠. 그래서 저희는 이 모든것을 반대로 해보기로 했습니다. 일단 프로젝트를 시작하고, 누구나 쉽고 재밌게 사용하면서 프로젝트가 스스로 성장할수 있도록 놔두는 겁니다.
+  story_12: 저희는 이러한 무자본 전략에 대한 확신이 있습니다. 저희가 멋진 제품을 만든다면 <strong>그 가치는 스스로 탄생하겠죠</strong>. 저희가 틀렸다고 생각하신다면 언제라도 여러분의<a href="http://meta.turtlecoin.lol">의견</a>을 나눠주세요.
+  story_13: 어느한 똑똑한 쥐가 말했습니다, "거북이는 전진하기 위해 목을 내놓는다"
+  story_14: (이야기 인용)
 
   # fine print section
   fine_print_title: 알아 두어야 할점
   fine_print_1: 저희 프로젝트에 대한 간단한 설명입니다.
   fine_print_2: 평균 블록보상
   fine_print_3: 매 30초마다 <br> 1블록 생성
-  fine_print_4: 개발자 <br> <a href="http://chat.turtlecoin.lol">함께 하기</a>
+  fine_print_4: 개발자 <br><a href="http://chat.turtlecoin.lol">함께 하기</a>
   fine_print_5: 사전채굴 없음 <br>개수작 없음
 
   # roadmap section
   roadmap_title: 로드맵
   roadmap_1: 안녕 거북아!
   roadmap_2: TurtleCoin 탄생일 <strong>2017년 12월 9일</strong>.
-  roadmap_3: 처음에는 저희는 커맨드라인 뿐이였고 리눅스용으로만 짜여져 있었죠. 그리고 TurtleCoin 나눔 이벤트 하다가 온라인포럼에서도 여러 번 쫓겨났습니다. 
-  roadmap_4: 그래픽 유저 인터페이스 지갑
-  roadmap_5: "TurtleCoin 커뮤니티는 보다 다양하고 뛰어난 시각적 경험을 선사하기 위해 커맨드라인 지갑 리모델링 과 같은 수 많은 노력을 해왔습니다.개발 첫날부터, 저희는 TurtleCoin을 보다 사용하기 쉽게 만들기 위해 그래픽 유저 인터페이스 개발에 몰두해 왔습니다. 아래 보이는 지갑들 중 마음에 드는 것을 선택하세요:"
-  roadmap_6: Market Partnerships
-  roadmap_7: 저희는2018년 2분기에 TurtleCoin의 공식적인 거래를 약속 하였고, 현재 여러 시장에서 그 목표를 이루었습니다. 
-  roadmap_8: 2018년 2분기 개발 시작8
-  roadmap_9: 뫼비우스, 빠른 블록, 싱크 불필요 
+  roadmap_3: 처음에는 저희는 커맨드라인 뿐이였고 리눅스용으로만 짜여져 있었습니다. TurtleCoin 나눔 이벤트 하다가 온라인포럼에서 여러 번 쫓겨나기도 했습니다.
+  roadmap_4: 그래픽유저인터페이스 지갑 (GUI Wallets)
+  roadmap_5: "TurtleCoin 커뮤니티는 개발 첫날부터 쉽고 다양한 시각적 경험을 선사하기 위해 커맨드라인 지갑의 리모델링과 같은 그래픽유저인터페이스 (GUI) 개발에 몰두해왔습니다. 아래 보이는 지갑들 중 마음에 드는 것을 선택하세요:"
+  roadmap_6: 파트너 쉽
+  roadmap_7: 저희가 2018년 2분기에 약속한 바와 같이 TurtleCoin은 현재 여러 시장에서 공식적으로 거래가 이루어지고 있습니다.
+  roadmap_8: 2018년 2분기 개발시작
+  roadmap_9: 뫼비우스, 싱크가 필요없는 빠른 블록
   roadmap_10: POW 채굴방식의 가장 큰 문제점은 거대한 체인을 동기화 하는 것입니다. 빠른 블록속도도 그 문제를 해결하진 못하죠. 저희의 목표는 더 짧은 체인위에 더 빠른 블록속도입니다. 이것은 우리 프로젝트중 가장 중요한 목표이기도 하고, 여러분의 많은 도움이 필요한 부분이기도 합니다.
-  roadmap_11: 곧 발표될 것 
+  roadmap_11: 향후 소식
   roadmap_12: Karai, 간단한 스마트 컨트렉트
-  roadmap_13: 분산, 무신뢰 네트워크는 화폐를 넘어서 수많은 용도를 가지고 있습니다. Karai는 메인 기존의 블록체인을 넘어서서 Dapp을 가능케할 저희 프로젝트의 주요 목표입니다.
+  roadmap_13: 분산, 무신뢰 네트워크는 화폐를 이상의 수많은 용도를 가지고 있습니다. Karai는 기존의 블록체인을 넘어서서 Dapp을 가능케할 저희 프로젝트의 주요 목표입니다.
   roadmap_14: TurtlePay 네트워크
-  roadmap_15: ATM이 멀리 있다면 무슨 소용 일까요? Tap-and-pay가 어제 얘기라면, Tap-and-earn은 내일의 이야기 입니다. 당신의 주머니에 가장 가까운 암호화폐 ATM이 있습니다.
+  roadmap_15: ATM이 멀리 있다면 무슨 소용 일까요? Tap-and-pay가 우리의 어제였다면, Tap-and-earn은 우리의 내일 입니다. 당신의 주머니에 가장 가까운 암호화폐 ATM이 있습니다.
+  roadmap_16: 2018년 3분기 개발시작
 
 # https://turtlecoin.lol/brand/
 brand_page:
@@ -116,15 +116,15 @@ brand_page:
     description: TurtleCoin Brand Manual
     title: TurtleCoin | 브랜드 가이드라인
   why: 가이드라인이 왜 필요한가요?
-  why_explanation: 저희는 누구나 TurtleCoin과 관련된 창의적이고 아름다운 제품을 쉽게 만들수 있어야 한다고 생각합니다.그러한 목적으로, 결속력 있고 단단하지만 여전히<strong>친근하고 간편하게</strong> TurtleCoin이라는 브랜드에 사람들이 쉽게 접근하고 자신들의 생각을 표현할 수 있도록 가이드라인을 제작하였습니다. 
+  why_explanation: 저희는 누구나 TurtleCoin과 관련된 창의적이고 아름다운 제품을 쉽게 만들수 있어야 한다고 생각합니다.그러한 목적으로, 결속력 있고 단단하지만 여전히<strong>친근하고 간편하게</strong> TurtleCoin이라는 브랜드에 사람들이 쉽게 접근하고 자신들의 생각을 표현할 수 있도록 가이드라인을 제작하였습니다.
   download: 다운로드
   manual: TurtleCoin 브랜드 메뉴얼
   latest_version: 최신 버전
-  download_assets: assets 
-  contribute_on_github: Contribute on GitHub
+  download_assets: 이미지 자료
+  contribute_on_github:  GitHub 참여
 
 brand_page_navbar:
   guidelines: 가이드라인
-  assets: 재산
+  assets: 이미지 자료
   join: 함께하기
   back: 메인으로 돌아가기
