@@ -59,3 +59,4 @@ All translations live in the `_i18n` folder.
 * Italiano: [@andreafno](https://github.com/andreafno), [@4k4](https://github.com/4k4)
 * Portuguese: [@D4rkGh05t](https://github.com/D4rkGh05t), [@Mineirofox](https://github.com/Mineirofox)
 * Russian: [@Jihadist](https://github.com/Jihadist), [@CaptainMeatloaf](https://github.com/CaptainMeatloaf)
+* Korean: [@seocal](https://github.com/seocal)
