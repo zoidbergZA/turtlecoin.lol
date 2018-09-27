@@ -44,6 +44,9 @@ language_names:
   hu:
     short: hu
     full: Magyar
+  kr:
+    short: kr
+    full: Korean
   nl:
     short: nl
     full: Nederlands
