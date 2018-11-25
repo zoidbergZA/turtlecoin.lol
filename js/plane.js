@@ -5,15 +5,14 @@ d3.json('http://turtlecoin.host/peers', function(nodes) {
         node.color = '#1ea038'
     })
 
-    console.log(nodes)
-
     var mymap = L.map("turtleMap", {
-        zoom: 1,
-        minZoom: 1,
-        maxZoom: 3
-    }).setView([0, 0], 3),
-    southWest = L.latLng(-300, -100),
-    northEast = L.latLng(300, 100);
+        zoom: 2,
+        minZoom: 2,
+        maxZoom: 4,
+        zoomControl: false
+    }).setView([44.63, 28.77], 2),
+    southWest = L.latLng(-700, -300),
+    northEast = L.latLng(700, 300);
     
     bounds = L.latLngBounds(southWest, northEast), mymap.setMaxBounds(bounds), d3.json("./data/world_map.json", function(a, b) {
 
@@ -41,8 +40,6 @@ d3.json('http://turtlecoin.host/peers', function(nodes) {
 
             if (f.length < 10 && Math.random() < .2) {
                 f.push(new Flight(mymap, d));
-
-                console.log(nodes.length)
 
                 //TO DO link node A and B by matching address with one of the peers in the peer list
                 //Instaed of random selection
