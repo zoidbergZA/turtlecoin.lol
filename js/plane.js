@@ -8,8 +8,9 @@ d3.json('http://turtlecoin.host/peers', function(nodes) {
         zoom: 1,
         minZoom: 2,
         maxZoom: 4,
-        zoomControl: false
-    }).setView([30, 7],3),
+        zoomControl: false,
+        scrollWheelZoom: false
+    }).setView([30, 7],3)
     southWest = L.latLng(-700, -300),
     northEast = L.latLng(700, 300)
     
@@ -41,7 +42,7 @@ d3.json('http://turtlecoin.host/peers', function(nodes) {
                 f.push(new Flight(mymap, d))
 
                 //TO DO link node A and B by matching address with one of the peers in the peer list
-                //Instaed of random selection
+                //Instead of random selection
 
                 var a = Math.floor((nodes.length - (nodes.length/ 13))  * Math.random()),
                     b = Math.floor(((nodes.length - (nodes.length/ 10) ) + 10) * Math.random())

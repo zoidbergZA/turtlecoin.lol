@@ -1884,8 +1884,9 @@ span.portfolio-hover a {
     height: 42px;
 }
 
-#map {
-    height: 400px;
+#map{
+    min-height: 400px;
+    height: 100vh;
 }
 
 .caret-right-edge {
