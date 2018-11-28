@@ -1,4 +1,4 @@
-d3.json('http://turtlecoin.host/peers', function(nodes) {
+d3.json('https://turtlecoin.host/peers', function(nodes) {
 
     nodes.forEach(function(node) {
         node.color = 'hsla(132, 68%, 37%, 0.7)'
