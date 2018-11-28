@@ -5,11 +5,6 @@
     }
 })(this);
 
-$(document).ready(function () {
-    if ($('body').data('page') === 'index') {
-      initMap();
-    }
-});
 
 /* ---- mixitup.js our work sorting ---- */
 $('#thework').mixItUp({
