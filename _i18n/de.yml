@@ -42,8 +42,9 @@ index_page:
   # download section
   download_select_system: Wähle dein Betriebssystem aus
   download_latest: Neueste Version herunterladen
-  download_gui: Grafische Wallet (GUI)
-  download_cli: Kommandozeilenanwendung (CLI)
+  download_gui: Grafische Wallets herunterladen
+  download_cli: Kommandozeilenanwendung herunterladen
+  download_ton_chan: Download TonChan
 
   # fun facts section
   fun_facts_title: Interessante TurtleCoin-Fakten
