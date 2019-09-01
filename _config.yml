@@ -11,24 +11,24 @@ exclude:
  - .bundle
  - vendor
 
-plugins:
+gems:
  - jekyll-multiple-languages-plugin
 
 
 # Localization config
-languages: ["en", "af", "nl", "zh", "de", "es", "fr", "it", "hu", "kr", "pt-br", "ru", "cz",]
-# languages: ["en", "af", "pt-br", "ru", "zh", "de", "es", "fr", "it", "hu", "cz", "dev"] # enable during development to see text keys at /dev/
+languages: ["en", "af", "at", "cz", "de", "es", "fr", "it", "kr", "hu", "nl", "pt-br", "ru", "tr", "zh",]
+# languages: ["en", "af", "at", "cz", "de", "es", "fr", "it", "kr", "hu", "nl", "pt-br", "ru", "tr", "zh",] # enable during development to see text keys at /dev/
 
 language_names:
-  at:
-    short: at
-    full: Österreichisches Deutsch - Bayrisch
   af:
     short: af
     full: Afrikaans
-  zh:
-    short: 中文
-    full: 中文
+  at:
+    short: at
+    full: Österreichisches Deutsch - Bayrisch
+  cz:
+    short: cz
+    full: Czech
   de:
     short: de
     full: Deutsch
@@ -44,27 +44,27 @@ language_names:
   it:
     short: it
     full: Italiano
-  hu:
-    short: hu
-    full: Magyar
   kr:
     short: kr
     full: Korean
+  hu:
+    short: hu
+    full: Magyar
   nl:
     short: nl
     full: Nederlands
+  pt-br:
+    short: pt-br
+    full: Portuguese
   ru:
     short: рус
     full: Русский
   tr:
     short: tr
     full: Turkish
-  pt-br:
-    short: pt-br
-    full: Portuguese
-  cz:
-    short: cz
-    full: Czech
+  zh:
+    short: 中文
+    full: 中文
   dev:
     short: dev
     full: Development
