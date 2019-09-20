@@ -1,11 +1,11 @@
 /* =Common Styles
 -------------------------------------------------------------- */
 a {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 span.divider {
-    background-color: #FF3B30;
+    background-color: #DE5F5F;
 }
 
 textarea:hover, 
@@ -20,11 +20,11 @@ button:hover,
 #contact .form-control:focus,
 #contact .form-control:hover, 
 #contact .form-control:active { 
-    border-color: #FF3B30;
+    border-color: #DE5F5F;
 }
 
 #contact .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 .demo_changer .demo-icon {
@@ -36,8 +36,8 @@ button:hover,
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background-color: #FF3B30;
-    border: 1px solid #FF3B30;
+    background-color: #DE5F5F;
+    border: 1px solid #DE5F5F;
     border-bottom: 2px solid #d12727;
 }
 
@@ -50,42 +50,42 @@ button:hover,
 }
 
 a:focus, a:hover {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 ul.list-arrow-2-color li:before {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 ul.list-arrow-color li:before {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 /* =Buttons
 -------------------------------------------------------------- */
 .btn-default:hover {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 .btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 .btn-primary {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 .btn-primary:hover {
@@ -119,50 +119,50 @@ ul.list-arrow-color li:before {
 }
 
 .btn-light:hover {
-    background-color: #FF3B30;
-    border-color: #FF3B30;
+    background-color: #DE5F5F;
+    border-color: #DE5F5F;
 }
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #FF3B30;
+    background-color: #DE5F5F;
 }
 
 /* =Progress Bars
 -------------------------------------------------------------- */
 .progress-bar {
-    background-color: #FF3B30;
+    background-color: #DE5F5F;
 }
 
 /* =Modals
 -------------------------------------------------------------- */
 .modal-header {
-	background: #ff3b30; /* Old browsers */
-	background: -moz-linear-gradient(left, #ff3b30 0%, #e5412b 35%, #d12727 66%, #ff3b30 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3b30', endColorstr='#ff3b30',GradientType=1 ); /* IE6-9 */
+	background: #DE5F5F; /* Old browsers */
+	background: -moz-linear-gradient(left, #DE5F5F 0%, #e5412b 35%, #d12727 66%, #DE5F5F 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DE5F5F', endColorstr='#DE5F5F',GradientType=1 ); /* IE6-9 */
 }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #FF3B30;
+    border-color: #DE5F5F;
 }
 
 
 /* =Navigation
 -------------------------------------------------------------- */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #FF3B30;
-    background-color: #FF3B30;
+    border-color: #DE5F5F;
+    background-color: #DE5F5F;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -172,50 +172,50 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 /* =Jumbotron Main
 -------------------------------------------------------------- */
 #particles-js {
-	background: #ff3b30; /* Old browsers */
-	background: -moz-linear-gradient(left, #ff3b30 0%, #e5412b 35%, #d12727 66%, #ff3b30 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3b30', endColorstr='#ff3b30',GradientType=1 ); /* IE6-9 */
+	background: #DE5F5F; /* Old browsers */
+	background: -moz-linear-gradient(left, #DE5F5F 0%, #e5412b 35%, #d12727 66%, #DE5F5F 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DE5F5F', endColorstr='#DE5F5F',GradientType=1 ); /* IE6-9 */
 }
 
 /* =Our Process
 -------------------------------------------------------------- */
 #our-process .process-icons {
-	color: #FF3B30;
+	color: #DE5F5F;
 }
 
 /* =Testimonial
 -------------------------------------------------------------- */
 .fade-quote-carousel.carousel .carousel-indicators .active {
-	background-color: #FF3B30;
+	background-color: #DE5F5F;
 }
 
 .fade-quote-carousel.carousel .carousel-indicators > li {
-	border: 1px solid #FF3B30;
+	border: 1px solid #DE5F5F;
 }
 
 /* =Services
 -------------------------------------------------------------- */
 .services-icon { 
     font-size: 40px;
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 /* =About
 -------------------------------------------------------------- */
 .basic-carousel.carousel .carousel-indicators > li {
-	border: 1px solid #FF3B30;
+	border: 1px solid #DE5F5F;
 }
 
 .basic-carousel.carousel .carousel-indicators .active {
-	background-color: #FF3B30;
+	background-color: #DE5F5F;
 }
 
 /* =Our Count
 -------------------------------------------------------------- */
 #ourcount .item > .circle-hold {
-    background-color: #FF3B30;
+    background-color: #DE5F5F;
 }
 
 /* =Team
@@ -227,23 +227,23 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 /* =Work
 -------------------------------------------------------------- */
 span.portfolio-hover {
-	background: #ff3b30; /* Old browsers */
-	background: -moz-linear-gradient(left, #ff3b30 0%, #e5412b 35%, #d12727 66%, #ff3b30 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #ff3b30 0%,#e5412b 35%,#d12727 66%,#ff3b30 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3b30', endColorstr='#ff3b30',GradientType=1 ); /* IE6-9 */
+	background: #DE5F5F; /* Old browsers */
+	background: -moz-linear-gradient(left, #DE5F5F 0%, #e5412b 35%, #d12727 66%, #DE5F5F 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #DE5F5F 0%,#e5412b 35%,#d12727 66%,#DE5F5F 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DE5F5F', endColorstr='#DE5F5F',GradientType=1 ); /* IE6-9 */
 }
 
 .portfolio-links:hover {
-    color: #FF3B30;
+    color: #DE5F5F;
 }
 
 /* =Pricing
 -------------------------------------------------------------- */
 .plan li > strong {
-	color: #FF3B30;
+	color: #DE5F5F;
 }
 
 .plan.featured:hover li.plan-name {
-	background: #FF3B30;
+	background: #DE5F5F;
 }

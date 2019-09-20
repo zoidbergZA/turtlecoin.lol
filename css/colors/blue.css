@@ -1,11 +1,11 @@
 /* =Common Styles
 -------------------------------------------------------------- */
 a {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 span.divider {
-    background-color: #3498db;
+    background-color: #6D9EEB;
 }
 
 textarea:hover, 
@@ -20,24 +20,24 @@ button:hover,
 #contact .form-control:focus,
 #contact .form-control:hover, 
 #contact .form-control:active { 
-    border-color: #3498db;
+    border-color: #6D9EEB;
 }
 
 #contact .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 .demo_changer .demo-icon {
-    background: #3498db;
+    background: #6D9EEB;
 }
 
 #royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
-    border-left-color: #3498db;
+    border-left-color: #6D9EEB;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background-color: #3498db;
-    border: 1px solid #3498db;
+    background-color: #6D9EEB;
+    border: 1px solid #6D9EEB;
     border-bottom: 2px solid #2989d8;
 }
 
@@ -50,42 +50,42 @@ button:hover,
 }
 
 a:focus, a:hover {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 ul.list-arrow-2-color li:before {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 ul.list-arrow-color li:before {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 /* =Buttons
 -------------------------------------------------------------- */
 .btn-default:hover {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 .btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 .btn-primary {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 .btn-primary:hover {
@@ -114,20 +114,20 @@ ul.list-arrow-color li:before {
 }
 
 .btn-light:hover {
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #6D9EEB;
+    border-color: #6D9EEB;
 }
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #3498db;
+    background-color: #6D9EEB;
 }
 
 /* =Progress Bars
 -------------------------------------------------------------- */
 .progress-bar {
-    background-color: #3498db;
+    background-color: #6D9EEB;
 }
 
 /* =Modals
@@ -141,7 +141,7 @@ ul.social-buttons li a:active {
 }
 
 a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
-    border-color: #3498db;
+    border-color: #6D9EEB;
 }
 
 /* =Navigation
@@ -155,8 +155,8 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #3498db;
-    background-color: #3498db;
+    border-color: #6D9EEB;
+    background-color: #6D9EEB;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -176,40 +176,40 @@ a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
 /* =Our Process
 -------------------------------------------------------------- */
 #our-process .process-icons {
-	color: #3498db;
+	color: #6D9EEB;
 }
 
 /* =Testimonial
 -------------------------------------------------------------- */
 .fade-quote-carousel.carousel .carousel-indicators .active {
-	background-color: #3498db;
+	background-color: #6D9EEB;
 }
 
 .fade-quote-carousel.carousel .carousel-indicators > li {
-    border: 1px solid #3498db;
+    border: 1px solid #6D9EEB;
 }
 
 /* =Services
 -------------------------------------------------------------- */
 .services-icon { 
     font-size: 40px;
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 /* =About
 -------------------------------------------------------------- */
 .basic-carousel.carousel .carousel-indicators > li {
-	border: 1px solid #3498db;
+	border: 1px solid #6D9EEB;
 }
 
 .basic-carousel.carousel .carousel-indicators .active {
-	background-color: #3498db;
+	background-color: #6D9EEB;
 }
 
 /* =Our Count
 -------------------------------------------------------------- */
 #ourcount .item > .circle-hold {
-    background-color: #3498db;
+    background-color: #6D9EEB;
 }
 
 /* =Team
@@ -229,15 +229,15 @@ span.portfolio-hover {
 }
 
 .portfolio-links:hover {
-    color: #3498db;
+    color: #6D9EEB;
 }
 
 /* =Pricing
 -------------------------------------------------------------- */
 .plan li > strong {
-	color: #3498db;
+	color: #6D9EEB;
 }
 
 .plan.featured:hover li.plan-name {
-	background: #3498db;
+	background: #6D9EEB;
 }
