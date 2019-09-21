@@ -47,7 +47,7 @@ d3.json('https://turtlecoin.host/peers', function(nodes) {
                 var a = Math.floor((nodes.length - (nodes.length/ 13))  * Math.random()),
                     b = Math.floor(((nodes.length - (nodes.length/ 10) ) + 10) * Math.random())
 
-                    //console.log(a + " " + b), f[f.length - 1].setPlaneColor(nodes[b].color), f[f.length - 1].setRoadColor(nodes[b].color), f[f.length - 1].setBeginColor(nodes[a].color), f[f.length - 1].setEndColor(nodes[b].color), f[f.length - 1].init({
+                    console.log(a + " " + b), f[f.length - 1].setPlaneColor(nodes[b].color), f[f.length - 1].setRoadColor(nodes[b].color), f[f.length - 1].setBeginColor(nodes[a].color), f[f.length - 1].setEndColor(nodes[b].color), f[f.length - 1].init({
                     lat: nodes[a].coordinates[0],
                     lng: nodes[a].coordinates[1]
                 }, {
