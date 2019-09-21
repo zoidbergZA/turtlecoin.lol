@@ -17,6 +17,7 @@ navbar:
   support: Support
   toggle_navigation: Bouton de navigation
   resources: Ressources
+  resources_explorer: Block Explorer
   resources_wiki: Wiki TurtleCoin
   resources_blog: Blog Développeur
   resources_dev_resources: Ressources pour Développeurs

@@ -17,8 +17,9 @@ navbar:
   support: Támogatás
   toggle_navigation: Navigáció kapcsolása
   resources: Eszközök
+  resources_explorer: Block Explorer
   resources_wiki: TurtleCoin Wiki
-  resources_blog: Fejlesztői blog
+  resources_blog: Fejlesztői Blog
   resources_dev_resources: Fejlesztői eszközök
   resources_brand: Márkairányelvek
 

@@ -17,6 +17,7 @@ navbar:
   support: 참여
   toggle_navigation: Toggle Navigation
   resources: 지원
+  resources_explorer: Block Explorer
   resources_wiki: TurtleCoin 위키
   resources_blog: 개발자 블로그
   resources_dev_resources: 개발자 소스

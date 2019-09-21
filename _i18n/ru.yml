@@ -19,6 +19,7 @@ navbar:
   toggle_navigation: Toggle Navigation   
   # Нет идей как это объяснить
   resources: Медиа ресурсы
+  resources_explorer: Block Explorer
   resources_wiki: TurtleCoin Вики
   resources_blog: Блог разработчиков
   resources_dev_resources: Все для разработчиков
