@@ -13,7 +13,7 @@ This project uses [Jekyll](https://jekyllrb.com) to generate a static website.
 
 ### Setup
 
-1. Make sure you have [Ruby](https://www.ruby-lang.org/en) 2.3 or newer installed.
+1. Make sure you have [Ruby](https://www.ruby-lang.org/en) 2.7 or newer installed.
 2. Run `gem install bundler` to install [bundler](http://bundler.io).
 3. Run `bundle install` to install the dependencies of this project.
 4. Run `bundle exec jekyll serve` to start the development server at `http://localhost:4000`. See [Jekyll documentation](https://jekyllrb.com/docs/home/) for more information.
@@ -25,6 +25,7 @@ Commits to `master` auto deploy via Travis CI to GitHub pages.
 
 ### Deploying manually
 
+* `chmod +x ./scripts/build.sh  && chmod +x ./scripts/deploy.sh`
 * `./scripts/build.sh`
 * `./scripts/deploy.sh` 
 

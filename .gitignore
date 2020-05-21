@@ -1,10 +1,2 @@
-.DS_Store
-*.swp
-*.swo
-.idea
-_site
-.sass-cache
-.jekyll-metadata
-.bundle
-vendor
-.asset_pipeline
+_site/
+.jekyll-cache/

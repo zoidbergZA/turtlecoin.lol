@@ -1,18 +1,38 @@
-<li class="dropdown language-selector-navbar-item">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" hreflang="{{ lang }}">
-    {{ site.language_names[site.lang].short }}<span class="caret caret-right-edge"></span>
-  </a>
-  <ul class="dropdown-menu">
-    {% for lang in site.languages %}
-      {% unless site.lang == lang %}
-        <li>
-          {% if site.default_lang == lang %}
-            <a href="{{ site.baseurl_root }}{{ page.url }}" hreflang="{{ lang }}">{{ site.language_names[lang].full }}</a>
-          {% else %}
-          <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" hreflang="{{ lang }}">{{ site.language_names[lang].full }}</a>
-          {% endif %}
-        </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</li>
+<div class="Languages">
+  <div class="Language-select">
+    <select class="Languages-btns" onchange="location = this.value;">
+      {% for lang in site.languages %} {% if site.lang == lang %} {% if
+      site.default_lang == lang %}
+      <option
+        value="{{ site.baseurl_root }}{{ page.url }}"
+        class="Language-btn"
+        selected
+        >{{ site.language_names[lang].short }}</option
+      >
+      {% else %}
+      <option
+        value="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}"
+        class="Language-btn"
+        selected
+        >{{ site.language_names[lang].short }}</option
+      >
+
+      {% endif %} {% else %} {% if site.default_lang == lang %}
+      <option value="{{ site.baseurl_root }}{{ page.url }}" class="Language-btn"
+        >{{ site.language_names[lang].short }}</option
+      >
+      {% else %}
+      <option
+        value="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}"
+        class="Language-btn"
+        >{{ site.language_names[lang].short }}</option
+      >
+
+      {% endif %} {% endif %} {% endfor %}
+    </select>
+  </div>
+</div>
+
+<style>
+  
+</style>
