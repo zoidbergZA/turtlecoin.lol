@@ -20,8 +20,8 @@ get_started: Let's get you started in <strong>3 easy steps.</strong>
 # wallet section
 wallet_title: Pick A Wallet
 wallet_we_support: We support
-                            <strong>Windows, MacOS, Linux, Android,</strong>
-                            and<strong> Web-based </strong>wallets.
+                            <strong>Windows, MacOS, Linux, Android, </strong>
+                            and<strong> <a href="http://latest.turtlecoin.lol">CLI</a> or Web-based </strong>wallets.
 wallet_long_term_storage: For long term storage, we recommend using a
                             <strong><a href="/wallet">paper wallet</a></strong>.
 
